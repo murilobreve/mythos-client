@@ -1,0 +1,10 @@
+﻿Mythos DirectX
+
+Como jogar:
+  1. Extraia esta pasta para onde quiser (Area de Trabalho, Documentos...).
+     Evite 'Arquivos de Programas': o client precisa gravar arquivos na pasta.
+  2. Abra 'Mythos DirectX.exe'.
+  3. Na primeira vez o client pode baixar os arquivos do jogo; aguarde.
+
+Trocar o servidor (IP):
+  Abra 'servidor.ini' no Bloco de Notas, mude a linha 'ip = ...' e salve.
