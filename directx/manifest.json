@@ -1,7 +1,7 @@
 {
-    "versao":  5,
+    "versao":  6,
     "canal":  "directx",
-    "data":  "2026-10-11 16:44",
+    "data":  "2026-10-11 17:04",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6984,7 +6984,7 @@
                                                              "size":  24377
                                                          },
                   "modules/client_options/options.lua":  {
-                                                             "sha256":  "e374a7469c0e873c38beaf57b1d379751983fd27b054919164e9a96b04f10928",
+                                                             "sha256":  "ff04392e8ff24db9a572e838d70ddf247ad52f5c52a89dbba3bcd7fbb1eb5b98",
                                                              "size":  29072
                                                          },
                   "modules/client_options/options.otmod":  {
@@ -7228,8 +7228,8 @@
                                                          "size":  559
                                                      },
                   "modules/corelib/ui/uimessagebox.lua":  {
-                                                              "sha256":  "e790ed4de9151b61b0725edbaae318300d3d608232bff7ec4f36c63019d4eb06",
-                                                              "size":  7413
+                                                              "sha256":  "1fd0a57a1cf0c4fd93cdccb75ec5857fdb86b58f2dffd5955199bf4c20a797cb",
+                                                              "size":  7677
                                                           },
                   "modules/corelib/ui/uiminiwindow.lua":  {
                                                               "sha256":  "a1700d898393cba3ac158df6634391e33a8839cf9cf790b85607196cff773280",
@@ -9188,8 +9188,8 @@
                                                                           "size":  10560
                                                                       },
                   "modules/game_interface/gameinterface.lua":  {
-                                                                   "sha256":  "567de64d1652bb08990f53dc6b63ff5cedd9bb3ae5ad28f65589a8b33ed14a86",
-                                                                   "size":  78731
+                                                                   "sha256":  "e032e65fa38fee56b53515a565225176879a97abb596c1e4ea4bce440a501d23",
+                                                                   "size":  78971
                                                                },
                   "modules/game_interface/gameinterface.otui":  {
                                                                     "sha256":  "b62e1a58e569c58de79414580d4d7d4b80799c446abb1410e8a264d5371fd431",
@@ -9624,7 +9624,7 @@
                                                                     "size":  2596
                                                                 },
                   "modules/game_prey/prey.lua":  {
-                                                     "sha256":  "d0b5655d9ad8b1faa890bac208c13e5863ce2790c056d05235a0c77e914c3a26",
+                                                     "sha256":  "546502f74f772cbd320a42eb45c11bdb2bae2c2f97a5b4c6a2ddba29490b716a",
                                                      "size":  61166
                                                  },
                   "modules/game_prey/prey.otmod":  {
@@ -10916,15 +10916,15 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "03f63911b8d4d65ccc00b24f3622a5358c96864e041f996184a0d079967b1686",
-                                             "size":  42799104
+                                             "sha256":  "6e948df0299502a04035b35de621b4ff1a0dbd41d74013002bd37601d6faa4e3",
+                                             "size":  42801664
                                          },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "857c3f7bafc383b2c97f16229592898acc3aa427941bcb45470a7b0595870e44",
+                                      "sha256":  "9796c891e04c71516bd28c5ce601748fe1a767023ee89acb9285dfbaf26a8ec3",
                                       "size":  30
                                   }
               }
