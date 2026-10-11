@@ -1,7 +1,7 @@
 {
-    "versao":  12,
+    "versao":  13,
     "canal":  "directx",
-    "data":  "2026-10-11 20:24",
+    "data":  "2026-10-11 20:49",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6616,8 +6616,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "ff17ed970131209b9e461ac85fd3738c586b1430354bb2bdc40976064609dc9d",
-                                              "size":  54254
+                                              "sha256":  "dfcc081f05de478c447787079b9fb13403ae78a967c0e278fb41105b8ecd6b50",
+                                              "size":  54285
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -9952,16 +9952,16 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "faf3fd5f9e681a2ad099db7b35e739acd44138be715994ef1f880620929bb188",
-                                                                   "size":  29464
+                                                                   "sha256":  "9da5b42e4b4d7e1f75008d8e78ce1f8eb69eac34577d0ac0a373c58bbfe293f0",
+                                                                   "size":  29206
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
                                                                     "size":  5989
                                                                 },
                   "modules/game_raritybonus/roulette.otui":  {
-                                                                 "sha256":  "2c5c149294e129a394da4e1ca4df0497333ed88b57632482b0a4440afc207b33",
-                                                                 "size":  3283
+                                                                 "sha256":  "943753b775691ae83a5dc393515c2e91b1bcc8307b687297e48ff4ecd9cb9d67",
+                                                                 "size":  4398
                                                              },
                   "modules/game_raritymarket/game_raritymarket.otmod":  {
                                                                             "sha256":  "d337eb7a2579e861cb2f82fd17850f747f9a811dec81391a06bae42d0b8aa910",
@@ -10928,7 +10928,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "6a83a3830785b1c3792b74cfbd499170029043fb7c3e57a974f4bc8599cc73f2",
+                                      "sha256":  "627ea354ad1002ec6743e02f28320c99e2fd1701100086b6dcc00152766d2257",
                                       "size":  31
                                   }
               }
