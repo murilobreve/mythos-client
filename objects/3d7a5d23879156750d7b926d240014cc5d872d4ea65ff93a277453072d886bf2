@@ -1,0 +1,8 @@
+Module
+  name: game_brevespanel
+  description: Mythos panel - one labelled button per server feature, NEW badges and the news window
+  author: Mythos
+  sandboxed: true
+  scripts: [ brevespanel ]
+  @onLoad: init()
+  @onUnload: terminate()
