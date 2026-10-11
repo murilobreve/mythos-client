@@ -1,7 +1,7 @@
 {
-    "versao":  11,
+    "versao":  12,
     "canal":  "directx",
-    "data":  "2026-10-11 20:06",
+    "data":  "2026-10-11 20:24",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9952,8 +9952,8 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "2d5185803e3d9a54991a61ce4ff8cc2244876b70fa4f638b6b06229dd16e336a",
-                                                                   "size":  28246
+                                                                   "sha256":  "faf3fd5f9e681a2ad099db7b35e739acd44138be715994ef1f880620929bb188",
+                                                                   "size":  29464
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
@@ -10920,7 +10920,7 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "6e948df0299502a04035b35de621b4ff1a0dbd41d74013002bd37601d6faa4e3",
+                                             "sha256":  "9c260cad95a5b82f35f39a7b3be2550ca5655d0b1bdfa84010de37bed2fa636b",
                                              "size":  42801664
                                          },
                   "servidor.ini":  {
@@ -10928,7 +10928,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "810a309b358141f0211bb7af208084dfeadae882682173cc761e37ba0aee4606",
+                                      "sha256":  "6a83a3830785b1c3792b74cfbd499170029043fb7c3e57a974f4bc8599cc73f2",
                                       "size":  31
                                   }
               }
