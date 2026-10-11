@@ -1,7 +1,7 @@
 {
-    "versao":  1,
+    "versao":  2,
     "canal":  "directx",
-    "data":  "2026-10-11 13:55",
+    "data":  "2026-10-11 14:24",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6952,8 +6952,8 @@
                                                                    "size":  490
                                                                },
                   "modules/client_entergame/entergame.otui":  {
-                                                                  "sha256":  "a7b8378412fd73cd290f69d8683cd9b78e8c883a095c8b0ea763deefa6032d67",
-                                                                  "size":  8723
+                                                                  "sha256":  "3c960c17327c3a8f738e3881be06b2f61b884b8ae4d5043a4cec7316267fa69e",
+                                                                  "size":  9633
                                                               },
                   "modules/client_entergame/waitinglist.otui":  {
                                                                     "sha256":  "3467ab88486e265d8c662425f9261c7ffbb06b0cd286900596b3166270049e59",
@@ -7092,8 +7092,8 @@
                                                               "size":  4443
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "d44e59a35f01b7bf4b799fb95038cb50d6d9ae964e170b6f53adfd9e54945fd6",
-                                                                    "size":  7106
+                                                                    "sha256":  "969533ab70988db64f1cd1b31a1117625bc90b8f76d6a5d6c7169cb046201d9f",
+                                                                    "size":  12702
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
@@ -10912,7 +10912,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "ab76af02752f83f37c81a0f82710ad60e0dc0bb349cd74c4254e5e26ca4c3ec1",
+                                      "sha256":  "871c0f243ce5f5aa1408d3060e027636b462dff2eb921b4b3d0095883fe083d4",
                                       "size":  30
                                   }
               }
