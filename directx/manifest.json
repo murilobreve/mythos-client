@@ -1,7 +1,7 @@
 {
-    "versao":  7,
+    "versao":  8,
     "canal":  "directx",
-    "data":  "2026-10-11 18:53",
+    "data":  "2026-10-11 19:10",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9952,8 +9952,8 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "ca8c994de9ca71c4eceac7cc009fac884d8f0d2e40166c822e3f170727faa155",
-                                                                   "size":  21246
+                                                                   "sha256":  "ab3ad51456b543eb2634fdb6d73b22e3d66754ca67946ed049e02e04fc91828e",
+                                                                   "size":  21433
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
@@ -9976,8 +9976,8 @@
                                                                       "size":  2674
                                                                   },
                   "modules/game_raritymarket/raritymarket.lua":  {
-                                                                     "sha256":  "8b9e26a79246590c6c36c4c21b698c599aca932630a5933a3f6621264140a9b7",
-                                                                     "size":  18575
+                                                                     "sha256":  "5f766669e0df7c1fa431c6e4a602330907668394fa7febc170698d15897cc5bd",
+                                                                     "size":  18805
                                                                  },
                   "modules/game_raritymarket/raritymarket.otui":  {
                                                                       "sha256":  "7f38996024acdcf12edcee0db45b73c36df6e7d15db88d6a9dfc31ad2caecaa7",
@@ -10656,8 +10656,8 @@
                                                                        "size":  1985
                                                                    },
                   "modules/game_textmessage/textmessage.lua":  {
-                                                                   "sha256":  "8cb6ce9606e4a7a6a94d356c601d3102e8da304e7f3778927c2c46fe517d6c22",
-                                                                   "size":  16153
+                                                                   "sha256":  "17aa3eae779000239659442b9c911dca4e6c5af645212c2ed3a189399a457044",
+                                                                   "size":  17061
                                                                },
                   "modules/game_textmessage/textmessage.otmod":  {
                                                                      "sha256":  "8c5351f7c3d1d0919272bce537693c28d5d42251c8f7cd0996812ba185c15ed9",
@@ -10808,8 +10808,8 @@
                                                               "size":  220
                                                           },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "0e05048f6894dd6f2fad39f2981009a7855ec1748f7fabd25fc56a51c715d1e0",
-                                                      "size":  36028
+                                                      "sha256":  "2993621b77a8c5ec46c47242791405580024cf1a6fdc6647d695812a396f545d",
+                                                      "size":  36102
                                                   },
                   "modules/game_wiki/teleports.lua":  {
                                                           "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
@@ -10928,7 +10928,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "e8c52e4135af1af77468a3b77bece38f6d6719c9027f301e38a139092b07ea68",
+                                      "sha256":  "01673d5301eac61ee4ebec1cdadfe9b4727ee399084490b882315e864563462b",
                                       "size":  30
                                   }
               }
