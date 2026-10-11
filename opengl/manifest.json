@@ -1,7 +1,7 @@
 {
-    "versao":  1,
+    "versao":  2,
     "canal":  "opengl",
-    "data":  "2026-10-11 13:37",
+    "data":  "2026-10-11 20:21",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6616,8 +6616,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "213a2b769acba7035c07359c9954c5edf9adbc71f6eae66579ab9f836aed1ca3",
-                                              "size":  50422
+                                              "sha256":  "ff17ed970131209b9e461ac85fd3738c586b1430354bb2bdc40976064609dc9d",
+                                              "size":  54254
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -6952,8 +6952,8 @@
                                                                    "size":  490
                                                                },
                   "modules/client_entergame/entergame.otui":  {
-                                                                  "sha256":  "a7b8378412fd73cd290f69d8683cd9b78e8c883a095c8b0ea763deefa6032d67",
-                                                                  "size":  8723
+                                                                  "sha256":  "3c960c17327c3a8f738e3881be06b2f61b884b8ae4d5043a4cec7316267fa69e",
+                                                                  "size":  9633
                                                               },
                   "modules/client_entergame/waitinglist.otui":  {
                                                                     "sha256":  "3467ab88486e265d8c662425f9261c7ffbb06b0cd286900596b3166270049e59",
@@ -6976,16 +6976,16 @@
                                                                         "size":  12773
                                                                     },
                   "modules/client_options/data_options.lua":  {
-                                                                  "sha256":  "6940d25b00c1fe6538949b5fb6178b521df044f4ec387abfdd3662daf507e1ba",
-                                                                  "size":  37063
+                                                                  "sha256":  "99f960b76e9125ce2e51cdf3ea4a778904b806819312b2b85c188cded8fcf784",
+                                                                  "size":  37480
                                                               },
                   "modules/client_options/keybins.lua":  {
                                                              "sha256":  "79e9d3919a69860570caf0e0177fba65cc4e514062bbfaede27954fcf4ac1cee",
                                                              "size":  24377
                                                          },
                   "modules/client_options/options.lua":  {
-                                                             "sha256":  "6216bcd65abbf803d2c0640cbd2e0192f7a120714956d552e69f3ac750058311",
-                                                             "size":  28638
+                                                             "sha256":  "ff04392e8ff24db9a572e838d70ddf247ad52f5c52a89dbba3bcd7fbb1eb5b98",
+                                                             "size":  29072
                                                          },
                   "modules/client_options/options.otmod":  {
                                                                "sha256":  "73c67013c61eff2c354ba9b00d9712018066220f69a1faaa9395ef760ee63e37",
@@ -7016,8 +7016,8 @@
                                                                               "size":  5431
                                                                           },
                   "modules/client_options/styles/graphics/graphics.otui":  {
-                                                                               "sha256":  "56f5beb599514bad12915db508a0e4e12ba7667e2d98fd040792ade91624f4db",
-                                                                               "size":  3198
+                                                                               "sha256":  "3e80e57d89c492a11d9937d0e93d321ab4120606cfc20f121f1a78153e06066b",
+                                                                               "size":  3539
                                                                            },
                   "modules/client_options/styles/interface/actionbars.otui":  {
                                                                                   "sha256":  "fafc58ec57b47758388e425f5e5eda3305b16ae7b1ffff061c49080ade21f715",
@@ -7092,8 +7092,8 @@
                                                               "size":  4443
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "d44e59a35f01b7bf4b799fb95038cb50d6d9ae964e170b6f53adfd9e54945fd6",
-                                                                    "size":  7106
+                                                                    "sha256":  "969533ab70988db64f1cd1b31a1117625bc90b8f76d6a5d6c7169cb046201d9f",
+                                                                    "size":  12702
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
@@ -7228,8 +7228,8 @@
                                                          "size":  559
                                                      },
                   "modules/corelib/ui/uimessagebox.lua":  {
-                                                              "sha256":  "e790ed4de9151b61b0725edbaae318300d3d608232bff7ec4f36c63019d4eb06",
-                                                              "size":  7413
+                                                              "sha256":  "1fd0a57a1cf0c4fd93cdccb75ec5857fdb86b58f2dffd5955199bf4c20a797cb",
+                                                              "size":  7677
                                                           },
                   "modules/corelib/ui/uiminiwindow.lua":  {
                                                               "sha256":  "a1700d898393cba3ac158df6634391e33a8839cf9cf790b85607196cff773280",
@@ -9188,16 +9188,16 @@
                                                                           "size":  10560
                                                                       },
                   "modules/game_interface/gameinterface.lua":  {
-                                                                   "sha256":  "7a2e5d50d6e8c275c0cb07934179ae411017642c24afab1535702b5de37cd3a8",
-                                                                   "size":  77973
+                                                                   "sha256":  "e032e65fa38fee56b53515a565225176879a97abb596c1e4ea4bce440a501d23",
+                                                                   "size":  78971
                                                                },
                   "modules/game_interface/gameinterface.otui":  {
                                                                     "sha256":  "b62e1a58e569c58de79414580d4d7d4b80799c446abb1410e8a264d5371fd431",
                                                                     "size":  9605
                                                                 },
                   "modules/game_interface/interface.otmod":  {
-                                                                 "sha256":  "aa2a3a6e87831b65edd4c3d4452e590b7379f5ba8b9a06f7c9fc796c81c6f171",
-                                                                 "size":  1531
+                                                                 "sha256":  "aa3dc6bd6093127a07671d5dfddc1da179f6a7905761c60c6aea0012ab9ad91f",
+                                                                 "size":  1551
                                                              },
                   "modules/game_interface/styles/countStashWindow.otui":  {
                                                                               "sha256":  "b4a4304eb2c1eb10526e89ffbc632276cb78c3930d5333cb823f48411b69db28",
@@ -9624,7 +9624,7 @@
                                                                     "size":  2596
                                                                 },
                   "modules/game_prey/prey.lua":  {
-                                                     "sha256":  "d0b5655d9ad8b1faa890bac208c13e5863ce2790c056d05235a0c77e914c3a26",
+                                                     "sha256":  "546502f74f772cbd320a42eb45c11bdb2bae2c2f97a5b4c6a2ddba29490b716a",
                                                      "size":  61166
                                                  },
                   "modules/game_prey/prey.otmod":  {
@@ -9923,6 +9923,18 @@
                                                                 "sha256":  "0c4f23c77b94ad61a70de968001104dfa778ef8d12e46b6675e5b986677e61b4",
                                                                 "size":  10536
                                                             },
+                  "modules/game_raresell/game_raresell.otmod":  {
+                                                                    "sha256":  "22bb1c0e765f218ac4cbfc5158a5e713d48369d88b6517ef488192e0e34e2308",
+                                                                    "size":  235
+                                                                },
+                  "modules/game_raresell/raresell.lua":  {
+                                                             "sha256":  "005f2bed48a24a67d121332d10808d82c5b2c5a55301369c9225be535cef553c",
+                                                             "size":  9794
+                                                         },
+                  "modules/game_raresell/raresell.otui":  {
+                                                              "sha256":  "20852da423a11b47b82726ba40476ce03f5a64b0acb9bf5385a2634a7f09f784",
+                                                              "size":  4107
+                                                          },
                   "modules/game_raritybonus/game_raritybonus.otmod":  {
                                                                           "sha256":  "7bd4ea04b89ba03b7baf8bd21ee55534e698a4814b4dc880fa4caa244a709f53",
                                                                           "size":  256
@@ -9940,13 +9952,17 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "49c296adf5942b4694cdd70bcf700bc5c64589a614dc7180ef6e2fea9fa4e118",
-                                                                   "size":  12049
+                                                                   "sha256":  "faf3fd5f9e681a2ad099db7b35e739acd44138be715994ef1f880620929bb188",
+                                                                   "size":  29464
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
-                                                                    "sha256":  "f40e7ab49d0010bff4e2c5896dfc3eb65efe0c472704f5138c81d4caf5807d9e",
-                                                                    "size":  6207
+                                                                    "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
+                                                                    "size":  5989
                                                                 },
+                  "modules/game_raritybonus/roulette.otui":  {
+                                                                 "sha256":  "2c5c149294e129a394da4e1ca4df0497333ed88b57632482b0a4440afc207b33",
+                                                                 "size":  3283
+                                                             },
                   "modules/game_raritymarket/game_raritymarket.otmod":  {
                                                                             "sha256":  "d337eb7a2579e861cb2f82fd17850f747f9a811dec81391a06bae42d0b8aa910",
                                                                             "size":  246
@@ -9960,8 +9976,8 @@
                                                                       "size":  2674
                                                                   },
                   "modules/game_raritymarket/raritymarket.lua":  {
-                                                                     "sha256":  "8b9e26a79246590c6c36c4c21b698c599aca932630a5933a3f6621264140a9b7",
-                                                                     "size":  18575
+                                                                     "sha256":  "5f766669e0df7c1fa431c6e4a602330907668394fa7febc170698d15897cc5bd",
+                                                                     "size":  18805
                                                                  },
                   "modules/game_raritymarket/raritymarket.otui":  {
                                                                       "sha256":  "7f38996024acdcf12edcee0db45b73c36df6e7d15db88d6a9dfc31ad2caecaa7",
@@ -10192,8 +10208,8 @@
                                                                                           "size":  1096
                                                                                       },
                   "modules/game_shaders/shaders/fragment/rarity_mythic.frag":  {
-                                                                                   "sha256":  "569c186ab957ac5d987e5591729fbbe54e14907d7262ceeedef665ec927a551a",
-                                                                                   "size":  3587
+                                                                                   "sha256":  "bf6a7a8c2f142a7732f74564ec6ca6e59f9f69d2367704e31947d533bc59b0d7",
+                                                                                   "size":  5284
                                                                                },
                   "modules/game_shaders/shaders/fragment/rarity_obsidian.frag":  {
                                                                                      "sha256":  "d0e46b1da95cbc02801e8d89a161d604fa984c8395990b2f212c9fc5e2cb1ab7",
@@ -10320,8 +10336,8 @@
                                                              "size":  4581
                                                          },
                   "modules/game_store/game_store.lua":  {
-                                                            "sha256":  "8120ee63896c7f712c97e4aeaf50f3e7d12978067edcb2741f306cd2ee2cefbd",
-                                                            "size":  49060
+                                                            "sha256":  "587a2fd1f5995895c36429c6109dfa62edfa8fadaaeff5ab8c92970687bf94a9",
+                                                            "size":  51357
                                                         },
                   "modules/game_store/game_store.otmod":  {
                                                               "sha256":  "03c82f2bfa383e581bb8ea3b6c5a18b519f5b85e15f62d6d80965f1a66ae0faa",
@@ -10636,12 +10652,12 @@
                                                                                    "size":  6878
                                                                                },
                   "modules/game_textmessage/positionwindow.otui":  {
-                                                                       "sha256":  "de45efc0b811ccaa44e7bf1f6ca7088d594b0efc2e28038109d58713c5e4c02b",
-                                                                       "size":  1559
+                                                                       "sha256":  "b16442992836334697ace912a880a28f4e4f3f1e8658a948e7e60759c59897d4",
+                                                                       "size":  1985
                                                                    },
                   "modules/game_textmessage/textmessage.lua":  {
-                                                                   "sha256":  "05f41cf12844d4443eeab23c1e9df11c1791a21f44ed98de6f2dd1d16a19bfee",
-                                                                   "size":  15700
+                                                                   "sha256":  "17aa3eae779000239659442b9c911dca4e6c5af645212c2ed3a189399a457044",
+                                                                   "size":  17061
                                                                },
                   "modules/game_textmessage/textmessage.otmod":  {
                                                                      "sha256":  "8c5351f7c3d1d0919272bce537693c28d5d42251c8f7cd0996812ba185c15ed9",
@@ -10792,16 +10808,16 @@
                                                               "size":  220
                                                           },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "a1f3a7d25a675bce8cee9b256695eebe0696dc6cc421c33515bd4562a83c6261",
-                                                      "size":  32882
+                                                      "sha256":  "d71a80905c6c49b3e4b567aab73f4e1b029b14137d4e86d85e67c89aff945772",
+                                                      "size":  38013
                                                   },
                   "modules/game_wiki/teleports.lua":  {
                                                           "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
                                                           "size":  37737
                                                       },
                   "modules/game_wiki/wiki.lua":  {
-                                                     "sha256":  "b03822bdf597f7668ac8f156de6372fa0c5f57aae1f1c04a112f20a80d546a8c",
-                                                     "size":  12677
+                                                     "sha256":  "cca7d2269b9a1d693127cf0fea2b4e2d203e95b680c678eaaea56afacc74290c",
+                                                     "size":  12857
                                                  },
                   "modules/game_wiki/wiki.otui":  {
                                                       "sha256":  "4998e4959b5a3ac87e272024ae80bb6a09a07507dbcb09c08579f8da1bdefded",
@@ -10904,15 +10920,15 @@
                                                         "size":  200
                                                     },
                   "Mythos.exe":  {
-                                     "sha256":  "e59ae41433dff393bef49719e3daca4a6fff5b7a886c35b187f9d639b7e2fa15",
-                                     "size":  33863680
+                                     "sha256":  "5e6e99fef968d069303762c6bbca77ac6cbb9d876e01a2daec3e0978b5428abc",
+                                     "size":  33873408
                                  },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "14db66b765870d7e1d634fcf3656a047228badc0fd0ed9ec8ae322a61492f6ea",
+                                      "sha256":  "21eae68e6056aa58aa1622e6978895b862c184796dfc93f49ad5d216e4f7301c",
                                       "size":  29
                                   }
               }
