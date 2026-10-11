@@ -1,7 +1,7 @@
 {
-    "versao":  6,
+    "versao":  7,
     "canal":  "directx",
-    "data":  "2026-10-11 17:04",
+    "data":  "2026-10-11 18:53",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6616,8 +6616,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "2216a4c6d54f8fcf7b9c5cd3cc8ce2dfb6fbbb1974cbded22d7356b267ce8649",
-                                              "size":  52655
+                                              "sha256":  "0d1cdf612b8e02c68a04d7a528ed42ff8690960f7e210138bea8f0ac9f775bce",
+                                              "size":  53923
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -9952,13 +9952,17 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "49c296adf5942b4694cdd70bcf700bc5c64589a614dc7180ef6e2fea9fa4e118",
-                                                                   "size":  12049
+                                                                   "sha256":  "ca8c994de9ca71c4eceac7cc009fac884d8f0d2e40166c822e3f170727faa155",
+                                                                   "size":  21246
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
-                                                                    "sha256":  "f40e7ab49d0010bff4e2c5896dfc3eb65efe0c472704f5138c81d4caf5807d9e",
-                                                                    "size":  6207
+                                                                    "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
+                                                                    "size":  5989
                                                                 },
+                  "modules/game_raritybonus/roulette.otui":  {
+                                                                 "sha256":  "78c08d6761f510aa614cdb267a55952713cee6e4fc2b84a4410a63c496b414e1",
+                                                                 "size":  2609
+                                                             },
                   "modules/game_raritymarket/game_raritymarket.otmod":  {
                                                                             "sha256":  "d337eb7a2579e861cb2f82fd17850f747f9a811dec81391a06bae42d0b8aa910",
                                                                             "size":  246
@@ -10332,8 +10336,8 @@
                                                              "size":  4581
                                                          },
                   "modules/game_store/game_store.lua":  {
-                                                            "sha256":  "8120ee63896c7f712c97e4aeaf50f3e7d12978067edcb2741f306cd2ee2cefbd",
-                                                            "size":  49060
+                                                            "sha256":  "587a2fd1f5995895c36429c6109dfa62edfa8fadaaeff5ab8c92970687bf94a9",
+                                                            "size":  51357
                                                         },
                   "modules/game_store/game_store.otmod":  {
                                                               "sha256":  "03c82f2bfa383e581bb8ea3b6c5a18b519f5b85e15f62d6d80965f1a66ae0faa",
@@ -10804,16 +10808,16 @@
                                                               "size":  220
                                                           },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "cfbad2cd529541cf3305f3547357e1cc47d889da810d0d161a457a9ae5ec4708",
-                                                      "size":  33661
+                                                      "sha256":  "0e05048f6894dd6f2fad39f2981009a7855ec1748f7fabd25fc56a51c715d1e0",
+                                                      "size":  36028
                                                   },
                   "modules/game_wiki/teleports.lua":  {
                                                           "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
                                                           "size":  37737
                                                       },
                   "modules/game_wiki/wiki.lua":  {
-                                                     "sha256":  "b03822bdf597f7668ac8f156de6372fa0c5f57aae1f1c04a112f20a80d546a8c",
-                                                     "size":  12677
+                                                     "sha256":  "cca7d2269b9a1d693127cf0fea2b4e2d203e95b680c678eaaea56afacc74290c",
+                                                     "size":  12857
                                                  },
                   "modules/game_wiki/wiki.otui":  {
                                                       "sha256":  "4998e4959b5a3ac87e272024ae80bb6a09a07507dbcb09c08579f8da1bdefded",
@@ -10924,7 +10928,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "9796c891e04c71516bd28c5ce601748fe1a767023ee89acb9285dfbaf26a8ec3",
+                                      "sha256":  "e8c52e4135af1af77468a3b77bece38f6d6719c9027f301e38a139092b07ea68",
                                       "size":  30
                                   }
               }
