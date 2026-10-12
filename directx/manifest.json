@@ -1,7 +1,7 @@
 {
-    "versao":  24,
+    "versao":  25,
     "canal":  "directx",
-    "data":  "2026-10-12 15:48",
+    "data":  "2026-10-12 15:58",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -5339,10 +5339,6 @@
                                                            "sha256":  "12e7fd3ce40e238e4ff92ce3cf8eeb19f56eaaa707d76d8481f95d6bbd008671",
                                                            "size":  228
                                                        },
-                  "data/images/mythos/gem_ruby.png":  {
-                                                          "sha256":  "a7ebc17b2c2681e075fcbb913aea47a78e1326fd2dae15b7585adb8d1d5e9273",
-                                                          "size":  250
-                                                      },
                   "data/images/mythos/gem_sapphire.png":  {
                                                               "sha256":  "3c7e1510ef7ae338a60dfa136e11d6b12b5962061a3891ddafeaa8ae8747d619",
                                                               "size":  244
@@ -10884,12 +10880,12 @@
                                                                     "size":  237
                                                                 },
                   "modules/game_tplabels/tplabels.lua":  {
-                                                             "sha256":  "ab62bcdb741e00073775cd2598414b1591ac52b6a462e16c629b1143ae10bdb8",
-                                                             "size":  6409
+                                                             "sha256":  "5a22998dca5def4d458bd3b6b71a7ff9584262af7c08ca30ceb7e627830e7e2d",
+                                                             "size":  5565
                                                          },
                   "modules/game_tplabels/tplabels.otui":  {
-                                                              "sha256":  "3cb21da43c1bb21bc835e252f23aaad24fb6a6ddbfe3250809a9ccc56f235998",
-                                                              "size":  572
+                                                              "sha256":  "71b054d25bf7f0397e944034a22db8df36e491c28ea3bd4fea9067afdc6de529",
+                                                              "size":  143
                                                           },
                   "modules/game_unjustifiedpoints/unjustifiedpoints.lua":  {
                                                                                "sha256":  "68e4a6f053183f25d13109ecc0ada599bd3905be8a8ee553e619da6fc29684d6",
@@ -11132,11 +11128,12 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "f5bb8a5a66b754ddb8a80abf10bbbbd38bded9ae4ee1974fd60ebd64f4597c2a",
+                                      "sha256":  "04827075ad3461b9aeda5414d01439adfaa13d6d14c91b4a509409dd0ce8ae64",
                                       "size":  31
                                   }
               },
     "removed":  [
+                    "data/images/mythos/gem_ruby.png",
                     "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma",
                     "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma",
                     "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma",

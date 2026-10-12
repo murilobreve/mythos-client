@@ -1,0 +1,7 @@
+TeleportLabel < UILabel
+  font: verdana-11px-rounded
+  color: #fe6500
+  text-auto-resize: true
+  phantom: true
+  focusable: false
+  opacity: 0
