@@ -1,7 +1,7 @@
 {
-    "versao":  22,
+    "versao":  23,
     "canal":  "directx",
-    "data":  "2026-10-12 13:28",
+    "data":  "2026-10-12 15:31",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -5339,6 +5339,10 @@
                                                            "sha256":  "12e7fd3ce40e238e4ff92ce3cf8eeb19f56eaaa707d76d8481f95d6bbd008671",
                                                            "size":  228
                                                        },
+                  "data/images/mythos/gem_ruby.png":  {
+                                                          "sha256":  "a7ebc17b2c2681e075fcbb913aea47a78e1326fd2dae15b7585adb8d1d5e9273",
+                                                          "size":  250
+                                                      },
                   "data/images/mythos/gem_sapphire.png":  {
                                                               "sha256":  "3c7e1510ef7ae338a60dfa136e11d6b12b5962061a3891ddafeaa8ae8747d619",
                                                               "size":  244
@@ -9384,8 +9388,8 @@
                                                                     "size":  9605
                                                                 },
                   "modules/game_interface/interface.otmod":  {
-                                                                 "sha256":  "aa3dc6bd6093127a07671d5dfddc1da179f6a7905761c60c6aea0012ab9ad91f",
-                                                                 "size":  1551
+                                                                 "sha256":  "e3bdf392995637607bd24b359b653a6748eff23cf98c87df96f972fe79897eb4",
+                                                                 "size":  1571
                                                              },
                   "modules/game_interface/styles/countStashWindow.otui":  {
                                                                               "sha256":  "b4a4304eb2c1eb10526e89ffbc632276cb78c3930d5333cb823f48411b69db28",
@@ -10875,6 +10879,18 @@
                                                            "sha256":  "e0980c57e911b45398a3d3e7864584b0ecbf3182d4855b353c4b9f3f1365467a",
                                                            "size":  216
                                                        },
+                  "modules/game_tplabels/game_tplabels.otmod":  {
+                                                                    "sha256":  "e6b056cc9fa5abd9249e305ffe2642c1abe3074c98497d852e70e5eaf289c5e7",
+                                                                    "size":  237
+                                                                },
+                  "modules/game_tplabels/tplabels.lua":  {
+                                                             "sha256":  "14a9bc346c3903a5e786d8fd900292bccdd076b7d3a6ca36ca739c586f374dc8",
+                                                             "size":  6259
+                                                         },
+                  "modules/game_tplabels/tplabels.otui":  {
+                                                              "sha256":  "c6445ce9952893d17ed1243b24b453ae37d4d04a50b518f77a3b6c0175465f77",
+                                                              "size":  556
+                                                          },
                   "modules/game_unjustifiedpoints/unjustifiedpoints.lua":  {
                                                                                "sha256":  "68e4a6f053183f25d13109ecc0ada599bd3905be8a8ee553e619da6fc29684d6",
                                                                                "size":  12649
@@ -11116,7 +11132,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "2945e7f5d43a17c709ba797c1559e62721a77c038a4c41c79480297567f8567b",
+                                      "sha256":  "b2932e57e146f2812c34fd202c8233ce1839dfc369397fa13782660a94a23f83",
                                       "size":  31
                                   }
               },
