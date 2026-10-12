@@ -1,0 +1,410 @@
+
+SelectBagButton < UIWidget
+  image-source: /game_quickloot/images/choose
+  image-clip: 0 0 20 20
+  size: 20 20
+  image-color: #c4b2ec
+  $hover:
+    image-color: #ffffff
+  $pressed:
+    image-source: /game_quickloot/images/choose
+    image-clip: 0 0 20 20
+RemoveBagButton < UIWidget
+  image-clip: 0 0 20 20
+  size: 20 20
+  image-source: /game_quickloot/images/remove
+  image-color: #c4b2ec
+  $hover:
+    image-color: #ffffff
+  $pressed:
+    image-clip: 0 20 20 20
+QuicLootIgnoreItem < UIWidget
+  background-color: #ffffff07
+  Label
+    id: label
+    !text: tr('bag')
+    color: #cbc0e0
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    text-auto-resize: true
+    margin-left: 2
+  RemoveBagButton
+    id: removeBag
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    margin-right: 15
+    @onClick: modules.game_quickloot.QuickLoot.clearFilterItem(self)
+  Item
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: removeBag.left
+    margin-right: 5
+    opacity: 1.0
+    $pressed:
+      opacity: 0.5
+QuickLootPickRow < UIWidget
+  background-color: #ffffff07
+  Item
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 3
+    virtual: true
+  CheckBox
+    id: take
+    !text: tr('Take')
+    !tooltip: tr('Ticked: the auto loot takes this item. Unticked: it stays in the corpse.')
+    width: 52
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    margin-right: 14
+  Label
+    id: label
+    color: #cbc0e0
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: item.right
+    anchors.right: take.left
+    margin-left: 6
+    margin-right: 4
+    text-wrap: true
+    text-auto-resize: true
+
+QuicklootBagLabel < UIWidget
+  background-color: #ffffff07
+
+  Label
+    id: label
+    !text: tr('Unassigned Loot')
+    color: #cbc0e0
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    text-auto-resize: true
+    margin-left: 2
+  SelectBagButton
+    id: selectBag
+    &click: 2
+    &Select:4
+    &borrar:5
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+
+    @onClick: modules.game_quickloot.QuickLoot.chooseItem(self)
+  RemoveBagButton
+    id: removeBag
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: selectBag.left
+    margin-right: 5
+    &click: 2
+    &Select:4
+    &borrar:5
+    @onClick: modules.game_quickloot.QuickLoot.clearItem(self)
+  Item
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: removeBag.left
+    margin-right: 5
+    opacity: 1.0
+    image-color: #9a86c8
+    &click: 2
+    &Select:4
+    &borrar:5
+    @onClick: modules.game_quickloot.QuickLoot.openContainer(self)
+    $pressed:
+      opacity: 0.5
+
+  SelectBagButton
+    id: selectBag2
+    &click: 6
+    &Select:0
+    &borrar:1
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: item.left
+    margin-right: 5
+    @onClick: modules.game_quickloot.QuickLoot.chooseItem(self)
+  RemoveBagButton
+    id: removeBag2
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: selectBag2.left
+    margin-right: 5
+    &click: 6
+    &Select:0
+    &borrar:1
+    @onClick: modules.game_quickloot.QuickLoot.clearItem(self)
+  Item
+    id: item2
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: removeBag2.left
+    margin-right: 5
+    &click: 6
+    &Select:0
+    &borrar:1
+    opacity: 1.0
+    image-color: #9a86c8
+    @onClick: modules.game_quickloot.QuickLoot.openContainer(self)
+    $pressed:
+      opacity: 0.5
+MythosWindow
+  id: main
+  !text: tr('Manage Containers')
+  size: 700 432
+  @onEscape: modules.game_quickloot.QuickLoot.toggle()
+  BrevesPanelBox
+    id: fallbackPanel
+    size: 255 22
+    padding: 0
+    anchors.top: parent.top
+    anchors.left: parent.left
+    
+    OptionCheckBoxMarked
+      id: checkbox
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      margin-left: 5
+      @onCheckChange: QuickLoot.fallback(self, self:isChecked())
+      !text: tr('Use main container as fallback')
+      !tooltip: tr('Tick this check box to loot into your main container if you cannot \nloot into the container for the particular loot category and \nunassigned loot. Note that "Auto-Sort \nPurchases" and "Auto-Sort Stash into Containers" are not afflected by this option.')
+
+  Label
+
+    !text: tr('Loot')
+    font: verdana-11px-antialised
+    color: #cbc0e0
+    anchors.top: fallbackPanel.bottom
+    anchors.left: parent.left
+    margin-left: 85
+
+  Label
+
+    !text: tr('Obtain')
+    font: verdana-11px-antialised
+    color: #cbc0e0
+    margin-right: 15
+    anchors.top: fallbackPanel.bottom
+    anchors.right: fallbackPanel.right
+  ScrollablePanel
+    id: list
+    focusable: false
+    border-width: 1
+    border-color: #3e2d5e
+    background-color: #0f0a19
+    anchors.top: fallbackPanel.bottom
+    anchors.bottom: parent.bottom
+    anchors.left: fallbackPanel.left
+    anchors.right: fallbackPanel.right
+    padding-left: 1
+    padding-top: 1
+    margin-top: 25
+    margin-bottom: 32
+    padding-bottom: 3
+    vertical-scrollbar: scrollbar
+    layout:
+      type: grid
+      cell-size: 240 36
+      cell-spacing: 0
+      flow: true
+  MythosScrollBar
+    id: scrollbar
+    anchors.top: list.top
+    anchors.bottom: list.bottom
+    anchors.right: list.right
+    step: 48
+    pixels-scroll: true
+  Panel
+    id: filters
+    size: 140 115
+    image-source: /images/mythos/panel
+    image-border: 4
+    anchors.top: fallbackPanel.top
+    anchors.left: list.right
+    margin-left: 5
+    padding: 7
+    Label
+      id: label
+      !text: tr('Quick Loot Filter:')
+      color: #cbc0e0
+      anchors.top: parent.top
+      anchors.left: parent.left
+    CheckBoxCircle
+      id: skipped
+      text-auto-resize: true
+      margin-top: 5
+      anchors.top: label.bottom
+      anchors.left: parent.left
+      !text: tr('Skipped Loot')
+      color: #cbc0e0
+      width: 84
+      checked: true
+      @onClick: QuickLoot.filter(self, self:isChecked())
+    CheckBoxCircle
+      id: accepted
+      text-auto-resize: true
+      margin-top: 5
+      anchors.top: skipped.bottom
+      anchors.left: parent.left
+      !text: tr('Accepted Loot')
+      color: #cbc0e0
+      width: 84
+      @onClick: QuickLoot.filter(self, self:isChecked())
+    MythosButton
+      id: clear
+      size: 128 20
+      !text: tr('Clear Skipped Loot List')
+      color: #cbc0e0
+      anchors.top: accepted.bottom
+      anchors.left: parent.left
+      margin-top: 5
+      @onClick: QuickLoot.clearFilterItems()
+    MythosButton
+      id: add
+      size: 128 20
+      !text: tr('Add to Skipped Loot List')
+      color: #cbc0e0
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      @onClick: QuickLoot.focusSearch()
+        
+  Panel
+    id: information
+    size: 140 115
+    image-source: /images/mythos/panel
+    image-border: 4
+    text-wrap: true
+    color: #cbc0e0
+    text-align: left
+    text-offset: 2 2
+    text-align: topLeft
+    !text: tr('Pick the bag for each kind of loot.\n\nOn the right, tick Take on what the auto loot should pick up.')
+    anchors.top: filters.bottom
+    anchors.bottom: list.bottom
+    anchors.left: filters.left
+    anchors.right: filters.right
+    padding: 7
+
+    // every account is premium on Mythos: nothing to sell here
+    Panel
+      id: vipPanel
+      height: 34
+      visible: false
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      UIButton
+        id: premium
+        size: 128 37
+        anchors.left: parent.left
+        anchors.verticalCenter: parent.verticalCenter
+        image-source: /game_quickloot/images/getpremium
+        image-clip: 0 0 128 37
+        image-border: 3
+        @onClick: modules.game_mainpanel.toggleStore()
+
+        $pressed:
+          image-clip: 0 37 128 37
+        $!on:
+          image-clip: 0 74 128 37
+        $disabled:
+          color: #dfdfdf88
+          opacity: 0.8
+      Label
+        id: label
+        !text: tr('Premium')
+        text-auto-resize: true
+        anchors.verticalCenter: premium.verticalCenter
+        anchors.left: premium.right
+        margin-left: 10
+  MythosTextEdit
+    id: search
+    height: 22
+    !placeholder: tr('Search an item by name')
+    anchors.left: information.right
+    anchors.right: parent.right
+    anchors.top: parent.top
+    margin-left: 5
+    @onTextChange: QuickLoot.search(self:getText())
+  RemoveBagButton
+    id: clearSearch
+    anchors.bottom: search.bottom
+    anchors.right: search.right
+    margin-bottom: 1
+    margin-right: 1
+    @onClick: QuickLoot.clearSearch()
+
+  // take everything Gersao buys for at least this much
+  Panel
+    id: priceRule
+    height: 20
+    anchors.top: search.bottom
+    anchors.left: search.left
+    anchors.right: clearSearch.right
+    margin-top: 5
+
+    CheckBox
+      id: enabled
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      text-auto-resize: true
+      color: #cbc0e0
+      !text: tr('Take if Gersao pays >=')
+      !tooltip: tr('Every item Gersao buys for this price or more is looted. Coins and rarity items are always looted. A Take box you change by hand wins over the price.')
+      @onCheckChange: QuickLoot.setPriceRule(self:isChecked())
+
+    MythosTextEdit
+      id: min
+      anchors.left: enabled.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 6
+      size: 70 20
+      max-length: 9
+      @onTextChange: QuickLoot.setPriceMin(self:getText())
+
+
+  Label
+    id: pickTitle
+    color: #e6e0f2
+    text-wrap: true
+    anchors.top: priceRule.bottom
+    anchors.left: search.left
+    anchors.right: clearSearch.right
+    margin-top: 5
+    text-auto-resize: true
+
+  ScrollablePanel
+    id: ignoreList
+    focusable: false
+    anchors.top: pickTitle.bottom
+    anchors.bottom: list.bottom
+    anchors.left: search.left
+    anchors.right: clearSearch.right
+    padding-left: 1
+    padding-top: 1
+    margin-top: 5
+    padding-bottom: 3
+    vertical-scrollbar: ignoreScrollbar
+    border-width: 1
+    border-color: #3e2d5e
+    background-color: #0f0a19
+    layout:
+      type: grid
+      cell-size: 244 38
+      cell-spacing: 0
+      flow: true
+  MythosScrollBar
+    id: ignoreScrollbar
+    anchors.top: ignoreList.top
+    anchors.bottom: ignoreList.bottom
+    anchors.right: ignoreList.right
+    step: 48
+    pixels-scroll: true
+  MythosButton
+    size: 43 20
+    !text: tr('Close')
+    color: #cbc0e0
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    @onClick: QuickLoot.toggle()
+  MythosSeparator
+    id: separator
+    anchors.bottom: prev.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-bottom: 6
