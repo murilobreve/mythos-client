@@ -1,7 +1,7 @@
 {
-    "versao":  19,
+    "versao":  20,
     "canal":  "directx",
-    "data":  "2026-10-12 10:27",
+    "data":  "2026-10-12 11:03",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -5560,8 +5560,8 @@
                                                              "size":  3426
                                                          },
                   "data/images/options/store_large.png":  {
-                                                              "sha256":  "595965e722b9007a52eef4f15d6e9ab0941000da8fd00eb39e06a6382d817331",
-                                                              "size":  3944
+                                                              "sha256":  "6a891756dd4b7d84db52e4969e0e252c8800b03a2481df91ac5ec133df5d73a8",
+                                                              "size":  5274
                                                           },
                   "data/images/options/terminal.png":  {
                                                            "sha256":  "2eec66e304b1dd8f1e63695a08e46ff7fd14af1452190e704c1abd5c7c2d5c41",
@@ -5628,12 +5628,12 @@
                                                                         "size":  3172
                                                                     },
                   "data/images/store/icon-tibiacoin.png":  {
-                                                               "sha256":  "ec2355151cdfba12f6d05df21312e4ec3f4143327bd453dfeb0e9274a02dc6dc",
-                                                               "size":  316
+                                                               "sha256":  "a3eff231eff639dc6068decae8c37878790cc84550dfb086f7a2784292a9718d",
+                                                               "size":  260
                                                            },
                   "data/images/store/icon-tibiacointransferable.png":  {
-                                                                           "sha256":  "a5090be3e5376836165c27ddf925aa3284df07ba0736fd42350cc5e26f578e0e",
-                                                                           "size":  328
+                                                                           "sha256":  "a3eff231eff639dc6068decae8c37878790cc84550dfb086f7a2784292a9718d",
+                                                                           "size":  260
                                                                        },
                   "data/images/store/icon-tibiastore.png":  {
                                                                 "sha256":  "e83cb0cf39e9985facc78f26acbab4aa351eb207a0d99e39e1f8fd02ba051404",
@@ -6296,8 +6296,8 @@
                                                          "size":  917
                                                      },
                   "data/images/ui/getCoins.png":  {
-                                                      "sha256":  "0cedfe2d7168629fb56183227276b70c4b6b79e1ae8921c8e1a618d21f8eb2b2",
-                                                      "size":  4398
+                                                      "sha256":  "afdb96406bb22e386613c9bf18cdc493c390826db8045ac2b0b1236622eb0e55",
+                                                      "size":  3826
                                                   },
                   "data/images/ui/getpremium.png":  {
                                                         "sha256":  "2b4b35921fd0a45670ed28bd559b9cb15e619978779f955edc3bc6fd22318e68",
@@ -6684,8 +6684,8 @@
                                                       "size":  286
                                                   },
                   "data/images/ui/tibiaCoin.png":  {
-                                                       "sha256":  "ec2355151cdfba12f6d05df21312e4ec3f4143327bd453dfeb0e9274a02dc6dc",
-                                                       "size":  316
+                                                       "sha256":  "a3eff231eff639dc6068decae8c37878790cc84550dfb086f7a2784292a9718d",
+                                                       "size":  260
                                                    },
                   "data/images/ui/top_bar_login.png":  {
                                                            "sha256":  "5e3c3113bc2477cfa69e45e05552b5d894e7a7c964d499aca5d8c9ff9453660b",
@@ -6768,8 +6768,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "79e99e634e71eb1ff7d4728067e2080fc638a294bd567c9c09579241ac87abf8",
-                                              "size":  56548
+                                              "sha256":  "2f3e1c78d22a3b629f9516bd5d8205d0a14f000f6c22287f8192915aed74bf1e",
+                                              "size":  56664
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -6956,16 +6956,20 @@
                                                 "size":  3587
                                             },
                   "data/things/custom/appearances-custom.dat":  {
-                                                                    "sha256":  "3b9bd27846008143902f7a56aa44d3072e68db4d5b6db39ed324ae93721a29cf",
-                                                                    "size":  1730
+                                                                    "sha256":  "d45fd15f7aa5fb8cac59f7225312cdf66eacb9b18afff9f1748b2db606741c35",
+                                                                    "size":  2052
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "b1949618b5959662462c1f99f7e75ae83e0c0b4db0c39bf6e8638b363b24affe",
-                                                                  "size":  1600
+                                                                  "sha256":  "feb6a6c894bda4c8daf7ec2e6e90c296b77a4e9799343433afe227bb14ae894e",
+                                                                  "size":  1791
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
+                                                                                   },
+                  "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma":  {
+                                                                                       "sha256":  "12291796a3a63de50f4d7e3588b352fcd1a3a3200b9dfb802c3224eb02274bc9",
+                                                                                       "size":  42116
                                                                                    },
                   "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma":  {
                                                                                      "sha256":  "cfc4e297b4c1ed1442f48fb8c7bb8dd3ee98daa8d1a074aaca27bf5ff4cb382b",
@@ -7780,8 +7784,8 @@
                                                            "size":  1162
                                                        },
                   "modules/game_brevespanel/brevespanel.lua":  {
-                                                                   "sha256":  "3bb7cb7a5e2bfa06215e55309037357fa8e974cdd96199dae0e5033310615b7e",
-                                                                   "size":  18353
+                                                                   "sha256":  "58e3baa8530847656c36b2785b4f990381ae698b7f79d7fea00bebc54a844cfd",
+                                                                   "size":  19049
                                                                },
                   "modules/game_brevespanel/brevespanel.otui":  {
                                                                     "sha256":  "3bd86757279cfe0d2e0a96679f3fe560f1d2e03787cd16de76a92f68b7a7524e",
@@ -7799,6 +7803,10 @@
                                                                     "sha256":  "ba0e0e257222c1e3a78aeb2fd1e1d018f4a850bdc4a3c95abec87c4b72af27f5",
                                                                     "size":  242
                                                                 },
+                  "modules/game_brevespanel/images/button.png":  {
+                                                                     "sha256":  "64b641fb8894d9a07853a51df0fc4575e075f949bf974184415adcdfd4fb10a3",
+                                                                     "size":  958
+                                                                 },
                   "modules/game_brevespanel/images/healbot.png":  {
                                                                       "sha256":  "5dd0fd3880eb9384d69adb92c0cabe5e24873cc34b7bc2b9896379631846bb2d",
                                                                       "size":  111
@@ -10552,8 +10560,8 @@
                                                                         "size":  202
                                                                     },
                   "modules/game_store/images/icon-tibiacointransferable.png":  {
-                                                                                   "sha256":  "a5090be3e5376836165c27ddf925aa3284df07ba0736fd42350cc5e26f578e0e",
-                                                                                   "size":  328
+                                                                                   "sha256":  "a3eff231eff639dc6068decae8c37878790cc84550dfb086f7a2784292a9718d",
+                                                                                   "size":  260
                                                                                },
                   "modules/game_store/images/icon-trade.png":  {
                                                                    "sha256":  "b9221451e17249ea431047b025ea72acbe53acb0d17504fe86023ee622fd2179",
@@ -11092,7 +11100,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "4e96d56d1b0d554748ca5f9208a7666051f417348b6b71bedc0f1bd9b04b46aa",
+                                      "sha256":  "ceea1164cc364dc9558b85092c16281f199b6615a1ccd5f975c850ac09eb9e79",
                                       "size":  31
                                   }
               },
