@@ -1,7 +1,7 @@
 {
-    "versao":  26,
+    "versao":  27,
     "canal":  "directx",
-    "data":  "2026-10-12 19:47",
+    "data":  "2026-10-12 20:19",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -500,12 +500,12 @@
                                                                      "size":  3719
                                                                  },
                   "data/images/background.png":  {
-                                                     "sha256":  "3d21d8ad97dd99426267c1d7e5fd4cab0fd2f282e31826c385211126364802c5",
-                                                     "size":  6660924
+                                                     "sha256":  "ea01be4097bef2f379434bdbb940556c01a669670e50c8737a16a7ff2cc77081",
+                                                     "size":  5713973
                                                  },
                   "data/images/background_fill.png":  {
-                                                          "sha256":  "c43f8b6749738c4b0ae935ef7d02d441471448b4d42816a13d95690a4c855fab",
-                                                          "size":  232972
+                                                          "sha256":  "d385b5238122e0f29356d54c17bfa9f3c46b92eb52c45046b522b2df0b339a33",
+                                                          "size":  291022
                                                       },
                   "data/images/bars/horizontal_experience_progressbar_tiny.png":  {
                                                                                       "sha256":  "fdb1b3a0e145fbba42540edff759e2dbfc80d0b29cb8522f219f92ddd3a1eea5",
@@ -5351,6 +5351,38 @@
                                                              "sha256":  "3775f22add451cb32b1246886a40c8e5b0d58e9f9a5420746b9292c8eda1e2a3",
                                                              "size":  179
                                                          },
+                  "data/images/mythos/kit_dark.png":  {
+                                                          "sha256":  "dfe188b712d516483735d5628b7a1918bf3eb68e2e2985c2693d49bd1c8c9f3b",
+                                                          "size":  8949
+                                                      },
+                  "data/images/mythos/kit_dark_disabled.png":  {
+                                                                   "sha256":  "eca2e4a86405f22a74e57cd4dece691df374560283acbf5b11c9064cc26863a1",
+                                                                   "size":  7800
+                                                               },
+                  "data/images/mythos/kit_dark_hover.png":  {
+                                                                "sha256":  "2306bdf79e3a100ae5388b79c4fb540e195f0e722e0b0551952cfb5fe37c1aba",
+                                                                "size":  9469
+                                                            },
+                  "data/images/mythos/kit_dark_pressed.png":  {
+                                                                  "sha256":  "d69c163ae83d8701b2655232dc303de70bc41bea80b4ee887644697d11f917c8",
+                                                                  "size":  8718
+                                                              },
+                  "data/images/mythos/kit_gold.png":  {
+                                                          "sha256":  "da221e69d8b085e0dad295078047b6ae6f3f399bb82c184e115a7c87ee174b56",
+                                                          "size":  15369
+                                                      },
+                  "data/images/mythos/kit_gold_disabled.png":  {
+                                                                   "sha256":  "7aa687a53ea8caf0debe15fff7dd456eb88030cdf02cbb95c3ffc46a17a071a6",
+                                                                   "size":  13379
+                                                               },
+                  "data/images/mythos/kit_gold_hover.png":  {
+                                                                "sha256":  "e6649af7475d726eb8c29d393e29f19ce51b4aac75ba4cfd19d91becaf564c6b",
+                                                                "size":  15770
+                                                            },
+                  "data/images/mythos/kit_gold_pressed.png":  {
+                                                                  "sha256":  "5f0a29261bd7ef7b3d25fe411a8ff435bcfa815fc3c214247b415de9025fee57",
+                                                                  "size":  15007
+                                                              },
                   "data/images/mythos/notice.png":  {
                                                         "sha256":  "dc7e3c55fec5f3ce3c8ac1e5bf00466ab1d66cd799565836ba59439213bd0973",
                                                         "size":  235
@@ -6940,8 +6972,8 @@
                                                            "size":  21511
                                                        },
                   "data/styles/50-breves.otui":  {
-                                                     "sha256":  "b9db4572552d9fe31d0e4292501cc6605932e055c6d8a5b65da1fab6394f4e23",
-                                                     "size":  7996
+                                                     "sha256":  "e791a260873d688f55b2edc0b6024db8b4b3b93ebef2bb7dca71c0fe8e9dd71e",
+                                                     "size":  9224
                                                  },
                   "data/styles/custom.css":  {
                                                  "sha256":  "8ca26f34bafa4633f850df7e1c9a4a65c61aa14d111bd790b6f1a366d8b7ec1f",
@@ -7060,16 +7092,16 @@
                                                                      "size":  2008
                                                                  },
                   "modules/client_background/background.lua":  {
-                                                                   "sha256":  "9c4fa076c274db2ec22bfb8957a87d9f7ed873afeb38d074e7231cfcd439db66",
-                                                                   "size":  2972
+                                                                   "sha256":  "f2a33c4c4f1179ca3857401bdcef30f79be6140829cc161fbfbbb196be7fc8d6",
+                                                                   "size":  3047
                                                                },
                   "modules/client_background/background.otmod":  {
                                                                      "sha256":  "18fc0127e49fd380c9d47086ffdda19ee4b03c67432d5f5d34628efbebc53c22",
                                                                      "size":  278
                                                                  },
                   "modules/client_background/background.otui":  {
-                                                                    "sha256":  "bd872e4277a4f935d5d83b12320ec3648bd364e71734337f4ad345ff5d5102e4",
-                                                                    "size":  747
+                                                                    "sha256":  "0c531fcfdafb857baa04b298dd9e4b81390db9fbcfadf1db3f70867302f73eb3",
+                                                                    "size":  764
                                                                 },
                   "modules/client_bottommenu/bottommenu.lua":  {
                                                                    "sha256":  "1a9cce0429c739fd1dea80441f1fc7ec8e57d74feebd6bcc4e517f8696c5efc5",
@@ -7124,8 +7156,8 @@
                                                                    "size":  490
                                                                },
                   "modules/client_entergame/entergame.otui":  {
-                                                                  "sha256":  "7c2d3afddd0730d02d23a5165dd7aee5cd4a9e5bed72138c5362024accb3eae3",
-                                                                  "size":  9926
+                                                                  "sha256":  "6cb1600121ecadc50532fbfe616c41650bd1f8684a30de7ca514b4df9c4dde1b",
+                                                                  "size":  9929
                                                               },
                   "modules/client_entergame/waitinglist.otui":  {
                                                                     "sha256":  "3467ab88486e265d8c662425f9261c7ffbb06b0cd286900596b3166270049e59",
@@ -7264,16 +7296,16 @@
                                                               "size":  4508
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "e6103aa43c28fad20765cd4043eeca600e16033d0eb38f3355779a7b31c22011",
-                                                                    "size":  19088
+                                                                    "sha256":  "9d0dc04e09a009fbaf8a1a902302e73761c174131d0176f76016652e9cab6253",
+                                                                    "size":  19246
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
                                                                       "size":  280
                                                                   },
                   "modules/client_updater/client_updater.otui":  {
-                                                                     "sha256":  "88e86d3839a7d876f2e76e4e2588d9574d6f71c25c4f19010ee70f8021505f4b",
-                                                                     "size":  1321
+                                                                     "sha256":  "5cbfc14f7a32493a82a9c262e19583aeb6a66638fca86fbf83bd6f5f35348c11",
+                                                                     "size":  1325
                                                                  },
                   "modules/corelib/base64.lua":  {
                                                      "sha256":  "7251d0017283cc18ee3993f7253e813bc60d6590b7d177997f4e0c750a225e07",
@@ -11128,7 +11160,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "dd4227acce6d8b475747bd4b2b78f516ae697a949fe52c0ffc8d03bb09bb9735",
+                                      "sha256":  "833110a741f2e1b24ab80bd13f8a90bd70b6fee78e073af607e9f4ead16111fd",
                                       "size":  31
                                   }
               },

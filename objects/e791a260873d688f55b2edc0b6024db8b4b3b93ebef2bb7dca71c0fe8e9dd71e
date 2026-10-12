@@ -1,0 +1,415 @@
+// Mythos window kit. Colours from the login screen: obsidian body, the violet
+// of the halo above the logo for focus and selection, pearl for titles and
+// the main button. Window titles use Cinzel, the lettering of the logo.
+// Optional color update for the native-size Mythos redesign.
+// All image borders, clips, widget sizes and behavior remain unchanged.
+
+MythosWindow < MainWindow
+  image-source: /images/mythos/window
+  image-border: 6
+  image-border-top: 30
+  padding-top: 40
+  padding-left: 16
+  padding-right: 16
+  padding-bottom: 14
+  color: #eee6d4
+  text-offset: 0 7
+  ttf-font: cinzel-bold
+  ttf-font-size: 15
+
+MythosButton < UIButton
+  font: verdana-11px-antialised
+  color: #e7e2ef
+  size: 86 22
+  text-offset: 0 1
+  image-source: /images/mythos/button
+  image-border: 4
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    image-source: /images/mythos/button_hover
+    color: #ffffff
+
+  $pressed:
+    image-source: /images/mythos/button_pressed
+    text-offset: 0 2
+
+  $on:
+    image-source: /images/mythos/button_pressed
+    color: #ffffff
+
+  $checked:
+    image-source: /images/mythos/button_pressed
+    color: #ffffff
+
+  $disabled:
+    image-source: /images/mythos/button_disabled
+    color: #898293
+    change-cursor-image: false
+
+// the one action a window is about: pearl, like the PLAY button on the login
+MythosPrimaryButton < MythosButton
+  font: Verdana Bold-11px
+  color: #170f24
+  image-source: /images/mythos/button_pearl
+
+  $hover !disabled:
+    image-source: /images/mythos/button_pearl_hover
+    color: #000000
+
+  $pressed:
+    image-source: /images/mythos/button_pearl_pressed
+
+  $disabled:
+    image-source: /images/mythos/button_pearl_disabled
+    color: #7d778a
+
+// the site's Calm & Chaos buttons: gold for the main action, dark with
+// gold trim for the rest (images from the theme kit, at client size)
+MythosKitGoldButton < UIButton
+  font: Verdana Bold-11px
+  color: #fff4d8
+  height: 40
+  text-offset: 0 1
+  image-source: /images/mythos/kit_gold
+  image-border-left: 30
+  image-border-right: 30
+  image-border-top: 8
+  image-border-bottom: 8
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    image-source: /images/mythos/kit_gold_hover
+    color: #ffffff
+
+  $pressed:
+    image-source: /images/mythos/kit_gold_pressed
+    text-offset: 0 2
+
+  $disabled:
+    image-source: /images/mythos/kit_gold_disabled
+    color: #6f6658
+
+MythosKitButton < UIButton
+  font: Verdana Bold-11px
+  color: #f1d399
+  height: 30
+  text-offset: 0 1
+  image-source: /images/mythos/kit_dark
+  image-border-left: 26
+  image-border-right: 26
+  image-border-top: 7
+  image-border-bottom: 7
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    image-source: /images/mythos/kit_dark_hover
+    color: #ffe7b0
+
+  $pressed:
+    image-source: /images/mythos/kit_dark_pressed
+    text-offset: 0 2
+
+  $disabled:
+    image-source: /images/mythos/kit_dark_disabled
+    color: #7d778a
+
+MythosTab < UIButton
+  size: 118 24
+  font: verdana-11px-antialised
+  color: #b4afc3
+  text-offset: 0 -1
+  image-source: /images/mythos/tab
+  image-border: 2
+  image-border-bottom: 2
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !checked:
+    image-source: /images/mythos/tab_hover
+    color: #e0dbea
+
+  $checked:
+    image-source: /images/mythos/tab_on
+    font: Verdana Bold-11px
+    color: #f3f0fa
+
+MythosTextEdit < UITextEdit
+  font: verdana-11px-antialised
+  color: #e6e2ee
+  height: 22
+  text-offset: 0 1
+  padding: 4 6 3 6
+  image-source: /images/mythos/input
+  image-border: 3
+  selection-color: #170f24
+  selection-background-color: #d0baff
+  placeholder-color: #898293
+  cursor: text
+
+  $focus:
+    image-source: /images/mythos/input_focus
+
+  $disabled:
+    color: #898293
+
+MythosComboBoxPopupMenuButton < UIButton
+  height: 20
+  font: verdana-11px-antialised
+  text-align: left
+  text-offset: 6 0
+  color: #d1ccd9
+  background-color: alpha
+
+  $hover !disabled:
+    color: #ffffff
+    background-color: #b296f540
+
+  $disabled:
+    color: #898293
+
+MythosComboBoxPopupMenuSeparator < UIWidget
+  image-source: /images/ui/menubox
+  image-border-left: 1
+  image-border-right: 1
+  image-clip: 0 0 32 2
+  height: 2
+  phantom: true
+  margin-top: 2
+  margin-bottom: 2
+
+MythosComboBoxPopupMenu < UIPopupMenu
+  image-source: /images/mythos/popup
+  image-border: 2
+  padding: 2
+
+MythosComboBoxPopupScrollMenuButton < MythosComboBoxPopupMenuButton
+
+MythosComboBoxPopupScrollMenu < UIPopupScrollMenu
+  image-source: /images/mythos/popup
+  image-border: 2
+  padding: 2
+
+MythosComboBox < UIComboBox
+  font: verdana-11px-antialised
+  color: #e7e2ef
+  size: 120 20
+  text-align: center
+  text-offset: -9 0
+  image-source: /images/mythos/combobox
+  image-border: 3
+  image-border-right: 20
+  image-clip: 0 0 91 20
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    image-clip: 0 20 91 20
+    color: #ffffff
+
+  $on:
+    image-clip: 0 40 91 20
+
+  $disabled:
+    color: #898293
+
+MythosScrollBarSlider < UIButton
+  id: sliderButton
+  anchors.centerIn: parent
+  size: 8 20
+  image-source: /images/mythos/scroll_thumb
+  image-border: 4
+  margin-left: 1
+  margin-right: 1
+
+  $hover:
+    image-source: /images/mythos/scroll_thumb_hover
+
+  $pressed:
+    image-source: /images/mythos/scroll_thumb_hover
+
+  $disabled:
+    opacity: 0
+
+MythosScrollBar < UIScrollBar
+  orientation: vertical
+  width: 10
+  height: 39
+  image-source: /images/mythos/scroll_track
+  image-border: 2
+  pixels-scroll: true
+
+  UIButton
+    id: decrementButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 10 10
+    image-source: /images/mythos/scroll_arrows
+    image-clip: 0 0 10 10
+    $hover:
+      image-clip: 10 0 10 10
+    $pressed:
+      image-clip: 10 0 10 10
+
+  UIButton
+    id: incrementButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    size: 10 10
+    image-source: /images/mythos/scroll_arrows
+    image-clip: 0 10 10 10
+    $hover:
+      image-clip: 10 10 10 10
+    $pressed:
+      image-clip: 10 10 10 10
+
+  MythosScrollBarSlider
+
+MythosHSliderThumb < UIButton
+  id: sliderButton
+  anchors.centerIn: parent
+  size: 20 8
+  image-source: /images/mythos/scroll_thumb_h
+  image-border: 4
+
+  $hover:
+    image-source: /images/mythos/scroll_thumb_h_hover
+
+  $pressed:
+    image-source: /images/mythos/scroll_thumb_h_hover
+
+  $disabled:
+    opacity: 0
+
+MythosHSlider < UIScrollBar
+  orientation: horizontal
+  size: 78 10
+  image-source: /images/mythos/scroll_track_h
+  image-border: 2
+  pixels-scroll: true
+  parent-scroll: true
+
+  UIButton
+    id: decrementButton
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    size: 10 10
+    image-source: /images/mythos/scroll_arrows_h
+    image-clip: 0 0 10 10
+    $hover:
+      image-clip: 10 0 10 10
+    $pressed:
+      image-clip: 10 0 10 10
+
+  UIButton
+    id: incrementButton
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    size: 10 10
+    image-source: /images/mythos/scroll_arrows_h
+    image-clip: 0 10 10 10
+    $hover:
+      image-clip: 10 10 10 10
+    $pressed:
+      image-clip: 10 10 10 10
+
+  MythosHSliderThumb
+
+MythosSeparator < UIWidget
+  height: 1
+  background-color: #514553
+  phantom: true
+
+// the corner toast and other small floating boxes
+MythosBox < UIWidget
+  image-source: /images/mythos/notice
+  image-border: 4
+
+// framed sub panel with its title in the top strip
+BrevesSection < Panel
+  image-source: /images/mythos/section
+  image-border: 4
+  image-border-top: 21
+  padding: 26 8 8 8
+  text-align: top
+  text-offset: 0 4
+  color: #e8dfce
+  font: Verdana Bold-11px
+
+// the same panel without the title strip
+BrevesPanelBox < Panel
+  image-source: /images/mythos/panel
+  image-border: 4
+  padding: 8
+
+// tab or category button
+BrevesTab < MythosTab
+
+// table body: a dark well, rows stack inside
+BrevesList < UIScrollArea
+  image-source: /images/mythos/well
+  image-border: 3
+  padding: 2
+  layout:
+    type: verticalBox
+
+// column header strip on top of a BrevesList
+BrevesHeader < UIWidget
+  height: 20
+  background-color: #24212e
+  border-width: 1
+  border-color: #514553
+  font: verdana-11px-antialised
+  color: #b4afc3
+  text-align: left
+  text-offset: 7 0
+
+// rows: odd rows stay clear, even rows get a faint light, the chosen row
+// takes the halo violet
+BrevesRow < UIWidget
+  focusable: true
+  background-color: #00000000
+  $hover !focus:
+    background-color: #ffffff0e
+  $focus:
+    background-color: #b296f530
+
+BrevesRowEven < BrevesRow
+  background-color: #ffffff07
+
+// dark box with a value and an icon, like the gold box in Prey
+BrevesValueBox < UIWidget
+  height: 20
+  image-source: /images/mythos/input
+  image-border: 3
+  font: verdana-11px-antialised
+  color: #e6e2ee
+  text-align: right
+  text-offset: -20 0
+
+  UIWidget
+    id: icon
+    size: 12 12
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 4
+    phantom: true
+
+// cell for a creature or item
+BrevesCell < UIWidget
+  background-color: #0f0a19
+  border-width: 1
+  border-color: #514553
+
+BrevesNote < Label
+  font: verdana-11px-antialised
+  color: #b4afc3
+  text-wrap: true
+  text-auto-resize: true
+
+BrevesLabel < Label
+  font: verdana-11px-antialised
+  color: #d1ccd9
