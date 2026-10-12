@@ -1,7 +1,7 @@
 {
-    "versao":  13,
+    "versao":  14,
     "canal":  "directx",
-    "data":  "2026-10-11 20:49",
+    "data":  "2026-10-11 22:03",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9024,8 +9024,8 @@
                                                                       "size":  254
                                                                   },
                   "modules/game_huntboard/huntboard.lua":  {
-                                                               "sha256":  "3fb26eda473ea1b60123dfc6967f99e718c10e98c03408a5e0682ef469e2c545",
-                                                               "size":  27276
+                                                               "sha256":  "ea6f6f2bef33f1e5e42eb380ec8f13ca61eed2012eadb793dad648fee9902e76",
+                                                               "size":  28406
                                                            },
                   "modules/game_huntboard/huntboard.otui":  {
                                                                 "sha256":  "c3b9401e84cd2404704ae63d817fc2b0950d2ce31f4cefe47fa9924840b16b7b",
@@ -9912,8 +9912,8 @@
                                                                    "size":  3092
                                                                },
                   "modules/game_quickloot/quickloot.lua":  {
-                                                               "sha256":  "6b798b1bea45074a67c1ea5a01e2f1109873dac28f2eaf03ecf1c1435b92e7bf",
-                                                               "size":  27556
+                                                               "sha256":  "6342dca056ce83df593cdc41d009aeacd6ec96b9100f482d2d1ba4332cc7549c",
+                                                               "size":  28374
                                                            },
                   "modules/game_quickloot/quickloot.otmod":  {
                                                                  "sha256":  "6a606c21d4284e13fa5d201172c8af58aeea3cb1f4c26336ca21cd1526298a4b",
@@ -9952,8 +9952,8 @@
                                                                      "size":  168
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "9da5b42e4b4d7e1f75008d8e78ce1f8eb69eac34577d0ac0a373c58bbfe293f0",
-                                                                   "size":  29206
+                                                                   "sha256":  "5d02c31a3457539f9471795db4de20ad125127e3c8f1be82e7396060eb3cd932",
+                                                                   "size":  29383
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "fddc035b14daf65134a616d8499e761c17223654c011b0f1485f949064029eb7",
@@ -10808,8 +10808,8 @@
                                                               "size":  220
                                                           },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "d71a80905c6c49b3e4b567aab73f4e1b029b14137d4e86d85e67c89aff945772",
-                                                      "size":  38013
+                                                      "sha256":  "645924cda47b7e99721dbf2686a162462f0c16d7180c721d0a194be1d2cef4ac",
+                                                      "size":  38341
                                                   },
                   "modules/game_wiki/teleports.lua":  {
                                                           "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
@@ -10920,7 +10920,7 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "9c260cad95a5b82f35f39a7b3be2550ca5655d0b1bdfa84010de37bed2fa636b",
+                                             "sha256":  "07d748c0f712cc0c8efbf65738894528c0cffd75265ec6f94a3184e600c5835b",
                                              "size":  42801664
                                          },
                   "servidor.ini":  {
@@ -10928,7 +10928,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "627ea354ad1002ec6743e02f28320c99e2fd1701100086b6dcc00152766d2257",
+                                      "sha256":  "4a31cb1479edfc42599b23b6ead331f19b2118d7a4f50d9dd2cfeb99d14058d2",
                                       "size":  31
                                   }
               }
