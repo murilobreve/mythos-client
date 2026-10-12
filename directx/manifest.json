@@ -1,7 +1,7 @@
 {
-    "versao":  21,
+    "versao":  22,
     "canal":  "directx",
-    "data":  "2026-10-12 11:57",
+    "data":  "2026-10-12 13:28",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -500,9 +500,13 @@
                                                                      "size":  3719
                                                                  },
                   "data/images/background.png":  {
-                                                     "sha256":  "d311ea85f3a4c5bd7fa11a2316ae17d027533088f680338ea98ab8418ccb4fbc",
-                                                     "size":  2397270
+                                                     "sha256":  "8969d6c1cd568c04c193d520a7a31d68ebe9ffb9db93da46e41d9681581495f9",
+                                                     "size":  2737866
                                                  },
+                  "data/images/background_fill.png":  {
+                                                          "sha256":  "c43f8b6749738c4b0ae935ef7d02d441471448b4d42816a13d95690a4c855fab",
+                                                          "size":  232972
+                                                      },
                   "data/images/bars/horizontal_experience_progressbar_tiny.png":  {
                                                                                       "sha256":  "fdb1b3a0e145fbba42540edff759e2dbfc80d0b29cb8522f219f92ddd3a1eea5",
                                                                                       "size":  1689
@@ -628,8 +632,8 @@
                                                                "size":  456
                                                            },
                   "data/images/brevesui/logo.png":  {
-                                                        "sha256":  "8ea29d35852da7db003b9efe05d17834867d7ee9e5ce110c77bebb806520f19d",
-                                                        "size":  23577
+                                                        "sha256":  "d968ba78a332aa11cf348cc9652fbc31502808a5699d9afb479c2c70c1c1e3d0",
+                                                        "size":  20331
                                                     },
                   "data/images/brevesui/panel.png":  {
                                                          "sha256":  "85153475c60816782953a0afd87dee17380e3d1735e01a4a81ddc49e3d80d850",
@@ -652,8 +656,8 @@
                                                            "size":  655
                                                        },
                   "data/images/clienticon.png":  {
-                                                     "sha256":  "7ee41ae16523c9263fb98efe6779c41f31f3449c91fedb01a57e4c1f12322526",
-                                                     "size":  60380
+                                                     "sha256":  "0320b53c4e037b7c9e43855490bcac56b1e8ba2350ef2d3b40dcb65a7aeb5660",
+                                                     "size":  77310
                                                  },
                   "data/images/flags/de.png":  {
                                                    "sha256":  "e9ea828d070c87a7c0c19000b8afe3a3eda2bf253d9b87a4cec1275fd7710713",
@@ -5280,144 +5284,144 @@
                                                                     "size":  315
                                                                 },
                   "data/images/mythos/button.png":  {
-                                                        "sha256":  "606a7ab8d98b5eabda2e03b1af45a01cfca2830cb1a8690f981c193906ff0b63",
-                                                        "size":  192
+                                                        "sha256":  "2abf1caac25221f0e6b4df76ddac51f73dc8c51a27753dc2e8bd3850ba58f657",
+                                                        "size":  265
                                                     },
                   "data/images/mythos/button_disabled.png":  {
-                                                                 "sha256":  "27fa1d86ea2eeb95fd56ee1251c63aa5d9b9dfa7eebdda0cfdd5b5071bb671f8",
-                                                                 "size":  177
+                                                                 "sha256":  "73507bef01011c3762e29476501ca9d06c1fd8c67c4617a6d7aa676ea1d91c8e",
+                                                                 "size":  259
                                                              },
                   "data/images/mythos/button_hover.png":  {
-                                                              "sha256":  "5a9b762fdb9e4838dea8ad4493156fb0af3ca5dafc2c6f7997d8cbcbd136ca6e",
-                                                              "size":  185
+                                                              "sha256":  "789e68a42ffd4513b111d2638480e869af98744929b40076854d0d0509e6fdec",
+                                                              "size":  257
                                                           },
                   "data/images/mythos/button_pearl.png":  {
-                                                              "sha256":  "7ec726d2584a10d7026998bd6371f03372d3c426ccaac3352601af8598f8acc6",
-                                                              "size":  169
+                                                              "sha256":  "68fd85a1788cec65832132e63348eb3797c3f68b15d48b38c68d297cf8e500a7",
+                                                              "size":  263
                                                           },
                   "data/images/mythos/button_pearl_disabled.png":  {
-                                                                       "sha256":  "ffd7b9f71f3bcf00b81613f113d3c2c0bef12d3e8068e23ea4d4ad77b66f6824",
-                                                                       "size":  177
+                                                                       "sha256":  "31a14b5dc2e38135be928dd6432c98d600323acd5313173b4fac2e6f6ded0fa3",
+                                                                       "size":  257
                                                                    },
                   "data/images/mythos/button_pearl_hover.png":  {
-                                                                    "sha256":  "73d3c6592033ff0cdbd78f196301f05759e7cc2bc93781a53b2697a91bd4ad32",
-                                                                    "size":  157
+                                                                    "sha256":  "2b817d683771717cb129ff93cf65d87c572360a82140041bb30be2333d3fb3ba",
+                                                                    "size":  263
                                                                 },
                   "data/images/mythos/button_pearl_pressed.png":  {
-                                                                      "sha256":  "c49122f265d8d5383e1baa269b0313519bd5c1341ba4f131a40df55346e8cb31",
-                                                                      "size":  168
+                                                                      "sha256":  "a05d1a6f5f4a80d2e382092795df98301ad00c762b6ab3ca017b89f94a12ee42",
+                                                                      "size":  259
                                                                   },
                   "data/images/mythos/button_pressed.png":  {
-                                                                "sha256":  "2d9f7f76ca0bfb2e5fa7372a929be0b58b5fab2c18a98c38256eee37306885e9",
-                                                                "size":  170
+                                                                "sha256":  "8a019d1a317875d3f4ea17342f9e2241fd0762a7486cb88d71ffa559455b4aed",
+                                                                "size":  261
                                                             },
                   "data/images/mythos/combobox.png":  {
-                                                          "sha256":  "359ecf56149a0a4374c8253c754db1e100090903277f1f2d39222036eb6bc2d8",
-                                                          "size":  412
+                                                          "sha256":  "84cc0bc471375e195455ed1e87f353b17a129223cdc11850eea8cb28966b244f",
+                                                          "size":  553
                                                       },
                   "data/images/mythos/fold_closed.png":  {
-                                                             "sha256":  "ba1da3ce945e1dfa3e398dec87ca5fa51a877cd935e1ba49710601489e768dc3",
-                                                             "size":  105
+                                                             "sha256":  "f05fbecddf416f4e2a3353349aa8b99cf2d22f4fe7763d0754f48566ce0c5ccf",
+                                                             "size":  94
                                                          },
                   "data/images/mythos/fold_open.png":  {
-                                                           "sha256":  "b1c849aefab991b36aa1d5f0cfedf13ffe0a1b8656e40fd14b1726ea31434094",
-                                                           "size":  102
+                                                           "sha256":  "46d7bdc6be0e9bc9a3adf4499d2d0d4b2fc9697279593869456d21e195c8dd23",
+                                                           "size":  99
                                                        },
                   "data/images/mythos/gem_amethyst.png":  {
-                                                              "sha256":  "97fc9a690c6ee3e6231b365626363b15fd28329d4ee98dce2710243178db201a",
-                                                              "size":  208
+                                                              "sha256":  "aa318c7dc6e12d5cab6d6187aacfb48338fa8928263c58f52811b1ea74138dae",
+                                                              "size":  232
                                                           },
                   "data/images/mythos/gem_gold.png":  {
-                                                          "sha256":  "faaa81b26cc54595b33ed2f2db10bbbaf09ae5b54fcdb15c69babd717330dcd4",
-                                                          "size":  208
+                                                          "sha256":  "e75ecfbb3a9b97bff3d541a582df08564a19a86ace8ddef96049101ff0819a55",
+                                                          "size":  240
                                                       },
                   "data/images/mythos/gem_pearl.png":  {
-                                                           "sha256":  "8d605f77d5dbf6ea6d18d743784775477caad7c890726f6b261bf08654e78643",
-                                                           "size":  209
+                                                           "sha256":  "12e7fd3ce40e238e4ff92ce3cf8eeb19f56eaaa707d76d8481f95d6bbd008671",
+                                                           "size":  228
                                                        },
                   "data/images/mythos/gem_sapphire.png":  {
-                                                              "sha256":  "de6c7cb557385a26e410048d0c0e26c21a6597e5c3af6847f9a8b2f2c6b700d3",
-                                                              "size":  208
+                                                              "sha256":  "3c7e1510ef7ae338a60dfa136e11d6b12b5962061a3891ddafeaa8ae8747d619",
+                                                              "size":  244
                                                           },
                   "data/images/mythos/input.png":  {
-                                                       "sha256":  "fada3a89e0230cef7565ed847fa655993475892595f732bd1bbd61bef5dff684",
-                                                       "size":  136
+                                                       "sha256":  "f5b3c53fcb7ca6fc679100a8336dc5d847831846e61516d76f29c11de6f89a5b",
+                                                       "size":  188
                                                    },
                   "data/images/mythos/input_focus.png":  {
-                                                             "sha256":  "9f94aa5666b0f04afac4c02080b135531eeea0490b0a84331292cc7ab3ecfab3",
-                                                             "size":  127
+                                                             "sha256":  "3775f22add451cb32b1246886a40c8e5b0d58e9f9a5420746b9292c8eda1e2a3",
+                                                             "size":  179
                                                          },
                   "data/images/mythos/notice.png":  {
-                                                        "sha256":  "d29644db2bddbf289917a5c1f4ca87381094d0fb773a366856bffa65b305865c",
-                                                        "size":  148
+                                                        "sha256":  "dc7e3c55fec5f3ce3c8ac1e5bf00466ab1d66cd799565836ba59439213bd0973",
+                                                        "size":  235
                                                     },
                   "data/images/mythos/panel.png":  {
-                                                       "sha256":  "0d48adf0a052068c36af7ce86a3873783f7ac736b2289cd5c7939265f081bcc1",
-                                                       "size":  136
+                                                       "sha256":  "c4783de660478a03859b6fa8fd171908e46591e1a5bba91b8e44084a994652f6",
+                                                       "size":  235
                                                    },
                   "data/images/mythos/panel_on.png":  {
-                                                          "sha256":  "be65dab2b78ea37dea92e32d40435f81e577b8157670e4631375219fc4a05c0a",
-                                                          "size":  132
+                                                          "sha256":  "bb5872b435060d720d34482715a4e804fe8e53f1210a3e24cf90fa93ed7f1488",
+                                                          "size":  224
                                                       },
                   "data/images/mythos/popup.png":  {
-                                                       "sha256":  "e725a95b80899edd12dd6b520702d8a7848d9a5d681d6e3236e9504014f8540d",
-                                                       "size":  132
+                                                       "sha256":  "6dc147366e7af971b1b22ff909efc10267c3ac300e9d8b574f295ac0d171353c",
+                                                       "size":  165
                                                    },
                   "data/images/mythos/scroll_arrows.png":  {
-                                                               "sha256":  "a5c269454c78c0553f649aff87e5f010304a80a4b02fe646ab6eada005605982",
-                                                               "size":  166
+                                                               "sha256":  "73e4becb03c234bcbb1a58252b628be4a42ed1880db1c0c078489c8c62250cda",
+                                                               "size":  247
                                                            },
                   "data/images/mythos/scroll_arrows_h.png":  {
-                                                                 "sha256":  "7cc2c89d358c65f2d2ed76c2bbf738d6c37a69899b3d6173c1438b9a5aca6813",
-                                                                 "size":  144
+                                                                 "sha256":  "aead47b5000c3b03fef0c23a8da70778ea26fd3a546980ceef39a597df69351b",
+                                                                 "size":  231
                                                              },
                   "data/images/mythos/scroll_thumb.png":  {
-                                                              "sha256":  "3bb44ba655a5f0d190cb683352a1535fee2e29aee9ac8292a73c4a6f210f2eab",
-                                                              "size":  116
+                                                              "sha256":  "41b53327243a546e7dcdc2ceaa21efe7f5477dfe36a767520d6747027d25bcd4",
+                                                              "size":  210
                                                           },
                   "data/images/mythos/scroll_thumb_h.png":  {
-                                                                "sha256":  "700f0f38ebdabfcbeb0d4c8e315d3ab2ddf14dcf7dd535f4a552334df7ae06d2",
-                                                                "size":  115
+                                                                "sha256":  "6e048ab1605804da85f322d6c92992f23d92b768ffbf643182fc627897a87944",
+                                                                "size":  198
                                                             },
                   "data/images/mythos/scroll_thumb_h_hover.png":  {
-                                                                      "sha256":  "47931f9057fe62d64049d53459d58366df5eb87a218e9ca19937bf42857d8c69",
-                                                                      "size":  115
+                                                                      "sha256":  "16580e0bc65879b57a8ee04342ffd7902f6f20b315de727161d66e24f20c7929",
+                                                                      "size":  202
                                                                   },
                   "data/images/mythos/scroll_thumb_hover.png":  {
-                                                                    "sha256":  "858c86d519f66c8882490e1e3b6b3a0d9a6599b0237fbf6cdaebe257593a70ed",
-                                                                    "size":  116
+                                                                    "sha256":  "42a4f7c55595ce28f22e7d0eb9c53ca0acb223ebf8b99adfc3421c20be68544e",
+                                                                    "size":  213
                                                                 },
                   "data/images/mythos/scroll_track.png":  {
-                                                              "sha256":  "3e8f6087b3febd2bc062e4ba97ee92e7356d03a89cea0efe7df32f87bf54ab18",
-                                                              "size":  111
+                                                              "sha256":  "684658b47121f8e7079869fa6be57c3e11ffb503bc2568d5f7af1c761ef68776",
+                                                              "size":  135
                                                           },
                   "data/images/mythos/scroll_track_h.png":  {
-                                                                "sha256":  "f78ddf3f4532a2899b0f9725c0c96f01cddfc8885376de320f2427eb0f122cab",
-                                                                "size":  106
+                                                                "sha256":  "fa69aed65ac24ed411b97698946db5e8a52d588599417560723cd78f89a5a803",
+                                                                "size":  134
                                                             },
                   "data/images/mythos/section.png":  {
-                                                         "sha256":  "0e5801abe1c2483b1753dd71dadaefbf19e1a0ba4689a8290671bb3e96a22a0a",
-                                                         "size":  266
+                                                         "sha256":  "13a51edd7ae3c883e74ceb0f765dea7f2f339f66c2298262206c4745f3aece6c",
+                                                         "size":  417
                                                      },
                   "data/images/mythos/tab.png":  {
-                                                     "sha256":  "2677536ea25ac565c6230d4e0da614daed2dbbe3f6a6c16bd08a77408bbc0683",
-                                                     "size":  98
+                                                     "sha256":  "143da6f21453deee97e397bf64d70ff90596420554cb9ff8acfe3eed3b23afd9",
+                                                     "size":  187
                                                  },
                   "data/images/mythos/tab_hover.png":  {
-                                                           "sha256":  "34dc8e1cfd66fe5acdc7c18ef6f9ecdb04a52b74859ac38cc4147eda35e5e907",
-                                                           "size":  142
+                                                           "sha256":  "e252d6f98204d4fe8e78b2f4315b8a81302433895e5ed9f020d9c30fe77a153d",
+                                                           "size":  210
                                                        },
                   "data/images/mythos/tab_on.png":  {
-                                                        "sha256":  "eb6bff3316547901858fc56d74710ed55234706d4c4e756a6e3d01cf30543645",
-                                                        "size":  149
+                                                        "sha256":  "bcdd07afdfe7be4d7809baa6eea48fdb601680d4a588f4e0133823be5763482c",
+                                                        "size":  189
                                                     },
                   "data/images/mythos/well.png":  {
-                                                      "sha256":  "8951708191a08e5e8d40d4dd1702b7e2889e90e7199003ed61559fdb20f3d814",
-                                                      "size":  144
+                                                      "sha256":  "8e15fdc5d48ea2ed85c77f6c5c79f43f6644a3ecc0717d8be1b23f397fc6cf61",
+                                                      "size":  195
                                                   },
                   "data/images/mythos/window.png":  {
-                                                        "sha256":  "de872be13f2c3e71f4ee2310ed37fe9ab431c7acabce3eebd4c23f8ac45dda2e",
-                                                        "size":  24851
+                                                        "sha256":  "ee40fd293de84de24858e50ce611331afd2914f0b528062ff49a760dbc3afdd0",
+                                                        "size":  1150
                                                     },
                   "data/images/options/analyzers.png":  {
                                                             "sha256":  "947451949d2e69a17c1262380e4560b6fe69a63aa187e0992547a1b04276e9c6",
@@ -6936,8 +6940,8 @@
                                                            "size":  21511
                                                        },
                   "data/styles/50-breves.otui":  {
-                                                     "sha256":  "204ce828335d4a6c9604316d5ecba78f662893b2a2aabd454e21b99c18fb5450",
-                                                     "size":  7931
+                                                     "sha256":  "b9db4572552d9fe31d0e4292501cc6605932e055c6d8a5b65da1fab6394f4e23",
+                                                     "size":  7996
                                                  },
                   "data/styles/custom.css":  {
                                                  "sha256":  "8ca26f34bafa4633f850df7e1c9a4a65c61aa14d111bd790b6f1a366d8b7ec1f",
@@ -6960,60 +6964,60 @@
                                                                     "size":  3160
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "00732fc3e97b988b914f0360ff970722275e6789e1ba18d013d19bf7755460d3",
+                                                                  "sha256":  "0c61008b283a52b174a8bf7df3bdc526d7d1e4dd61104a84463acdc252b0f204",
                                                                   "size":  2358
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
                                                                                    },
-                  "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma":  {
-                                                                                       "sha256":  "49b0106934d8b633c06b80b19c39d546fe9a22556d7f6e9af4033dffe50d23fe",
-                                                                                       "size":  107129
+                  "data/things/custom/sprites-grounds-97577950cbce8a85.bmp.lzma":  {
+                                                                                       "sha256":  "97577950cbce8a85f0653754e24c29f9a6c8c5bab535be0bcd1deabfd307d065",
+                                                                                       "size":  107147
                                                                                    },
-                  "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma":  {
-                                                                                     "sha256":  "cfc4e297b4c1ed1442f48fb8c7bb8dd3ee98daa8d1a074aaca27bf5ff4cb382b",
-                                                                                     "size":  2167
+                  "data/things/custom/sprites-items-7a5bd4aa57ac9799.bmp.lzma":  {
+                                                                                     "sha256":  "7a5bd4aa57ac979959f6e57547a9ac7f27067385fa2b316064f43a33150eca08",
+                                                                                     "size":  2171
                                                                                  },
-                  "data/things/custom/sprites-mounts-074a11084c757fb1.bmp.lzma":  {
-                                                                                      "sha256":  "074a11084c757fb1605cf02aa1622c60e892e99b314802ca0c6ba321b36cd5eb",
-                                                                                      "size":  4934
+                  "data/things/custom/sprites-mounts-000497d3e7833fd4.bmp.lzma":  {
+                                                                                      "sha256":  "000497d3e7833fd4a73482d6f7c0c5a3badf213cfc58e96a76a5dfa80cbd1809",
+                                                                                      "size":  4747
                                                                                   },
-                  "data/things/custom/sprites-mounts-1c423efc28b763b7.bmp.lzma":  {
-                                                                                      "sha256":  "1c423efc28b763b78a3bcfef1f266c819a3763d639db55d58057876c3f2c8796",
-                                                                                      "size":  4380
+                  "data/things/custom/sprites-mounts-0d4f422931f6ac72.bmp.lzma":  {
+                                                                                      "sha256":  "0d4f422931f6ac72abb1f282c06ff8366c96b503f9eb7cb2d189e060a14cec61",
+                                                                                      "size":  4392
                                                                                   },
-                  "data/things/custom/sprites-mounts-62ef73f49bdfec51.bmp.lzma":  {
-                                                                                      "sha256":  "62ef73f49bdfec51e1e11a647f047afa99a5aee6d77e110aef401bebc6f49f05",
-                                                                                      "size":  4730
+                  "data/things/custom/sprites-mounts-76f0ee42fbbd1fc3.bmp.lzma":  {
+                                                                                      "sha256":  "76f0ee42fbbd1fc37f96cf974d083d5d3aba4b8a69f73fc0bcd43bcc806a0415",
+                                                                                      "size":  4637
                                                                                   },
-                  "data/things/custom/sprites-mounts-749856eca8feb076.bmp.lzma":  {
-                                                                                      "sha256":  "749856eca8feb076d0203dc374eec0d4061620c1d0e3d3f292f8cf8a8f40adbe",
-                                                                                      "size":  5084
+                  "data/things/custom/sprites-mounts-7af339bb723b93b7.bmp.lzma":  {
+                                                                                      "sha256":  "7af339bb723b93b7b1dd144841ad44b8807c6ffbb4c1e8cbbe7647627571e0f4",
+                                                                                      "size":  5003
                                                                                   },
-                  "data/things/custom/sprites-mounts-804045242e5415b3.bmp.lzma":  {
-                                                                                      "sha256":  "804045242e5415b3d93fe92c7426aeb47d7af7ca56c3d9aba400486fb927733a",
-                                                                                      "size":  4617
+                  "data/things/custom/sprites-mounts-9ee177931caf740d.bmp.lzma":  {
+                                                                                      "sha256":  "9ee177931caf740d16d3588b16a8a72b0704e6286d0a877999e7296ae5beae69",
+                                                                                      "size":  4283
                                                                                   },
-                  "data/things/custom/sprites-mounts-9038832c89232485.bmp.lzma":  {
-                                                                                      "sha256":  "9038832c8923248547381a3d42bc12ad4d54a444848f31766af266dfa94eb98f",
-                                                                                      "size":  4263
+                  "data/things/custom/sprites-mounts-a6211f3b052ecba4.bmp.lzma":  {
+                                                                                      "sha256":  "a6211f3b052ecba415b8c2af18d022b4444cd7a6ccf679c66073a458358aa4d6",
+                                                                                      "size":  5109
                                                                                   },
-                  "data/things/custom/sprites-walls-457a7d5e48466fa2.bmp.lzma":  {
-                                                                                     "sha256":  "457a7d5e48466fa2b72c121913a7068c140e415a205f4c9f21101ccba369c846",
-                                                                                     "size":  951
+                  "data/things/custom/sprites-walls-5eb445f138b21bc2.bmp.lzma":  {
+                                                                                     "sha256":  "5eb445f138b21bc2cf03b7d205cebdf5e5badd432fe3a2234f45cc2d7f428d16",
+                                                                                     "size":  4321
                                                                                  },
-                  "data/things/custom/sprites-walls-e789cf8eb9ec4f9e.bmp.lzma":  {
-                                                                                     "sha256":  "e789cf8eb9ec4f9e4bf209dd8434e381183fa368ac978986c0dfb6bbc6435699",
-                                                                                     "size":  1017
+                  "data/things/custom/sprites-walls-6b1e88b259b3afb5.bmp.lzma":  {
+                                                                                     "sha256":  "6b1e88b259b3afb5bfa3646eb182fc2b3fa58da3961d7876d2e884cd767a4916",
+                                                                                     "size":  1012
                                                                                  },
-                  "data/things/custom/sprites-walls-f3708766ec24957e.bmp.lzma":  {
-                                                                                     "sha256":  "f3708766ec24957ecd3abb2ffe3f36a0b3d7e48e0351497006a0b647e127da28",
-                                                                                     "size":  4268
+                  "data/things/custom/sprites-walls-748c5a2b7194c611.bmp.lzma":  {
+                                                                                     "sha256":  "748c5a2b7194c611a70a938a1ce22f37707f4b298fcef5342ecba87e35e425ea",
+                                                                                     "size":  949
                                                                                  },
                   "icone.ico":  {
-                                    "sha256":  "426a9b83463a2aaa8c9c43b87716d3d6cd4d7b1ecf7f63fbb88131d0dc7c13fe",
-                                    "size":  106011
+                                    "sha256":  "55f5e7a7e01b5372b36a1560b3aa4a27f1d657dd9a3ce87de6ae91943eaca75e",
+                                    "size":  127221
                                 },
                   "init.lua":  {
                                    "sha256":  "c8faa777b1ffb1151fceb2ee58bf7f8389d1cfa5aef8945970d706e885c87184",
@@ -7056,16 +7060,16 @@
                                                                      "size":  2008
                                                                  },
                   "modules/client_background/background.lua":  {
-                                                                   "sha256":  "7605058cf46cf6b54d7085aa5908f1679e949b8a17b61dcd78b9573b2d84b6db",
-                                                                   "size":  2236
+                                                                   "sha256":  "d365a41fc9cb9f317067c6c2e6bc12de8dbb0ff0a3ae5d722897be0c9a080363",
+                                                                   "size":  2972
                                                                },
                   "modules/client_background/background.otmod":  {
                                                                      "sha256":  "18fc0127e49fd380c9d47086ffdda19ee4b03c67432d5f5d34628efbebc53c22",
                                                                      "size":  278
                                                                  },
                   "modules/client_background/background.otui":  {
-                                                                    "sha256":  "ac363740c4b5388fe393412e66ff0d881b7561dd9b9cec6303da8be3b8d83831",
-                                                                    "size":  631
+                                                                    "sha256":  "bd872e4277a4f935d5d83b12320ec3648bd364e71734337f4ad345ff5d5102e4",
+                                                                    "size":  747
                                                                 },
                   "modules/client_bottommenu/bottommenu.lua":  {
                                                                    "sha256":  "1a9cce0429c739fd1dea80441f1fc7ec8e57d74feebd6bcc4e517f8696c5efc5",
@@ -7808,52 +7812,52 @@
                                                                           "size":  238
                                                                       },
                   "modules/game_brevespanel/images/board.png":  {
-                                                                    "sha256":  "c24f8aae051f19f3fbab66006eb3b964c83059e935e3406a8ea16ddd7c47b874",
-                                                                    "size":  169
+                                                                    "sha256":  "e66be68e06848e0a74c06d0076191eb172bafde5caae3d372231a503d950bea8",
+                                                                    "size":  245
                                                                 },
                   "modules/game_brevespanel/images/bonus.png":  {
-                                                                    "sha256":  "ba0e0e257222c1e3a78aeb2fd1e1d018f4a850bdc4a3c95abec87c4b72af27f5",
-                                                                    "size":  242
+                                                                    "sha256":  "e224f7cdd3cf49053d319573f9e8a4320f3885ca65a9a7a50caf1263e14c1839",
+                                                                    "size":  275
                                                                 },
                   "modules/game_brevespanel/images/button.png":  {
-                                                                     "sha256":  "64b641fb8894d9a07853a51df0fc4575e075f949bf974184415adcdfd4fb10a3",
-                                                                     "size":  958
+                                                                     "sha256":  "71a4b66d7fab5acb9e0edb071c142f76d8deb685a967324518e5e9b68ca130d1",
+                                                                     "size":  603
                                                                  },
                   "modules/game_brevespanel/images/healbot.png":  {
-                                                                      "sha256":  "5dd0fd3880eb9384d69adb92c0cabe5e24873cc34b7bc2b9896379631846bb2d",
-                                                                      "size":  111
+                                                                      "sha256":  "7204406633320407a43cc472d039c5cf94bf9990e5522e897294a5625e6e5a58",
+                                                                      "size":  264
                                                                   },
                   "modules/game_brevespanel/images/loot.png":  {
-                                                                   "sha256":  "b5de14ac73271ba0bd3c5741c9fb793bb1d95741ab0ad1cf1e1de3cff762d003",
-                                                                   "size":  300
+                                                                   "sha256":  "0ab6d81e94ed25ab99585f64263d7fc14f6e21dcbdf24020738562abe2f0c2e6",
+                                                                   "size":  254
                                                                },
                   "modules/game_brevespanel/images/messages.png":  {
-                                                                       "sha256":  "f4b9010c3fc2a9fe13021b6f507e245e90eeda84aa990d8217c594c0402adcaf",
-                                                                       "size":  693
+                                                                       "sha256":  "45e33ad014b48d56044477fc43b148569d9cab16d5daa270a221b74bdb6235b7",
+                                                                       "size":  198
                                                                    },
                   "modules/game_brevespanel/images/rarity.png":  {
-                                                                     "sha256":  "cd963e983d7131c5b5c5e933457e27ef2e1b12cd5297ede7ac5208ad04b66a3f",
-                                                                     "size":  227
+                                                                     "sha256":  "ccb0f18da92287aa1a3e74038e4fe06adfb77e9a83cd2a5bf999f27aace9b736",
+                                                                     "size":  274
                                                                  },
                   "modules/game_brevespanel/images/rates.png":  {
-                                                                    "sha256":  "b5b82781781a4dcc4fcc4d1373763b176e9010025180c059de824af3126e3552",
-                                                                    "size":  254
+                                                                    "sha256":  "1fcc74c7c1f84851706794714432522155a45aabd2b3fa0114f773ffcc54425b",
+                                                                    "size":  253
                                                                 },
                   "modules/game_brevespanel/images/tasks.png":  {
-                                                                    "sha256":  "30bf7a1911a0efdfad4f92d8719926a15a3b6bac2ad4ae3cdf196ed69c2433d9",
-                                                                    "size":  206
+                                                                    "sha256":  "f634608d8e62eae7b881eeeea1beeb61291628cf8054b00078c37b2ce96add73",
+                                                                    "size":  274
                                                                 },
                   "modules/game_brevespanel/images/taskshop.png":  {
-                                                                       "sha256":  "a48560681468313acaed6e7416829ac28c2ee2495c248dd69e9e47ffc4a5a444",
-                                                                       "size":  279
+                                                                       "sha256":  "4fb05791169c28bc092b87659e1981bf4d40a6f67596c90dd56d3e9e6de2a7bc",
+                                                                       "size":  251
                                                                    },
                   "modules/game_brevespanel/images/trail.png":  {
-                                                                    "sha256":  "2e504e7176cc3a3622cc95a7b129f71d5222fa4742e1fa4a45b81933d05e8f5b",
-                                                                    "size":  211
+                                                                    "sha256":  "03f4c052b91e734cfacb5a0b3a85938e5909882d7f955d6c800cc4e2adb9bf1d",
+                                                                    "size":  203
                                                                 },
                   "modules/game_brevespanel/images/wiki.png":  {
-                                                                   "sha256":  "ed7c662c1a4914f28047a261d4ad3282172311271f95bb6d1cfe94edc7f19479",
-                                                                   "size":  185
+                                                                   "sha256":  "b5b23fa642e850d01f8807d3ba7c525650d688162b1a06d93e71730fa87f9d7e",
+                                                                   "size":  211
                                                                },
                   "modules/game_bugreport/bugreport.lua":  {
                                                                "sha256":  "dc41b73d1206ba5ea917cb66ec7ba8ec043e99135a0756450aa8dc8b0cd3e2d4",
@@ -8928,8 +8932,8 @@
                                                             "size":  5212
                                                         },
                   "modules/game_healbot/images/button.png":  {
-                                                                 "sha256":  "669419fac25115acad237de0b0c0d1ef1e041dc68aed471b92161718fbb667e4",
-                                                                 "size":  146
+                                                                 "sha256":  "d0d1351dfd2947d8e84becdd2d6f47435d165b609548c2401977b9f17e7d7a2e",
+                                                                 "size":  542
                                                              },
                   "modules/game_healthcircle/game_healthcircle.lua":  {
                                                                           "sha256":  "a27247478c4b9d62f004c21f4858e67f4e01fd0affe623f4aad1448b1e26afe8",
@@ -9208,32 +9212,32 @@
                                                                       "size":  254
                                                                   },
                   "modules/game_huntboard/huntboard.lua":  {
-                                                               "sha256":  "5805f6beab4d857f8f85d8554c1b6092c5919c153fe7815f89e91170638f8d9b",
-                                                               "size":  28308
+                                                               "sha256":  "7ce86b898a0dd1e59e6c7099580abb759eb27aaa560f2582cf95712bb2e296d3",
+                                                               "size":  28430
                                                            },
                   "modules/game_huntboard/huntboard.otui":  {
                                                                 "sha256":  "2111aca850fe7cdc84c9e4a0fad4b63818ba817f3eb413ce31046d4f4b320363",
                                                                 "size":  14819
                                                             },
                   "modules/game_huntboard/images/button.png":  {
-                                                                   "sha256":  "373dc5de049af996648c5d94859fe54bcfe5aec548349344805076bed9b5d756",
-                                                                   "size":  1110
+                                                                   "sha256":  "240afa39312b56a8ac6c6b0186f80b86ee653df75e3a3806241ddfd1aafb9d5b",
+                                                                   "size":  558
                                                                },
                   "modules/game_hunttasks/game_hunttasks.otmod":  {
                                                                       "sha256":  "08983c16a95984cbcc06f3c91a9b3e05a8378cd51801db175b954525c7ebb7ea",
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "365b15e2cde53b2b53b526469eedbf486334b1f58b0d48040ac89481b3af9984",
-                                                               "size":  28946
+                                                               "sha256":  "f1867adae7494d72805649ee8983f3805b3b7bdad89016c1b012884342586994",
+                                                               "size":  29033
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "9f01afa096cac8c5cfc84d246398fd9d52d8c9019d94f9bc0261a256d2b6346f",
                                                                 "size":  12081
                                                             },
                   "modules/game_hunttasks/images/button.png":  {
-                                                                   "sha256":  "dc91b53544462e12cdad8a9ac813e91f4de175273dc8f1ea56aa0e11b8cbee79",
-                                                                   "size":  866
+                                                                   "sha256":  "994a94d24fc4386ec4eb2a1fcef833614e68c2a9f3e8817e840fa5d6ee8b4f88",
+                                                                   "size":  596
                                                                },
                   "modules/game_imbuementtracker/imbuementtracker.lua":  {
                                                                              "sha256":  "bc7330869e1fbf6cca06e2daa3941d58193b5c78360ab450cf7dfff75b40a2e9",
@@ -10080,20 +10084,20 @@
                                                                           "size":  5199
                                                                       },
                   "modules/game_quickloot/images/choose.png":  {
-                                                                   "sha256":  "1c54e425953b66d0d47845277c4061dd24c1c059c0540f4e6a217059e8c689b2",
-                                                                   "size":  3094
+                                                                   "sha256":  "d998b135fbc77cd4e3ddadcc7cd45336277b09da5386c093f9389509051f741c",
+                                                                   "size":  436
                                                                },
                   "modules/game_quickloot/images/container.png":  {
-                                                                      "sha256":  "8ddd939b974bbb04db4ac8d2c36072f0ecc399ffbb7977be1670667b4f848cad",
-                                                                      "size":  250
+                                                                      "sha256":  "c3b8248d004e987ef9c0e231d1848ce6ebacd1167f9d14796158703394053bcc",
+                                                                      "size":  164
                                                                   },
                   "modules/game_quickloot/images/getpremium.png":  {
                                                                        "sha256":  "2b4b35921fd0a45670ed28bd559b9cb15e619978779f955edc3bc6fd22318e68",
                                                                        "size":  34800
                                                                    },
                   "modules/game_quickloot/images/remove.png":  {
-                                                                   "sha256":  "33cbb74f4b1c75f17aa6f4c0151d5bb51458acda80c67c3cadee044c5625f4bb",
-                                                                   "size":  3092
+                                                                   "sha256":  "0da7eb17c2823d9fa2b5cdf421f6203bc839d1bb652fb92e57ecd256f9d173f2",
+                                                                   "size":  440
                                                                },
                   "modules/game_quickloot/quickloot.lua":  {
                                                                "sha256":  "1ae74360c524b564eff02bf93c04a4b8f73426083c8486cdeaca74273fac795a",
@@ -10124,16 +10128,16 @@
                                                                           "size":  256
                                                                       },
                   "modules/game_raritybonus/images/change.png":  {
-                                                                     "sha256":  "7cf2588570b71d22345299458e787694992ee04e69850781eefd5e6f24b7bc57",
-                                                                     "size":  191
+                                                                     "sha256":  "7175284772abac74a860b4c9f9f13dec8a1e9df5484c64bece8cd91b0e6dadcb",
+                                                                     "size":  156
                                                                  },
                   "modules/game_raritybonus/images/improve.png":  {
-                                                                      "sha256":  "0829d9db79cae74a5418f0b02b96860a82275238691f1f22a12cd46201d3c9fa",
-                                                                      "size":  159
+                                                                      "sha256":  "d2fa2f75a7c4de3eea7ee99a9c0863de193d05b9444f69d92cdc3cf8e6788003",
+                                                                      "size":  184
                                                                   },
                   "modules/game_raritybonus/images/reroll.png":  {
-                                                                     "sha256":  "165515ebe61c108aaeff4f50de4433cb281fc7818ab4c38854ce9331c88a38e1",
-                                                                     "size":  168
+                                                                     "sha256":  "fa2422fef3d65cec2449a215a75f80e758ff62e01c8c59e48a5643ecbf18c6b9",
+                                                                     "size":  191
                                                                  },
                   "modules/game_raritybonus/raritybonus.lua":  {
                                                                    "sha256":  "9926e9c3b281471416db4219ecb706bf91be61ed8b3cfa76df399c4a6fe71079",
@@ -10152,8 +10156,8 @@
                                                                             "size":  246
                                                                         },
                   "modules/game_raritymarket/images/button.png":  {
-                                                                      "sha256":  "85302110a6b964792fd86bba8b7f210327e58f2e41f03c8dbc577e37f9e6c9e7",
-                                                                      "size":  2222
+                                                                      "sha256":  "1f9731a19b02529819f2556072981a2d35e160fbb5673339d38936dc87c313cd",
+                                                                      "size":  565
                                                                   },
                   "modules/game_raritymarket/images/frames.png":  {
                                                                       "sha256":  "53405523d0a49f13292f2ff566720f1ad083cdb916fac23e1c8562d19fb59218",
@@ -10988,8 +10992,8 @@
                                                             "size":  224
                                                         },
                   "modules/game_wiki/images/button.png":  {
-                                                              "sha256":  "6b205fd3a5fd6e38f557fcf56e38412b7434fe7d69d38bdfff49fd3a5d5f3be0",
-                                                              "size":  220
+                                                              "sha256":  "4cc2f233cd6c5c4fc6f6de387edbe8d22e950c1090d8f32c32b167ab1c888f28",
+                                                              "size":  443
                                                           },
                   "modules/game_wiki/pages.lua":  {
                                                       "sha256":  "7d874056178fb7509007407f326973175ee5fc13d9b9ae0261ea095fcc5bb630",
@@ -11112,11 +11116,22 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "35a760f36a56066e76f986b778247509f698dbea668f02c71669ca708c17fd8b",
+                                      "sha256":  "2945e7f5d43a17c709ba797c1559e62721a77c038a4c41c79480297567f8567b",
                                       "size":  31
                                   }
               },
     "removed":  [
-                    "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma"
+                    "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma",
+                    "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma",
+                    "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma",
+                    "data/things/custom/sprites-mounts-074a11084c757fb1.bmp.lzma",
+                    "data/things/custom/sprites-mounts-1c423efc28b763b7.bmp.lzma",
+                    "data/things/custom/sprites-mounts-62ef73f49bdfec51.bmp.lzma",
+                    "data/things/custom/sprites-mounts-749856eca8feb076.bmp.lzma",
+                    "data/things/custom/sprites-mounts-804045242e5415b3.bmp.lzma",
+                    "data/things/custom/sprites-mounts-9038832c89232485.bmp.lzma",
+                    "data/things/custom/sprites-walls-457a7d5e48466fa2.bmp.lzma",
+                    "data/things/custom/sprites-walls-e789cf8eb9ec4f9e.bmp.lzma",
+                    "data/things/custom/sprites-walls-f3708766ec24957e.bmp.lzma"
                 ]
 }
