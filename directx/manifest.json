@@ -1,7 +1,7 @@
 {
-    "versao":  20,
+    "versao":  21,
     "canal":  "directx",
-    "data":  "2026-10-12 11:03",
+    "data":  "2026-10-12 11:57",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -500,8 +500,8 @@
                                                                      "size":  3719
                                                                  },
                   "data/images/background.png":  {
-                                                     "sha256":  "edf514a1bfb6ca5bc457939ad00bd35e85c4656a721ec52d8e3a5ee56e50c722",
-                                                     "size":  1396033
+                                                     "sha256":  "d311ea85f3a4c5bd7fa11a2316ae17d027533088f680338ea98ab8418ccb4fbc",
+                                                     "size":  2397270
                                                  },
                   "data/images/bars/horizontal_experience_progressbar_tiny.png":  {
                                                                                       "sha256":  "fdb1b3a0e145fbba42540edff759e2dbfc80d0b29cb8522f219f92ddd3a1eea5",
@@ -6956,20 +6956,20 @@
                                                 "size":  3587
                                             },
                   "data/things/custom/appearances-custom.dat":  {
-                                                                    "sha256":  "d45fd15f7aa5fb8cac59f7225312cdf66eacb9b18afff9f1748b2db606741c35",
-                                                                    "size":  2052
+                                                                    "sha256":  "06a646037f18bde77fd396b74f80d3135b826f0a7b3c71da0c0fc615ed40fcc3",
+                                                                    "size":  3160
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "feb6a6c894bda4c8daf7ec2e6e90c296b77a4e9799343433afe227bb14ae894e",
-                                                                  "size":  1791
+                                                                  "sha256":  "00732fc3e97b988b914f0360ff970722275e6789e1ba18d013d19bf7755460d3",
+                                                                  "size":  2358
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
                                                                                    },
-                  "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma":  {
-                                                                                       "sha256":  "12291796a3a63de50f4d7e3588b352fcd1a3a3200b9dfb802c3224eb02274bc9",
-                                                                                       "size":  42116
+                  "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma":  {
+                                                                                       "sha256":  "49b0106934d8b633c06b80b19c39d546fe9a22556d7f6e9af4033dffe50d23fe",
+                                                                                       "size":  107129
                                                                                    },
                   "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma":  {
                                                                                      "sha256":  "cfc4e297b4c1ed1442f48fb8c7bb8dd3ee98daa8d1a074aaca27bf5ff4cb382b",
@@ -6999,6 +6999,18 @@
                                                                                       "sha256":  "9038832c8923248547381a3d42bc12ad4d54a444848f31766af266dfa94eb98f",
                                                                                       "size":  4263
                                                                                   },
+                  "data/things/custom/sprites-walls-457a7d5e48466fa2.bmp.lzma":  {
+                                                                                     "sha256":  "457a7d5e48466fa2b72c121913a7068c140e415a205f4c9f21101ccba369c846",
+                                                                                     "size":  951
+                                                                                 },
+                  "data/things/custom/sprites-walls-e789cf8eb9ec4f9e.bmp.lzma":  {
+                                                                                     "sha256":  "e789cf8eb9ec4f9e4bf209dd8434e381183fa368ac978986c0dfb6bbc6435699",
+                                                                                     "size":  1017
+                                                                                 },
+                  "data/things/custom/sprites-walls-f3708766ec24957e.bmp.lzma":  {
+                                                                                     "sha256":  "f3708766ec24957ecd3abb2ffe3f36a0b3d7e48e0351497006a0b647e127da28",
+                                                                                     "size":  4268
+                                                                                 },
                   "icone.ico":  {
                                     "sha256":  "426a9b83463a2aaa8c9c43b87716d3d6cd4d7b1ecf7f63fbb88131d0dc7c13fe",
                                     "size":  106011
@@ -11100,11 +11112,11 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "ceea1164cc364dc9558b85092c16281f199b6615a1ccd5f975c850ac09eb9e79",
+                                      "sha256":  "35a760f36a56066e76f986b778247509f698dbea668f02c71669ca708c17fd8b",
                                       "size":  31
                                   }
               },
     "removed":  [
-
+                    "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma"
                 ]
 }
