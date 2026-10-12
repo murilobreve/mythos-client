@@ -1,0 +1,566 @@
+TaskTab < BrevesTab
+  size: 130 24
+  anchors.top: parent.top
+
+// progress bar: dark track, coloured fill, text on top
+TaskBar < UIWidget
+  height: 18
+  background-color: #0f0a19
+  border-width: 1
+  border-color: #3e2d5e
+  phantom: true
+
+  UIWidget
+    id: fill
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    margin: 1
+    width: 1
+    background-color: #4f9e36
+    phantom: true
+
+  Label
+    id: value
+    anchors.fill: parent
+    text-align: center
+    font: verdana-11px-rounded
+    color: #ffffff
+    phantom: true
+
+// the title sits in the section strip, above the padding
+TaskCard < BrevesSection
+  padding: 22 8 8 8
+
+  Label
+    id: title
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: -19
+    height: 14
+    text-align: center
+    font: verdana-11px-monochrome
+    color: #e6e0f2
+
+  BrevesCell
+    id: portrait
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 4
+    size: 84 84
+    phantom: true
+
+  UICreature
+    id: creature
+    anchors.centerIn: portrait
+    size: 80 80
+    creature-size: 80
+    phantom: true
+
+  Label
+    id: name
+    anchors.top: creature.top
+    anchors.left: creature.right
+    anchors.right: parent.right
+    margin-top: 10
+    margin-left: 10
+    height: 16
+    color: #ffffff
+
+  Label
+    id: info
+    anchors.top: name.bottom
+    anchors.left: name.left
+    anchors.right: parent.right
+    margin-top: 4
+    height: 28
+    text-wrap: true
+    font: verdana-11px-monochrome
+    color: #ab9fc6
+
+  Label
+    id: badge
+    anchors.top: info.bottom
+    anchors.left: name.left
+    anchors.right: parent.right
+    margin-top: 4
+    height: 14
+    color: #ffb020
+
+  TaskBar
+    id: bar
+    anchors.top: portrait.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 8
+
+  Label
+    id: reward
+    anchors.top: bar.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 8
+    height: 48
+    text-wrap: true
+    color: #cbc0e0
+
+  Label
+    id: extra
+    anchors.top: reward.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 2
+    height: 30
+    text-wrap: true
+    font: verdana-11px-monochrome
+    color: #9789b3
+
+  MythosPrimaryButton
+    id: action
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    size: 150 24
+
+  MythosButton
+    id: action2
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    size: 150 24
+    visible: false
+
+TrailRow < BrevesRow
+  height: 40
+  padding: 2
+
+  Label
+    id: index
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    width: 34
+    text-align: center
+    color: #9789b3
+    phantom: true
+
+  UICreature
+    id: creature
+    anchors.left: index.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 36 36
+    creature-size: 36
+    phantom: true
+
+  Label
+    id: status
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 6
+    width: 200
+    text-align: right
+    color: #9789b3
+    phantom: true
+
+  Label
+    id: name
+    anchors.top: parent.top
+    anchors.left: creature.right
+    anchors.right: status.left
+    margin-top: 4
+    margin-left: 8
+    height: 14
+    color: #e9e6f0
+    phantom: true
+
+  Label
+    id: info
+    anchors.top: name.bottom
+    anchors.left: name.left
+    anchors.right: name.right
+    margin-top: 3
+    height: 14
+    font: verdana-11px-monochrome
+    color: #9789b3
+    phantom: true
+
+// task shop, drawn like the Store: offer rows on the left, the chosen
+// offer on the right (images from game_store)
+ShopPanelDark < UIWidget
+  image-source: /images/mythos/well
+  image-border: 3
+
+ShopPanelLight < UIWidget
+  image-source: /images/mythos/panel
+  image-border: 4
+
+ShopImageBox < UIWidget
+  border-width: 1
+  border-color: #3e2d5e
+  background-color: #0f0a19
+  phantom: true
+
+  UIItem
+    id: item
+    anchors.centerIn: parent
+    size: 56 56
+    virtual: true
+    phantom: true
+
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    size: 32 32
+    phantom: true
+    visible: false
+
+  UICreature
+    id: creature
+    anchors.centerIn: parent
+    size: 64 64
+    creature-size: 64
+    phantom: true
+    visible: false
+
+// price box with the Hunt Points icon, like the Store's coin box
+ShopPrice < ShopPanelDark
+  size: 104 20
+  phantom: true
+  text-align: center
+  text-offset: -6 0
+  font: verdana-11px-antialised
+  color: #e6e0f2
+  icon: /game_brevespanel/images/tasks
+  icon-align: right
+  icon-offset: -4 0
+
+ShopOffer < ShopPanelLight
+  height: 78
+  focusable: true
+  $hover !focus:
+    image-source: /images/mythos/button_hover
+  $focus:
+    image-source: /images/mythos/panel_on
+
+  ShopImageBox
+    id: image
+    size: 64 64
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin: 7 0 0 7
+
+  Label
+    id: name
+    anchors.top: parent.top
+    anchors.left: image.right
+    anchors.right: parent.right
+    margin: 10 8 0 8
+    text-align: center
+    font: verdana-11px-antialised
+    color: #e6e0f2
+    phantom: true
+
+  Label
+    id: count
+    anchors.left: image.right
+    anchors.verticalCenter: price.verticalCenter
+    margin-left: 12
+    text-auto-resize: true
+    font: verdana-11px-antialised
+    color: #e6e0f2
+    phantom: true
+
+  ShopPrice
+    id: price
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin: 0 8 12 0
+
+ShopDescLine < Label
+  font: verdana-11px-antialised
+  color: #e6e0f2
+  text-wrap: true
+  text-auto-resize: true
+
+TaskList < BrevesList
+  focusable: false
+
+MythosWindow
+  id: huntTasksWindow
+  size: 760 560
+  @onEscape: modules.game_hunttasks.hide()
+
+  TaskTab
+    id: tasksTab
+    anchors.left: parent.left
+    !text: tr('Tasks')
+    @onClick: modules.game_hunttasks.selectTab('tasks')
+
+  TaskTab
+    id: trailTab
+    anchors.left: prev.right
+    margin-left: 4
+    !text: tr('Trilha completa')
+    @onClick: modules.game_hunttasks.selectTab('trail')
+
+  TaskTab
+    id: shopTab
+    anchors.left: prev.right
+    margin-left: 4
+    !text: tr('Loja')
+    @onClick: modules.game_hunttasks.selectTab('shop')
+
+  // the section name when the window opens from a panel row
+  Label
+    id: sectionIntro
+    anchors.left: parent.left
+    anchors.verticalCenter: tasksTab.verticalCenter
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #e6e0f2
+    visible: false
+
+  Label
+    id: points
+    anchors.right: parent.right
+    anchors.verticalCenter: tasksTab.verticalCenter
+    text-auto-resize: true
+    color: #e6e0f2
+
+  MythosSeparator
+    id: topSep
+    anchors.top: tasksTab.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 8
+
+  // ---------------------------------------------------------------- tasks
+  Panel
+    id: tasksPanel
+    anchors.top: topSep.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: message.top
+    margin-top: 8
+    margin-bottom: 6
+
+    TaskCard
+      id: dailyCard
+      anchors.top: parent.top
+      anchors.left: parent.left
+      size: 354 300
+
+    TaskCard
+      id: trailCard
+      anchors.top: parent.top
+      anchors.right: parent.right
+      size: 354 300
+
+    Label
+      id: streakTitle
+      anchors.top: dailyCard.bottom
+      anchors.left: parent.left
+      margin-top: 10
+      text-auto-resize: true
+      font: verdana-11px-monochrome
+      color: #cbc0e0
+
+    Panel
+      id: streakDots
+      anchors.top: streakTitle.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 4
+      height: 22
+      layout:
+        type: horizontalBox
+        spacing: 4
+
+    Label
+      id: help
+      anchors.top: streakDots.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.bottom: parent.bottom
+      margin-top: 8
+      text-wrap: true
+      font: verdana-11px-monochrome
+      color: #9789b3
+
+  // ---------------------------------------------------------------- trail
+  Panel
+    id: trailPanel
+    anchors.fill: tasksPanel
+    visible: false
+
+    Label
+      id: summary
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 30
+      text-wrap: true
+      font: verdana-11px-monochrome
+      color: #cbc0e0
+
+    TaskList
+      id: list
+      anchors.top: summary.bottom
+      anchors.left: parent.left
+      anchors.right: scroll.left
+      anchors.bottom: parent.bottom
+      margin-top: 4
+      vertical-scrollbar: scroll
+
+    MythosScrollBar
+      id: scroll
+      anchors.top: summary.bottom
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      margin-top: 4
+      step: 40
+      pixel-scroll: true
+
+  // ---------------------------------------------------------------- shop
+  Panel
+    id: shopPanel
+    anchors.fill: tasksPanel
+    visible: false
+
+    Label
+      id: summary
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 18
+      font: verdana-11px-antialised
+      color: #f3dcae
+
+    ShopPanelDark
+      id: listBox
+      anchors.top: summary.bottom
+      anchors.left: parent.left
+      anchors.bottom: parent.bottom
+      margin-top: 4
+      width: 330
+      padding: 4
+
+      ScrollablePanel
+        id: list
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: shopScroll.left
+        anchors.bottom: parent.bottom
+        margin-right: 2
+        vertical-scrollbar: shopScroll
+        layout:
+          type: verticalBox
+          spacing: 3
+
+      MythosScrollBar
+        id: shopScroll
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        step: 81
+        pixel-scroll: true
+
+    ShopPanelDark
+      id: details
+      anchors.top: listBox.top
+      anchors.left: listBox.right
+      anchors.right: parent.right
+      anchors.bottom: parent.bottom
+      margin-left: 6
+      padding: 10
+
+      ShopImageBox
+        id: image
+        anchors.top: parent.top
+        anchors.left: parent.left
+        size: 96 96
+
+      Label
+        id: name
+        anchors.top: parent.top
+        anchors.left: image.right
+        anchors.right: parent.right
+        margin-left: 12
+        text-align: center
+        font: verdana-11px-antialised
+        color: #ffffff
+
+      MythosPrimaryButton
+        id: buy
+        anchors.top: name.bottom
+        anchors.horizontalCenter: name.horizontalCenter
+        margin-top: 10
+        size: 120 24
+        !text: tr('Comprar')
+
+      ShopPrice
+        id: price
+        anchors.top: buy.bottom
+        anchors.horizontalCenter: buy.horizontalCenter
+        margin-top: 6
+        width: 120
+
+      MythosComboBox
+        id: options
+        anchors.top: price.bottom
+        anchors.left: image.right
+        anchors.right: parent.right
+        margin-top: 8
+        margin-left: 12
+        height: 20
+        visible: false
+
+      ShopPanelLight
+        id: descBox
+        anchors.top: image.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        margin-top: 40
+        padding: 8
+        layout:
+          type: verticalBox
+          spacing: 4
+
+  Label
+    id: message
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: bottomSep.top
+    margin-bottom: 6
+    height: 16
+    text-align: center
+
+  MythosSeparator
+    id: bottomSep
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: closeButton.top
+    margin-bottom: 8
+
+  Label
+    id: footer
+    anchors.left: parent.left
+    anchors.right: closeButton.left
+    anchors.verticalCenter: closeButton.verticalCenter
+    font: verdana-11px-monochrome
+    color: #9789b3
+
+  MythosButton
+    id: closeButton
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    size: 60 22
+    !text: tr('Fechar')
+    @onClick: modules.game_hunttasks.hide()
+
+StreakDot < UIWidget
+  size: 44 22
+  text-align: center
+  border-width: 1
+  border-color: #3e2d5e
+  background-color: #00000060
+  color: #75688f
