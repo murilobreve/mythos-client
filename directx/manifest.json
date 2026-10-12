@@ -1,7 +1,7 @@
 {
-    "versao":  17,
+    "versao":  18,
     "canal":  "directx",
-    "data":  "2026-10-12 10:07",
+    "data":  "2026-10-12 10:13",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7244,8 +7244,8 @@
                                                               "size":  4508
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "b1d18bb58faf33bf520186a228a6d96d01f74b723f9e372ac5fd05c1ec41322b",
-                                                                    "size":  15962
+                                                                    "sha256":  "7749e4b7295b17f1507e17879c2a673ee2090e4f7a8f4d9ffcd90b510b80cef3",
+                                                                    "size":  17313
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
@@ -11092,7 +11092,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "dd51190f6aa74b35d3e0cd95dbc0f6ed03990c93662ff40e7523fabc12f0a583",
+                                      "sha256":  "612c422ab79e956c2a28c6c48cfdb987aca69fd376c732863292dccb160ad27c",
                                       "size":  31
                                   }
               },
