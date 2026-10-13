@@ -1,7 +1,7 @@
 {
-    "versao":  29,
+    "versao":  30,
     "canal":  "directx",
-    "data":  "2026-10-12 21:39",
+    "data":  "2026-10-12 23:10",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7052,8 +7052,8 @@
                                     "size":  127221
                                 },
                   "init.lua":  {
-                                   "sha256":  "c8faa777b1ffb1151fceb2ee58bf7f8389d1cfa5aef8945970d706e885c87184",
-                                   "size":  6829
+                                   "sha256":  "52a899f25b9ebf70e784ea9b1bb74ff8ac93a5089c2664d56ec132190383e00c",
+                                   "size":  6816
                                },
                   "LEIA-ME.txt":  {
                                       "sha256":  "a386f4ebdb0f56914acb17069e3e008cb78aee7d1c229dc5e2b471ff912874c9",
@@ -10544,8 +10544,8 @@
                                                              "size":  4581
                                                          },
                   "modules/game_store/game_store.lua":  {
-                                                            "sha256":  "587a2fd1f5995895c36429c6109dfa62edfa8fadaaeff5ab8c92970687bf94a9",
-                                                            "size":  51357
+                                                            "sha256":  "cfdd3a94f9777fe9b3f3dd84f87b4e25f25fbb16757d79bd50c359b0edf4b4c6",
+                                                            "size":  51792
                                                         },
                   "modules/game_store/game_store.otmod":  {
                                                               "sha256":  "03c82f2bfa383e581bb8ea3b6c5a18b519f5b85e15f62d6d80965f1a66ae0faa",
@@ -11148,7 +11148,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "bd4e27b72d1c2fdf86dc91be90ccfe17b5fcba356c5dac38bbb1ac5ed391e373",
+                                      "sha256":  "5ceadef57c150ca88c426437af06e3854a05d17ffa1dfb5e621a914bf6a0025b",
                                       "size":  31
                                   }
               },
