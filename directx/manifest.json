@@ -1,7 +1,7 @@
 {
-    "versao":  34,
+    "versao":  35,
     "canal":  "directx",
-    "data":  "2026-10-15 22:01",
+    "data":  "2026-10-16 18:26",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7000,16 +7000,16 @@
                                                                     "size":  3160
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "0c61008b283a52b174a8bf7df3bdc526d7d1e4dd61104a84463acdc252b0f204",
+                                                                  "sha256":  "040037b011f7e5b43f3ce897a32c25d028b839aecb0eb9158cdc2d578116bc13",
                                                                   "size":  2358
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
                                                                                    },
-                  "data/things/custom/sprites-grounds-97577950cbce8a85.bmp.lzma":  {
-                                                                                       "sha256":  "97577950cbce8a85f0653754e24c29f9a6c8c5bab535be0bcd1deabfd307d065",
-                                                                                       "size":  107147
+                  "data/things/custom/sprites-grounds-73fbbd89af11734d.bmp.lzma":  {
+                                                                                       "sha256":  "73fbbd89af11734de283d1fb315ca5598a7e867fbab02c5591f1ff989aacb997",
+                                                                                       "size":  84901
                                                                                    },
                   "data/things/custom/sprites-items-7a5bd4aa57ac9799.bmp.lzma":  {
                                                                                      "sha256":  "7a5bd4aa57ac979959f6e57547a9ac7f27067385fa2b316064f43a33150eca08",
@@ -11188,7 +11188,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "03072acafb3d477a92c5e14ba80a59a8d5402d6c87cae53c5d520fb8ac99d343",
+                                      "sha256":  "67cbac2f61b19527cc984497def2a7449ae06df77e5a5181ff24c6702e5f7408",
                                       "size":  31
                                   }
               },
@@ -11196,6 +11196,7 @@
                     "data/images/mythos/gem_ruby.png",
                     "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma",
                     "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma",
+                    "data/things/custom/sprites-grounds-97577950cbce8a85.bmp.lzma",
                     "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma",
                     "data/things/custom/sprites-mounts-074a11084c757fb1.bmp.lzma",
                     "data/things/custom/sprites-mounts-1c423efc28b763b7.bmp.lzma",
