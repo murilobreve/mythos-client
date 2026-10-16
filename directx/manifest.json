@@ -1,7 +1,7 @@
 {
-    "versao":  33,
+    "versao":  34,
     "canal":  "directx",
-    "data":  "2026-10-13 18:50",
+    "data":  "2026-10-15 22:01",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9272,8 +9272,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "fabd63f4409dc1893ef66b24d8f750189c4e3dd1e09c6e53c58fce6f42385c30",
-                                                               "size":  33072
+                                                               "sha256":  "666480ef5638929606248d1c491e859ed713218efc887d30a318a7496068bc01",
+                                                               "size":  33150
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "6e930c7d1f614266484b7fb14168afb74b7e764053ebee60a777a36465a68703",
@@ -9552,8 +9552,8 @@
                                                                     "size":  1562
                                                                 },
                   "modules/game_modaldialog/modaldialog.lua":  {
-                                                                   "sha256":  "7a4f06ff5119c47996f777722dddf5748205a66b2c606ef87c953229b2063c68",
-                                                                   "size":  8737
+                                                                   "sha256":  "ea52729947bb29e9c390dc1c5886875b7c1c6d6a88a316b142d5483fc859dcc9",
+                                                                   "size":  9447
                                                                },
                   "modules/game_modaldialog/modaldialog.otmod":  {
                                                                      "sha256":  "6aedc2f25675e84b1b473f9152bbba547b282db07d01a7ddd25bd2063c945f31",
@@ -11188,7 +11188,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "198d5361343aa96ff8b613aa5dddeffbf9c0784988d51e6adaf3d8375f5a5868",
+                                      "sha256":  "03072acafb3d477a92c5e14ba80a59a8d5402d6c87cae53c5d520fb8ac99d343",
                                       "size":  31
                                   }
               },
