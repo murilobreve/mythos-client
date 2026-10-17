@@ -1,7 +1,7 @@
 {
-    "versao":  43,
+    "versao":  44,
     "canal":  "directx",
-    "data":  "2026-10-17 14:57",
+    "data":  "2026-10-17 15:27",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7056,20 +7056,20 @@
                                                                     "size":  3790
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "62edd784803d534d5704c08ac76656883ee84be23e31a4e45b4eff1483f2c885",
+                                                                  "sha256":  "1e36c5bb1405bcd5018f43140e46804cbb71c406aeea92d84a90ac15d86d83a8",
                                                                   "size":  2549
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
                                                                                    },
-                  "data/things/custom/sprites-grounds-7a40c87c7f474eee.bmp.lzma":  {
-                                                                                       "sha256":  "7a40c87c7f474eeeed154b4edee96e87fcfe799a8fbe7785e265f1a35961e2f9",
-                                                                                       "size":  61390
+                  "data/things/custom/sprites-grounds-54e0c413a39d3b79.bmp.lzma":  {
+                                                                                       "sha256":  "54e0c413a39d3b7901e39a4cd571223204144f7a602e3c42f13acb2b18e3b35a",
+                                                                                       "size":  34001
                                                                                    },
-                  "data/things/custom/sprites-grounds-b1a1e4af3541a604.bmp.lzma":  {
-                                                                                       "sha256":  "b1a1e4af3541a604967b74be09dd81f402067ec69c55013c5a0d36aec4c310b9",
-                                                                                       "size":  34631
+                  "data/things/custom/sprites-grounds-b2845d4fb864752c.bmp.lzma":  {
+                                                                                       "sha256":  "b2845d4fb864752ce745e0ef28584b232e9d9f8b0a42aefc11129ce8731ac0ee",
+                                                                                       "size":  55810
                                                                                    },
                   "data/things/custom/sprites-items-7a5bd4aa57ac9799.bmp.lzma":  {
                                                                                      "sha256":  "7a5bd4aa57ac979959f6e57547a9ac7f27067385fa2b316064f43a33150eca08",
@@ -11260,7 +11260,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "3dacb4c64917999dbe2c4b2bf8773460b802a28992eabe68e320c085daeec4ae",
+                                      "sha256":  "c2504fa9879177687fbba91f9a7b41f6d14cd8332fdecdc9239c1b355a7ce94f",
                                       "size":  31
                                   }
               },
@@ -11273,7 +11273,9 @@
                     "data/things/custom/sprites-grounds-6141c62da311645c.bmp.lzma",
                     "data/things/custom/sprites-grounds-73fbbd89af11734d.bmp.lzma",
                     "data/things/custom/sprites-grounds-77f4056dac57bc5e.bmp.lzma",
+                    "data/things/custom/sprites-grounds-7a40c87c7f474eee.bmp.lzma",
                     "data/things/custom/sprites-grounds-97577950cbce8a85.bmp.lzma",
+                    "data/things/custom/sprites-grounds-b1a1e4af3541a604.bmp.lzma",
                     "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma",
                     "data/things/custom/sprites-mounts-074a11084c757fb1.bmp.lzma",
                     "data/things/custom/sprites-mounts-1c423efc28b763b7.bmp.lzma",
