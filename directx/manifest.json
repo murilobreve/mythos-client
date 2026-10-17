@@ -1,7 +1,7 @@
 {
-    "versao":  45,
+    "versao":  46,
     "canal":  "directx",
-    "data":  "2026-10-17 16:00",
+    "data":  "2026-10-17 16:14",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7792,8 +7792,8 @@
                                                                "size":  5846
                                                            },
                   "modules/game_battle/battle.lua":  {
-                                                         "sha256":  "0c4b0fa4c8cfa8dd031919c5801b06ce407ba3312548d65b9ad846351ac6fe22",
-                                                         "size":  89638
+                                                         "sha256":  "5ac83252b67ca572e988f15894a788c53edcb33c2d67b37d8cdcae85c51dc5a9",
+                                                         "size":  92319
                                                      },
                   "modules/game_battle/battle.otmod":  {
                                                            "sha256":  "81bf87efff209c90a06795207acc4ca605ee3ad611dcf88952ff27de89b8fa0c",
@@ -11260,7 +11260,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "3341e81569d54714fb64d6b15cabbde73e73c1cee15190d60ac9a9d26fdd86c0",
+                                      "sha256":  "157f84122d9fde026b81ffe1a60a8ac47b428aee65dde3a87f84577f2f9c965c",
                                       "size":  31
                                   }
               },
