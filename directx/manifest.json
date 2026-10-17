@@ -1,7 +1,7 @@
 {
-    "versao":  39,
+    "versao":  40,
     "canal":  "directx",
-    "data":  "2026-10-17 11:21",
+    "data":  "2026-10-17 11:54",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -5488,8 +5488,8 @@
                                                          "size":  417
                                                      },
                   "data/images/mythos/sector.png":  {
-                                                        "sha256":  "40f81eab282fe00e88006a41401c1fb4c7d2ca1ab907827eae17d6c300e4895e",
-                                                        "size":  155
+                                                        "sha256":  "488fb4a5859b4905efbd1895e4f58fef0f20ec9bf80585183bb48d839d6a3597",
+                                                        "size":  162
                                                     },
                   "data/images/mythos/sector_header.png":  {
                                                                "sha256":  "8fabf1ee0bb357ccdf8df436e2a45ebd273394a9a1c6761be2eda1413e820dd7",
@@ -7896,12 +7896,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_brevespanel/brevespanel.lua":  {
-                                                                   "sha256":  "0e2894a8da302181d6b70c68932af7ec500ab0a25b2c1a52ca702699bd3dad81",
-                                                                   "size":  16296
+                                                                   "sha256":  "a3b141116ab811bd3a096f6af67c95e7012f3529823c23b69acfa46e6acaf9ce",
+                                                                   "size":  19527
                                                                },
                   "modules/game_brevespanel/brevespanel.otui":  {
-                                                                    "sha256":  "72d5b935cdecd91de3dd8dc87ed5d199d2476c797181abbf8d75d5130b8aec21",
-                                                                    "size":  8241
+                                                                    "sha256":  "6b73bf47afc475dc1ac8f0e9350e231a3320a3b784c836f153a9512a9c1ea53c",
+                                                                    "size":  8486
                                                                 },
                   "modules/game_brevespanel/game_brevespanel.otmod":  {
                                                                           "sha256":  "3d7a5d23879156750d7b926d240014cc5d872d4ea65ff93a277453072d886bf2",
@@ -11248,7 +11248,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "6a96539e80a209ede929aa9e5e8b1a9f17a20100b0244913b4545cc4ad36d6d1",
+                                      "sha256":  "e9f606ed60cda42f930ac669e03889f493d7481a45bee2c88150eea4d459a48a",
                                       "size":  31
                                   }
               },

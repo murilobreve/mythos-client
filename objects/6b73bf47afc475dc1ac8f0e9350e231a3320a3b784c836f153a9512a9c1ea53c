@@ -1,0 +1,341 @@
+// one button per server feature, in a line under its section's title; its
+// width follows the text (brevespanel.lua), or only the icon on a narrow screen
+BrevesFeatureButton < UIButton
+  height: 20
+  font: verdana-11px-rounded
+  color: #e6e0f2
+  text-align: left
+  text-offset: 23 0
+  change-cursor-image: true
+  cursor: pointer
+  $hover !on:
+    background-color: #f1d39916
+    color: #ffe7b0
+  $pressed:
+    background-color: #f1d39926
+  $on:
+    background-color: #f1d39922
+    color: #f3dcae
+
+  UIWidget
+    id: icon
+    size: 16 16
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    phantom: true
+
+  // a state such as ON / OFF
+  Label
+    id: badge
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 3
+    height: 14
+    text-auto-resize: true
+    text-align: center
+    padding: 1 4 0 4
+    font: verdana-9px-bold
+    border-color: #6a5226
+    phantom: true
+    visible: false
+    $hover:
+      border-color: #f1d399
+
+// the "+N" that rises from a badge when its number goes up
+BrevesGainLabel < Label
+  text-auto-resize: true
+  font: Verdana Bold-11px
+  phantom: true
+  focusable: false
+
+// the VIP button: the site's gold button, at the right end of the bar
+BrevesVipButton < BrevesFeatureButton
+  height: 24
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  font: Verdana Bold-11px
+  color: #fff4d8
+  text-align: center
+  text-offset: 8 1
+  // the site's gold button scaled evenly to 24px (see MythosKitGoldButton28)
+  image-source: /images/mythos/kit_gold_24
+  image-border-left: 18
+  image-border-right: 18
+  $hover !on:
+    image-source: /images/mythos/kit_gold_24_hover
+    background-color: #00000000
+    color: #ffffff
+  $pressed:
+    image-source: /images/mythos/kit_gold_24_pressed
+    background-color: #00000000
+  $on:
+    image-source: /images/mythos/kit_gold_24_pressed
+    background-color: #00000000
+    color: #ffffff
+
+// holds the VIP button at its own 24px height: the bar's line layout would
+// stretch it to the sections' height and repeat the gold art
+BrevesVipHolder < UIWidget
+  phantom: true
+
+// one of the four sections (Tasks, Hunts, Rarity, Tools): a framed block with
+// a gold-trimmed title and its buttons in a line under it
+BrevesSector < UIWidget
+  height: 47
+  image-source: /images/mythos/sector
+  image-border: 4
+  phantom: true
+
+  UIWidget
+    id: header
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 22
+    // the site's dark gold button scaled evenly to 22px, so the trim above
+    // and below stays the same; only the middle stretches sideways
+    image-source: /images/mythos/sector_header
+    image-border-left: 20
+    image-border-right: 20
+    phantom: true
+
+  UIWidget
+    id: icon
+    size: 16 16
+    anchors.left: header.left
+    anchors.verticalCenter: header.verticalCenter
+    margin-left: 18
+    phantom: true
+
+  Label
+    id: title
+    anchors.left: icon.right
+    anchors.verticalCenter: header.verticalCenter
+    margin-left: 6
+    margin-top: 1
+    text-auto-resize: true
+    color: #f1d399
+    ttf-font: cinzel-bold
+    ttf-font-size: 12
+    phantom: true
+
+  UIWidget
+    id: rows
+    anchors.top: header.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin: 2 4 3 4
+    phantom: true
+    layout:
+      type: horizontalBox
+      spacing: 2
+
+// the Mythos bar: over the bottom of the game screen, just above the spell
+// bar, across the width of the map. Its background lets the game show
+// through, and a click off its buttons reaches the map.
+BrevesBar < UIWidget
+  id: brevespanel
+  height: 53
+  background-color: #0d091570
+  border-width-top: 1
+  border-color-top: #6a522699
+  focusable: false
+  phantom: true
+
+  UIWidget
+    id: strip
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 3
+    margin-bottom: 3
+    phantom: true
+    layout:
+      type: horizontalBox
+      spacing: 6
+      fit-children: true
+
+  // starts the Mythos tour again (game_tutorial)
+  // folds the bar to a thin line (open again on every login)
+  UIButton
+    id: collapseButton
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 4
+    margin-left: 4
+    size: 14 14
+    icon-source: /images/mythos/fold_open
+    icon-size: 8 8
+    icon-align: center
+    cursor: pointer
+    !tooltip: tr('Hide the Mythos bar')
+    @onClick: modules.game_brevespanel.toggleCollapsed()
+    $hover:
+      background-color: #f1d39922
+    $on:
+      icon-source: /images/mythos/fold_closed
+
+  // the folded bar: one line, a click anywhere opens it again
+  UIButton
+    id: collapsedLabel
+    anchors.left: collapseButton.right
+    anchors.right: parent.right
+    anchors.verticalCenter: collapseButton.verticalCenter
+    margin-left: 4
+    height: 14
+    text-align: left
+    font: verdana-11px-rounded
+    color: #c9a96a
+    cursor: pointer
+    visible: false
+    !text: tr('Mythos: Tasks, Hunts, Rarity, Tools and VIP. Click to open.')
+    @onClick: modules.game_brevespanel.toggleCollapsed()
+    $hover:
+      color: #ffe7b0
+
+  // on the left corner, under the fold button, clear of the VIP button
+  UIButton
+    id: tutorialButton
+    anchors.left: parent.left
+    anchors.top: collapseButton.bottom
+    margin-top: 4
+    margin-left: 5
+    size: 12 14
+    text: ?
+    font: verdana-11px-rounded
+    color: #8a7650
+    cursor: pointer
+    !tooltip: tr('Tutorial: a quick tour of Mythos')
+    @onClick: if modules.game_tutorial then modules.game_tutorial.start() end
+    $hover:
+      color: #ffe7b0
+
+// ---------------------------------------------------------------- news window
+
+BrevesNewsRow < UIWidget
+  height: 62
+
+  UIWidget
+    id: icon
+    size: 32 32
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 4
+    phantom: true
+
+  Label
+    id: name
+    anchors.left: icon.right
+    anchors.top: parent.top
+    margin-left: 10
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #f3dcae
+
+  Label
+    id: text
+    anchors.left: name.left
+    anchors.right: open.left
+    anchors.top: name.bottom
+    margin-top: 3
+    margin-right: 10
+    text-wrap: true
+    text-auto-resize: true
+    font: verdana-11px-monochrome
+    color: #cbc0e0
+
+  MythosButton
+    id: open
+    anchors.right: parent.right
+    anchors.top: parent.top
+    margin-top: 8
+    size: 60 22
+    !text: tr('Open')
+
+BrevesNewsWindow < MythosWindow
+  id: brevesNewsWindow
+  !text: tr('New on Mythos')
+  size: 470 440
+  @onEscape: modules.game_brevespanel.hideNews()
+
+  Label
+    id: intro
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-wrap: true
+    text-auto-resize: true
+    font: verdana-11px-monochrome
+    color: #e6e0f2
+    !text: tr('The server has new systems. They are all in the Mythos bar, under the game screen and above your spells.')
+
+  MythosSeparator
+    id: topSep
+    anchors.top: intro.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 8
+
+  UIWidget
+    id: rows
+    anchors.top: topSep.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: bottomSep.top
+    margin-top: 8
+    layout:
+      type: verticalBox
+      spacing: 4
+
+  MythosSeparator
+    id: bottomSep
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: closeButton.top
+    margin-bottom: 8
+
+  MythosButton
+    id: closeButton
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    size: 60 22
+    !text: tr('Close')
+    @onClick: modules.game_brevespanel.hideNews()
+
+// a small notice over the top right corner of the game screen; it never takes
+// the focus, so walking and hotkeys keep working
+BrevesNotice < MythosBox
+  width: 250
+  height: 72
+  padding: 10 8 8 10
+
+  Label
+    id: text
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-wrap: true
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #e9e6f0
+    phantom: true
+
+  MythosPrimaryButton
+    id: openButton
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    width: 86
+    height: 20
+    focusable: false
+
+  MythosButton
+    id: closeButton
+    !text: tr('Later')
+    anchors.right: openButton.left
+    anchors.bottom: parent.bottom
+    margin-right: 6
+    width: 60
+    height: 20
+    focusable: false
