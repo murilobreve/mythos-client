@@ -1,7 +1,7 @@
 {
-    "versao":  40,
+    "versao":  41,
     "canal":  "directx",
-    "data":  "2026-10-17 11:54",
+    "data":  "2026-10-17 12:18",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7896,12 +7896,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_brevespanel/brevespanel.lua":  {
-                                                                   "sha256":  "a3b141116ab811bd3a096f6af67c95e7012f3529823c23b69acfa46e6acaf9ce",
-                                                                   "size":  19527
+                                                                   "sha256":  "9a174deadfcc920e0d8118e898c49b5a425a4d1eefd48c933d6a490c5484c9eb",
+                                                                   "size":  22069
                                                                },
                   "modules/game_brevespanel/brevespanel.otui":  {
-                                                                    "sha256":  "6b73bf47afc475dc1ac8f0e9350e231a3320a3b784c836f153a9512a9c1ea53c",
-                                                                    "size":  8486
+                                                                    "sha256":  "a802358455ff2a8ceee3f923f83b69e88b103e572a0248c7e7819362a08e51f7",
+                                                                    "size":  9483
                                                                 },
                   "modules/game_brevespanel/game_brevespanel.otmod":  {
                                                                           "sha256":  "3d7a5d23879156750d7b926d240014cc5d872d4ea65ff93a277453072d886bf2",
@@ -9332,8 +9332,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "666480ef5638929606248d1c491e859ed713218efc887d30a318a7496068bc01",
-                                                               "size":  33150
+                                                               "sha256":  "ff64f0d583fde086c872526a8f770ea6b16a83db32b7d3291fdacae75f19e4fb",
+                                                               "size":  34696
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "6e930c7d1f614266484b7fb14168afb74b7e764053ebee60a777a36465a68703",
@@ -11248,7 +11248,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "e9f606ed60cda42f930ac669e03889f493d7481a45bee2c88150eea4d459a48a",
+                                      "sha256":  "2f010e8ea3f6609742711257eb2cd1ba1e1d1a16a1de60342cfac5dfa715158f",
                                       "size":  31
                                   }
               },
