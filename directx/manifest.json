@@ -1,7 +1,7 @@
 {
-    "versao":  37,
+    "versao":  38,
     "canal":  "directx",
-    "data":  "2026-10-16 19:23",
+    "data":  "2026-10-17 10:41",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -5359,6 +5359,22 @@
                                                           "sha256":  "dfe188b712d516483735d5628b7a1918bf3eb68e2e2985c2693d49bd1c8c9f3b",
                                                           "size":  8949
                                                       },
+                  "data/images/mythos/kit_dark_28.png":  {
+                                                             "sha256":  "c787e9171243e68e87a0fb7d0fed189eef401a57047c5969a142ecc8ddb2970c",
+                                                             "size":  7434
+                                                         },
+                  "data/images/mythos/kit_dark_28_disabled.png":  {
+                                                                      "sha256":  "d09842996a9c3ba3775dea33b28f35c086f4e869e8d9cc6279b7b637affbc04a",
+                                                                      "size":  6548
+                                                                  },
+                  "data/images/mythos/kit_dark_28_hover.png":  {
+                                                                   "sha256":  "4bb2e970a4c9e7c57de97d650c9e4171796b583164d854d4b0c1e0b8c92850b2",
+                                                                   "size":  7842
+                                                               },
+                  "data/images/mythos/kit_dark_28_pressed.png":  {
+                                                                     "sha256":  "5c226f0e6db0fe174c1c5262a5e3b5b0e00fc6c463943d52003de92410395013",
+                                                                     "size":  7229
+                                                                 },
                   "data/images/mythos/kit_dark_disabled.png":  {
                                                                    "sha256":  "eca2e4a86405f22a74e57cd4dece691df374560283acbf5b11c9064cc26863a1",
                                                                    "size":  7800
@@ -5375,6 +5391,38 @@
                                                           "sha256":  "da221e69d8b085e0dad295078047b6ae6f3f399bb82c184e115a7c87ee174b56",
                                                           "size":  15369
                                                       },
+                  "data/images/mythos/kit_gold_24.png":  {
+                                                             "sha256":  "44e775c825e1bc6669fab51a4391da67dee429cc5ae089c1941cab9cffdd42ab",
+                                                             "size":  5910
+                                                         },
+                  "data/images/mythos/kit_gold_24_disabled.png":  {
+                                                                      "sha256":  "df1c6dd99d373e9ade28293b09524e1534e2cddbf9e5d137f0c558d8aa339b2b",
+                                                                      "size":  5176
+                                                                  },
+                  "data/images/mythos/kit_gold_24_hover.png":  {
+                                                                   "sha256":  "0f920ea05c2901ede6c07436731b3d7250659516aefd4dbee6f6ad0b1dad3cdf",
+                                                                   "size":  6056
+                                                               },
+                  "data/images/mythos/kit_gold_24_pressed.png":  {
+                                                                     "sha256":  "c476d7a0e4a2785c705c3a9460a26d4f3729a0c2c776d43f32586ecbe9aa2472",
+                                                                     "size":  5746
+                                                                 },
+                  "data/images/mythos/kit_gold_28.png":  {
+                                                             "sha256":  "b9a8926945f5718e05099d70b32e44883034052e5cf368624f6ce7ddb38586fc",
+                                                             "size":  7788
+                                                         },
+                  "data/images/mythos/kit_gold_28_disabled.png":  {
+                                                                      "sha256":  "ddd26597d091fa7ef48ec1f241775d48d9e55810938ab07919d796b17e34c79f",
+                                                                      "size":  6874
+                                                                  },
+                  "data/images/mythos/kit_gold_28_hover.png":  {
+                                                                   "sha256":  "8b90e7be46b5f995205f0d9f4d744c8daed1078f4f2525cdabad427de6bd383d",
+                                                                   "size":  7969
+                                                               },
+                  "data/images/mythos/kit_gold_28_pressed.png":  {
+                                                                     "sha256":  "59bd8be90dc832240de4df71617e17d81d29bf8d056bd484dabaaf19df50ff40",
+                                                                     "size":  7579
+                                                                 },
                   "data/images/mythos/kit_gold_disabled.png":  {
                                                                    "sha256":  "7aa687a53ea8caf0debe15fff7dd456eb88030cdf02cbb95c3ffc46a17a071a6",
                                                                    "size":  13379
@@ -5439,6 +5487,14 @@
                                                          "sha256":  "13a51edd7ae3c883e74ceb0f765dea7f2f339f66c2298262206c4745f3aece6c",
                                                          "size":  417
                                                      },
+                  "data/images/mythos/sector.png":  {
+                                                        "sha256":  "40f81eab282fe00e88006a41401c1fb4c7d2ca1ab907827eae17d6c300e4895e",
+                                                        "size":  155
+                                                    },
+                  "data/images/mythos/sector_header.png":  {
+                                                               "sha256":  "8fabf1ee0bb357ccdf8df436e2a45ebd273394a9a1c6761be2eda1413e820dd7",
+                                                               "size":  4865
+                                                           },
                   "data/images/mythos/tab.png":  {
                                                      "sha256":  "143da6f21453deee97e397bf64d70ff90596420554cb9ff8acfe3eed3b23afd9",
                                                      "size":  187
@@ -6808,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "6ed5eb714b609da922edc5b5ebef639f4ec5494bb6e7fdb0296ceda9631bc75a",
-                                              "size":  61961
+                                              "sha256":  "2ba90dcdea72390d6e42bcff2031e816a3b93b3592fd62594515088b9f210143",
+                                              "size":  61909
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -6976,8 +7032,8 @@
                                                            "size":  21511
                                                        },
                   "data/styles/50-breves.otui":  {
-                                                     "sha256":  "e791a260873d688f55b2edc0b6024db8b4b3b93ebef2bb7dca71c0fe8e9dd71e",
-                                                     "size":  9224
+                                                     "sha256":  "2fc47087fff44966b7f15555cf550da003ccb28677a16b150d02b04268686ffa",
+                                                     "size":  10171
                                                  },
                   "data/styles/custom.css":  {
                                                  "sha256":  "8ca26f34bafa4633f850df7e1c9a4a65c61aa14d111bd790b6f1a366d8b7ec1f",
@@ -6996,20 +7052,24 @@
                                                 "size":  3587
                                             },
                   "data/things/custom/appearances-custom.dat":  {
-                                                                    "sha256":  "cf820fb4de8253883fbbee291b941e6dec7a752078ecc4bf885f64d8ae25d8ce",
-                                                                    "size":  3400
+                                                                    "sha256":  "7fed7bdee4b4cd122a374616e359b4930c78390f4af9eb4271573495259ee9c5",
+                                                                    "size":  3790
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "ee8cfdf825e6d2d1c71d69f39915789b39fb6a8ff228899577d635674f0495ee",
-                                                                  "size":  2358
+                                                                  "sha256":  "e6a6663b5093cee3c53ab0c73caf9e410894b3d5fe01a0df0e2f48a49eb3e1eb",
+                                                                  "size":  2549
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
                                                                                        "size":  864
                                                                                    },
-                  "data/things/custom/sprites-grounds-541bc979b902ff1a.bmp.lzma":  {
-                                                                                       "sha256":  "541bc979b902ff1ab9c9f74cdc11b4f7369c18a054a73c4a3258018abd467906",
-                                                                                       "size":  62685
+                  "data/things/custom/sprites-grounds-6141c62da311645c.bmp.lzma":  {
+                                                                                       "sha256":  "6141c62da311645c2585c81c4d98dbd6f7d532602877311edac8f1d0dba7fe26",
+                                                                                       "size":  29651
+                                                                                   },
+                  "data/things/custom/sprites-grounds-77f4056dac57bc5e.bmp.lzma":  {
+                                                                                       "sha256":  "77f4056dac57bc5ed27d56e8b9ab42a994330214c98d6a0f6478aa076b76f8a2",
+                                                                                       "size":  36879
                                                                                    },
                   "data/things/custom/sprites-items-7a5bd4aa57ac9799.bmp.lzma":  {
                                                                                      "sha256":  "7a5bd4aa57ac979959f6e57547a9ac7f27067385fa2b316064f43a33150eca08",
@@ -7136,8 +7196,8 @@
                                                                      "size":  35060
                                                                  },
                   "modules/client_entergame/characterlist.otui":  {
-                                                                      "sha256":  "8c5e8a648d6e4ae4757f7f287b1bb3759f89fce67e6d178b382bd192f9c5b212",
-                                                                      "size":  18483
+                                                                      "sha256":  "074654c5fc22d2bea50e29deb72fd18fe392d85a27e7f3783fa23007275d7d31",
+                                                                      "size":  18489
                                                                   },
                   "modules/client_entergame/crashreport.lua":  {
                                                                    "sha256":  "4994ea4b045e8d344004095c5360b496d42956203ffb8badbad9325422306d1f",
@@ -7836,12 +7896,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_brevespanel/brevespanel.lua":  {
-                                                                   "sha256":  "bc90a6b5287268c5748b1f0b6e4dad6ea26dad4a56fc5809cc389f553d4a24d4",
-                                                                   "size":  19748
+                                                                   "sha256":  "4b02263d6d09cf9d685ca6ace8a8e6fb2d84d8c37a8c4a6fe6ce8c7a74ab5dec",
+                                                                   "size":  14430
                                                                },
                   "modules/game_brevespanel/brevespanel.otui":  {
-                                                                    "sha256":  "4ecc0d1a48100fac529d2a2f57f43c529dad239da36fd31da388bb2af6cbf3ac",
-                                                                    "size":  6364
+                                                                    "sha256":  "e842a579d8a5b8f2913eb04c78c65343248af34d30f5e90f65a061c2baffc643",
+                                                                    "size":  6962
                                                                 },
                   "modules/game_brevespanel/game_brevespanel.otmod":  {
                                                                           "sha256":  "3d7a5d23879156750d7b926d240014cc5d872d4ea65ff93a277453072d886bf2",
@@ -10940,12 +11000,12 @@
                                                                     "size":  231
                                                                 },
                   "modules/game_tutorial/tutorial.lua":  {
-                                                             "sha256":  "5a557f6b63d1efccb21df28bb4c6033517c2fa9154acc8dd8806ef9fcb9fb6f0",
-                                                             "size":  7879
+                                                             "sha256":  "f8dcb42bdc5d9eea06137ff9c0efad72a43d477bbd6a238264d610d628a3eef8",
+                                                             "size":  7855
                                                          },
                   "modules/game_tutorial/tutorial.otui":  {
-                                                              "sha256":  "aa53e2e9b805f5ff1054315e859af0b9a932345b331faccc067b8a53864f100e",
-                                                              "size":  1924
+                                                              "sha256":  "ab1c7e1fb6ef1ee0e31984e7e095c78e12e8cc5c1fcbcf6df8907bd6571a8f23",
+                                                              "size":  1928
                                                           },
                   "modules/game_unjustifiedpoints/unjustifiedpoints.lua":  {
                                                                                "sha256":  "68e4a6f053183f25d13109ecc0ada599bd3905be8a8ee553e619da6fc29684d6",
@@ -11188,7 +11248,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "e5f21c60037c7ec039e891f80180e8606a5e180ad8dc300104b6723e1f9c21c8",
+                                      "sha256":  "d54b065bad994f623ee6f512044cbb868e548d6ba7abc859d4aa74f41635dc43",
                                       "size":  31
                                   }
               },
@@ -11197,6 +11257,7 @@
                     "data/things/custom/sprites-grounds-061856b8e6d90ecf.bmp.lzma",
                     "data/things/custom/sprites-grounds-12291796a3a63de5.bmp.lzma",
                     "data/things/custom/sprites-grounds-49b0106934d8b633.bmp.lzma",
+                    "data/things/custom/sprites-grounds-541bc979b902ff1a.bmp.lzma",
                     "data/things/custom/sprites-grounds-73fbbd89af11734d.bmp.lzma",
                     "data/things/custom/sprites-grounds-97577950cbce8a85.bmp.lzma",
                     "data/things/custom/sprites-items-cfc4e297b4c1ed14.bmp.lzma",
