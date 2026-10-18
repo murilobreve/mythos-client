@@ -1,7 +1,7 @@
 {
-    "versao":  46,
+    "versao":  47,
     "canal":  "directx",
-    "data":  "2026-10-17 16:14",
+    "data":  "2026-10-18 17:20",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -10432,8 +10432,8 @@
                                                             "size":  666
                                                         },
                   "modules/game_shaders/shaders.lua":  {
-                                                           "sha256":  "04773a6d275f4c1bd58ac5e2231aea608c54d063c2379fc8b328b3e3153dcb38",
-                                                           "size":  8297
+                                                           "sha256":  "0d9ff738d7d1fb6c67a833e8d58a26d5f210d32bd6c666d275ba67bcff6fe3fa",
+                                                           "size":  9380
                                                        },
                   "modules/game_shaders/shaders.otmod":  {
                                                              "sha256":  "542c82194d1fa74d39f0d3e29432e48f419b7f35efbc71ff1c624ea0e1d2eb8e",
@@ -10535,6 +10535,38 @@
                                                                                  "sha256":  "29545e18c54bbaf4d88413a5104849e0b81fe8a0fc78fbd42022518efecc9e4f",
                                                                                  "size":  1539
                                                                              },
+                  "modules/game_shaders/shaders/fragment/rarity_revive_ashen.frag":  {
+                                                                                         "sha256":  "090e05e73756e9c7168b4a5d4f720e8f16b18f9884cce1236b6bea5cb77e847b",
+                                                                                         "size":  1850
+                                                                                     },
+                  "modules/game_shaders/shaders/fragment/rarity_revive_lord_of_death.frag":  {
+                                                                                                 "sha256":  "5ac03209a93ccc01bd86ce164ad1d7c6e455128ddeea8cd1a3748e00ac114bfb",
+                                                                                                 "size":  1895
+                                                                                             },
+                  "modules/game_shaders/shaders/fragment/rarity_revive_obsidian.frag":  {
+                                                                                            "sha256":  "f1f0e24f9012ce8bc3a59ca7fa92997f0503dd5b9841275a3cf1251db60d506f",
+                                                                                            "size":  1904
+                                                                                        },
+                  "modules/game_shaders/shaders/fragment/rarity_revive_pale.frag":  {
+                                                                                        "sha256":  "de1d09ba9a831098d32ee344abcdd756b6e5e67caf71ccad2ee0eccdedd70ba9",
+                                                                                        "size":  1609
+                                                                                    },
+                  "modules/game_shaders/shaders/fragment/rarity_rise_ashen.frag":  {
+                                                                                       "sha256":  "564128ab87fffe2891a1e1183d4a7a3745d03005f4b9707e39b47a892aaf7a87",
+                                                                                       "size":  1349
+                                                                                   },
+                  "modules/game_shaders/shaders/fragment/rarity_rise_lord_of_death.frag":  {
+                                                                                               "sha256":  "e22c3cc8de7233c932064b268033aa0b2bfea70572bf410c334645ba50ee31ae",
+                                                                                               "size":  1306
+                                                                                           },
+                  "modules/game_shaders/shaders/fragment/rarity_rise_obsidian.frag":  {
+                                                                                          "sha256":  "6253fccd116ee5cdb61b18de85b745736e51185c4c9f7541779b9309b0dd2d49",
+                                                                                          "size":  1539
+                                                                                      },
+                  "modules/game_shaders/shaders/fragment/rarity_rise_pale.frag":  {
+                                                                                      "sha256":  "3c963bac48e882838b6f1cc8a2be1b8d8864975381f340d9853d03d13c733e6d",
+                                                                                      "size":  1194
+                                                                                  },
                   "modules/game_shaders/shaders/fragment/rarity_uncommon.frag":  {
                                                                                      "sha256":  "60e9de6e1176a173476e089deee36f3deaf0e81cd6c7b049da37c6f18492cd83",
                                                                                      "size":  1537
@@ -11260,7 +11292,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "157f84122d9fde026b81ffe1a60a8ac47b428aee65dde3a87f84577f2f9c965c",
+                                      "sha256":  "6893a3bde5f15f2d49cb83f4322ac8ab128224602ef0db2813620fd98cce62c9",
                                       "size":  31
                                   }
               },
