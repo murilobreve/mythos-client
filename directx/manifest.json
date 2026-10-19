@@ -1,7 +1,7 @@
 {
-    "versao":  51,
+    "versao":  52,
     "canal":  "directx",
-    "data":  "2026-10-19 15:25",
+    "data":  "2026-10-19 15:41",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9544,8 +9544,8 @@
                                                                    "size":  4329
                                                                },
                   "modules/game_itemcard/itemcard.lua":  {
-                                                             "sha256":  "98ab748782b06fcadd4f8e67738e646615db2b79631ed690447094275909e73a",
-                                                             "size":  20032
+                                                             "sha256":  "a97508807f69bd3de862aec52ec1654b4134b7d5c84d72127ff184b3b035dbb2",
+                                                             "size":  20762
                                                          },
                   "modules/game_itemcard/itemcard.otui":  {
                                                               "sha256":  "f4ecc54fcd1737dab49f3b73033c414a3ab9c40fd48a7a03f9d2751f624bda41",
@@ -11328,7 +11328,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "6c8d87a40e1230dc82f0e32559b502199cdf8754faa8a7ae520315bdabff62f1",
+                                      "sha256":  "ac5961d94936d313b5de81352642bbc9047c91d0b25650110c4dad5ebc5edc81",
                                       "size":  31
                                   }
               },
