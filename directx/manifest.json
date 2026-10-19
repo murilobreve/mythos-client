@@ -1,7 +1,7 @@
 {
-    "versao":  52,
+    "versao":  53,
     "canal":  "directx",
-    "data":  "2026-10-19 15:41",
+    "data":  "2026-10-19 17:37",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "848c9f1ef60583aa19e345ac351a439e3d7b19ce72c19842a884d2b3e1f3569a",
-                                              "size":  70687
+                                              "sha256":  "45f914339fa83d1d5471e7a616fd2980da58bfe83d6e048e8c970eb8f6693f21",
+                                              "size":  71761
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -7792,12 +7792,12 @@
                                                                               "size":  826
                                                                           },
                   "modules/game_attachedeffects/effects.lua":  {
-                                                                   "sha256":  "678dbd9ab150c3e8aace7201e85193e7b0fde49eed16137f8dda7172503397bc",
-                                                                   "size":  5025
+                                                                   "sha256":  "cdf527739be4f5f62a898d72340611c7ff5679fdb4bb6e4a071d84822f72cdda",
+                                                                   "size":  7006
                                                                },
                   "modules/game_attachedeffects/lib.lua":  {
-                                                               "sha256":  "7599f9f5137d3bdb0742323b0cddeba9587d1999f0bc3f32c86a7689898cae45",
-                                                               "size":  5846
+                                                               "sha256":  "aac7ad182e0c0422d424118311485445e4a30f47abb5705cd0888f1a760e1592",
+                                                               "size":  5869
                                                            },
                   "modules/game_battle/battle.lua":  {
                                                          "sha256":  "5ac83252b67ca572e988f15894a788c53edcb33c2d67b37d8cdcae85c51dc5a9",
@@ -8923,6 +8923,18 @@
                                                                "sha256":  "caf9727c9c59741eef101c7971be15b75191d40d6d6168b300ee2cf5c03f473b",
                                                                "size":  191
                                                            },
+                  "modules/game_feedback/feedback.lua":  {
+                                                             "sha256":  "c684d22292831021d9917d15796205b2b10d7de4325ff7ae5c76b7201a321be5",
+                                                             "size":  6362
+                                                         },
+                  "modules/game_feedback/feedback.otui":  {
+                                                              "sha256":  "8d1f93efe0f6ceacbc0bebe44ff70525a48329fcd3b42a6b0ebba965289036ef",
+                                                              "size":  2914
+                                                          },
+                  "modules/game_feedback/game_feedback.otmod":  {
+                                                                    "sha256":  "6d38573be6901a7c2c8c225d903ba88ff61347b5bf94f281c790f1b30696812f",
+                                                                    "size":  273
+                                                                },
                   "modules/game_forge/game_forge.css":  {
                                                             "sha256":  "e7f12027926a5f01a852ae06a9144af027a8d181696337b0bf39215bcf12c3eb",
                                                             "size":  10249
@@ -9500,8 +9512,8 @@
                                                                     "size":  9605
                                                                 },
                   "modules/game_interface/interface.otmod":  {
-                                                                 "sha256":  "ccb605824448120fe8bc3054ec429c7d216ed72181378dc0a7e5795514c3301a",
-                                                                 "size":  1632
+                                                                 "sha256":  "861e5dbb566154d636341678b340477f214e5c8547ed4d5cd0d7e29ae2cb113a",
+                                                                 "size":  1652
                                                              },
                   "modules/game_interface/styles/countStashWindow.otui":  {
                                                                               "sha256":  "b4a4304eb2c1eb10526e89ffbc632276cb78c3930d5333cb823f48411b69db28",
@@ -10287,26 +10299,78 @@
                                                                      "sha256":  "fa2422fef3d65cec2449a215a75f80e758ff62e01c8c59e48a5643ecbf18c6b9",
                                                                      "size":  191
                                                                  },
-                  "modules/game_raritybonus/images/revive_glow.png":  {
-                                                                          "sha256":  "4666af02c5cf03be003760d5c7cdd64103b51b88b086bab1fc48f1c475051967",
-                                                                          "size":  4437
-                                                                      },
-                  "modules/game_raritybonus/images/revive_ring.png":  {
-                                                                          "sha256":  "13ec3935647ce5e6ddfdc5ccd65f67a8bad490c252378b48bf047c292641ae7f",
-                                                                          "size":  11307
-                                                                      },
+                  "modules/game_raritybonus/images/revive/ashen/revive_ashen_ar.png":  {
+                                                                                           "sha256":  "99895ad814a7469e0ce697e21b6b5d2d9ab7c473346c9952446eff1f1100491d",
+                                                                                           "size":  59655
+                                                                                       },
+                  "modules/game_raritybonus/images/revive/ashen/revive_ashen_aura.png":  {
+                                                                                             "sha256":  "d52fdd39ec6b5877b689e9c7c572ef9b449776fc3c3bc76436ef42fa81c4ea1e",
+                                                                                             "size":  55221
+                                                                                         },
+                  "modules/game_raritybonus/images/revive/ashen/revive_ashen_chao.png":  {
+                                                                                             "sha256":  "aaeb9073539ae7c5764a8c06f5ae901d8024324110592a1eae87fd2969176e96",
+                                                                                             "size":  44187
+                                                                                         },
+                  "modules/game_raritybonus/images/revive/ashen/revive_ashen_eclosao.png":  {
+                                                                                                "sha256":  "5c7eb2a0214efb059732de2460fa2cbe33e021d19dca6eb1b7990062007678fe",
+                                                                                                "size":  50151
+                                                                                            },
+                  "modules/game_raritybonus/images/revive/lord-of-death/revive_lord-of-death_ar.png":  {
+                                                                                                           "sha256":  "9a0c9719cc584a5e41a5aa2e54f40b497788c52617c3308d68a81f0a988566f3",
+                                                                                                           "size":  52700
+                                                                                                       },
+                  "modules/game_raritybonus/images/revive/lord-of-death/revive_lord-of-death_aura.png":  {
+                                                                                                             "sha256":  "c4b78036abb64046975c8dc7cefb9114707791068b5c84af1992dc4efaaa2b02",
+                                                                                                             "size":  46476
+                                                                                                         },
+                  "modules/game_raritybonus/images/revive/lord-of-death/revive_lord-of-death_chao.png":  {
+                                                                                                             "sha256":  "6685b356e097e039a2dfef3893740238255d1094b891e821f3ffd457ca1d7b1f",
+                                                                                                             "size":  54097
+                                                                                                         },
+                  "modules/game_raritybonus/images/revive/lord-of-death/revive_lord-of-death_eclosao.png":  {
+                                                                                                                "sha256":  "39068a0a5c81a155142dc3493afed03c4b8f4a9867c616e6bfd5912f3d01c9b8",
+                                                                                                                "size":  56680
+                                                                                                            },
+                  "modules/game_raritybonus/images/revive/obsidian/revive_obsidian_ar.png":  {
+                                                                                                 "sha256":  "0b066c7f1163398bdd1814f76d5070f711205f3c7113b197355969e0a994317d",
+                                                                                                 "size":  66172
+                                                                                             },
+                  "modules/game_raritybonus/images/revive/obsidian/revive_obsidian_aura.png":  {
+                                                                                                   "sha256":  "9596d51190cc309f637fbfd93d23a787e01aed47b7a1d1b8d486de2bdafbe853",
+                                                                                                   "size":  59978
+                                                                                               },
+                  "modules/game_raritybonus/images/revive/obsidian/revive_obsidian_chao.png":  {
+                                                                                                   "sha256":  "17b270993a4203fbc5b79ba6030ae88f443365a3a668aa4994700427ca2e644a",
+                                                                                                   "size":  47559
+                                                                                               },
+                  "modules/game_raritybonus/images/revive/obsidian/revive_obsidian_eclosao.png":  {
+                                                                                                      "sha256":  "ceaa8d1645137758549465c7d8275e8d56958068493d06a9c349bb240fb13ae4",
+                                                                                                      "size":  62443
+                                                                                                  },
+                  "modules/game_raritybonus/images/revive/pale/revive_pale_ar.png":  {
+                                                                                         "sha256":  "ff144b2f67a88fadd565eb3857b2a87673224ead6344e0622633146bc675fdf9",
+                                                                                         "size":  62477
+                                                                                     },
+                  "modules/game_raritybonus/images/revive/pale/revive_pale_aura.png":  {
+                                                                                           "sha256":  "1c445037924eb6fb98674f34fb394bd0087c08c1020e3e56ff7ffdde99125309",
+                                                                                           "size":  33038
+                                                                                       },
+                  "modules/game_raritybonus/images/revive/pale/revive_pale_chao.png":  {
+                                                                                           "sha256":  "cf513a34c9f916896162b2d584da67b6b9631393f4d2ed407fc9bf31183d55bd",
+                                                                                           "size":  47309
+                                                                                       },
+                  "modules/game_raritybonus/images/revive/pale/revive_pale_eclosao.png":  {
+                                                                                              "sha256":  "c55561da495c67eb159b82a28bc9704d805a0a75da5637eda7f9676d788c9cf8",
+                                                                                              "size":  62340
+                                                                                          },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "cf72a1ab0cf63df4c00c3c52b3a2da6ac95b9351f19cbe33ddeb6d793ef6b809",
-                                                                   "size":  49507
+                                                                   "sha256":  "0456fd7b8c5547005f9cb036654f4a77ceb387bc20b552d3846bc71d70608b50",
+                                                                   "size":  52830
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "43cc36dce7ca154f4b990373ff1773c267622da559c641f287e521e216280728",
                                                                     "size":  6736
                                                                 },
-                  "modules/game_raritybonus/revive.otui":  {
-                                                               "sha256":  "0d9a1d12e8ca97a7000d8c779c2230e0660723571a1e4909c18d510911ea47de",
-                                                               "size":  396
-                                                           },
                   "modules/game_raritybonus/roulette.otui":  {
                                                                  "sha256":  "66f178332ae4383d7f00b430fed410d33ecb31c5fd4dc49845f458e5d8728808",
                                                                  "size":  4989
@@ -10540,8 +10604,8 @@
                                                                           "size":  1145
                                                                       },
                   "modules/game_shaders/shaders/fragment/rarity_ashen.frag":  {
-                                                                                  "sha256":  "a96d65f3734935098278be45c5ddd8775137bf2f77433f7de0eb64f825bd9869",
-                                                                                  "size":  2385
+                                                                                  "sha256":  "0d935110ff52db13fdb6cd0564ebeb4e165aff89ab2283fd842f025d2591c7f3",
+                                                                                  "size":  1517
                                                                               },
                   "modules/game_shaders/shaders/fragment/rarity_epic.frag":  {
                                                                                  "sha256":  "e2833d3592d449c0801604ea38427794aae72d733f33d2aaf35f8e3ae693e4ea",
@@ -10552,56 +10616,56 @@
                                                                                       "size":  1941
                                                                                   },
                   "modules/game_shaders/shaders/fragment/rarity_lord_of_death.frag":  {
-                                                                                          "sha256":  "23826e604c32e95caa5112d61a6369e761f40290cdbb184f6b29f6e8d3d570a4",
-                                                                                          "size":  1096
+                                                                                          "sha256":  "efe8fa3b08b695dbe3988bfcf0bf97403a4e2772becda54054a4b647607a4073",
+                                                                                          "size":  1569
                                                                                       },
                   "modules/game_shaders/shaders/fragment/rarity_mythic.frag":  {
                                                                                    "sha256":  "c721bd1a3705bdaa757796131336377855cfecaf09d5994e9b12b0e131afc8bb",
                                                                                    "size":  4040
                                                                                },
                   "modules/game_shaders/shaders/fragment/rarity_obsidian.frag":  {
-                                                                                     "sha256":  "d0e46b1da95cbc02801e8d89a161d604fa984c8395990b2f212c9fc5e2cb1ab7",
-                                                                                     "size":  1535
+                                                                                     "sha256":  "56cdf4c502f293e184b5b2515629bcf474f3eb2a7cd1a5480f127a49cd915920",
+                                                                                     "size":  1500
                                                                                  },
                   "modules/game_shaders/shaders/fragment/rarity_pale.frag":  {
-                                                                                 "sha256":  "9598c76199f022c107588471f909e7e1b2580a8faa94f505696dc55484e08b65",
-                                                                                 "size":  3565
+                                                                                 "sha256":  "bb6e94a474a042d7b385366fad306d2f82673b726be99e6a08c2d58656f173f3",
+                                                                                 "size":  1573
                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_rare.frag":  {
                                                                                  "sha256":  "29545e18c54bbaf4d88413a5104849e0b81fe8a0fc78fbd42022518efecc9e4f",
                                                                                  "size":  1539
                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_revive_ashen.frag":  {
-                                                                                         "sha256":  "72607526133796240557548264cf67eef436ca78212e39db2b87785583251007",
-                                                                                         "size":  1922
+                                                                                         "sha256":  "5d8b3b71c3a061a6f2dcfeface18e6a4ffe5b4863ce2ab1c377ec4000c5338d3",
+                                                                                         "size":  1665
                                                                                      },
                   "modules/game_shaders/shaders/fragment/rarity_revive_lord_of_death.frag":  {
-                                                                                                 "sha256":  "fdfdd012240e893ecb0e41c19afd58323e4001a363e101eb72c7d9bd5e3bea27",
-                                                                                                 "size":  1925
+                                                                                                 "sha256":  "422b7dac3e6c07c0e66b58e61e895dafabd2bcedf93e23d6eed75c013e8f4a92",
+                                                                                                 "size":  1671
                                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_revive_obsidian.frag":  {
-                                                                                            "sha256":  "f1f0e24f9012ce8bc3a59ca7fa92997f0503dd5b9841275a3cf1251db60d506f",
-                                                                                            "size":  1904
+                                                                                            "sha256":  "5c2cff0dbd42b19943a0df32eb3aa88442ac3baa2e9d538c5f84f6460d751704",
+                                                                                            "size":  1280
                                                                                         },
                   "modules/game_shaders/shaders/fragment/rarity_revive_pale.frag":  {
-                                                                                        "sha256":  "c3b4e1b44f6b930d5e38afc56989e648d87dc7da45e5aac6f60fda0cd9e8f673",
-                                                                                        "size":  1710
+                                                                                        "sha256":  "c3df7e207e6356ce79e06866ef3e612a67c6f8a6325aa1f3163fbdd1e3e5372e",
+                                                                                        "size":  1233
                                                                                     },
                   "modules/game_shaders/shaders/fragment/rarity_rise_ashen.frag":  {
-                                                                                       "sha256":  "564128ab87fffe2891a1e1183d4a7a3745d03005f4b9707e39b47a892aaf7a87",
-                                                                                       "size":  1349
+                                                                                       "sha256":  "998f35ca851feafc5fe4c34eeb534abdffa0b06286594801003e71770cd284e9",
+                                                                                       "size":  1692
                                                                                    },
                   "modules/game_shaders/shaders/fragment/rarity_rise_lord_of_death.frag":  {
-                                                                                               "sha256":  "e22c3cc8de7233c932064b268033aa0b2bfea70572bf410c334645ba50ee31ae",
-                                                                                               "size":  1306
+                                                                                               "sha256":  "673e1fc51794d93780c1c06156b0ad180abbb359c7b33da542659394cc76677e",
+                                                                                               "size":  1710
                                                                                            },
                   "modules/game_shaders/shaders/fragment/rarity_rise_obsidian.frag":  {
-                                                                                          "sha256":  "6253fccd116ee5cdb61b18de85b745736e51185c4c9f7541779b9309b0dd2d49",
-                                                                                          "size":  1539
+                                                                                          "sha256":  "461bd3bff206e123b8e6ea96c7303f77c61d90171823a37cfe9bec5634f0108d",
+                                                                                          "size":  1376
                                                                                       },
                   "modules/game_shaders/shaders/fragment/rarity_rise_pale.frag":  {
-                                                                                      "sha256":  "574c9d349e49c92924a99e56ce7a2f87fbc16861d8682a881215271084336d73",
-                                                                                      "size":  1353
+                                                                                      "sha256":  "73a08feae7439a8ef4437eab9848e227666eb77ba2833861542516bdc0acc4d2",
+                                                                                      "size":  1372
                                                                                   },
                   "modules/game_shaders/shaders/fragment/rarity_uncommon.frag":  {
                                                                                      "sha256":  "60e9de6e1176a173476e089deee36f3deaf0e81cd6c7b049da37c6f18492cd83",
@@ -11328,7 +11392,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "ac5961d94936d313b5de81352642bbc9047c91d0b25650110c4dad5ebc5edc81",
+                                      "sha256":  "2f5711c71d06149411819dc29c7994c79783fa7bf0cf61f6e45ebbad03ace72c",
                                       "size":  31
                                   }
               },
@@ -11354,6 +11418,9 @@
                     "data/things/custom/sprites-walls-457a7d5e48466fa2.bmp.lzma",
                     "data/things/custom/sprites-walls-e789cf8eb9ec4f9e.bmp.lzma",
                     "data/things/custom/sprites-walls-f3708766ec24957e.bmp.lzma",
+                    "modules/game_raritybonus/images/revive_glow.png",
+                    "modules/game_raritybonus/images/revive_ring.png",
+                    "modules/game_raritybonus/revive.otui",
                     "modules/game_shaders/shaders/fragment/shaders.lua",
                     "modules/game_shaders/shaders2.lua",
                     "modules/game_shaders/shaders3.lua"

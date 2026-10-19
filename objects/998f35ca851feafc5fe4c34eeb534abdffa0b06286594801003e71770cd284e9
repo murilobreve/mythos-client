@@ -1,0 +1,40 @@
+// Rarity revive - Ashen, rising: the joints light up together and softly; the
+// heat gathers, rises and settles. No flicker.
+uniform float u_Time;
+uniform sampler2D u_Tex0;
+varying vec2 v_TexCoord;
+
+float luma(vec3 c) { return dot(c, vec3(0.299, 0.587, 0.114)); }
+// the kit's three stops: shadow, material, light
+vec3 ramp(float l, vec3 shadow, vec3 mid, vec3 light)
+{
+    return mix(mix(shadow, mid, smoothstep(0.0, 0.55, l)), light, smoothstep(0.55, 1.0, l));
+}
+// the red of eyes and mouth stays, so the monster keeps its face
+float face(vec3 c) { return smoothstep(0.22, 0.45, c.r - max(c.g, c.b)); }
+float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+float noise(vec2 p)
+{
+    vec2 i = floor(p);
+    vec2 f = fract(p);
+    f = f * f * (3.0 - 2.0 * f);
+    return mix(mix(hash(i), hash(i + vec2(1.0, 0.0)), f.x),
+               mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), f.x), f.y);
+}
+void main()
+{
+    vec4 col = texture2D(u_Tex0, v_TexCoord);
+    vec3 c = col.rgb;
+    float l = luma(c);
+    vec3 shadow = vec3(0.161, 0.133, 0.141);
+    vec3 mid = vec3(0.788, 0.443, 0.208);
+    vec3 light = vec3(0.953, 0.741, 0.451);
+    vec3 result = mix(shadow, vec3(0.36, 0.33, 0.33), smoothstep(0.05, 0.8, l));
+    float n = noise(gl_FragCoord.xy * 0.08);
+    float crack = smoothstep(0.56, 0.64, n) * (1.0 - smoothstep(0.66, 0.76, n));
+    float heat = 0.7 + 0.3 * sin(u_Time * 2.4);
+    vec3 ember = mix(mid, light, 0.35 * heat);
+    result = mix(result, ember, crack * heat * smoothstep(0.08, 0.3, l));
+    result = mix(result, c, face(c) * 0.6);
+    gl_FragColor = vec4(clamp(result, 0.0, 1.0), col.a);
+}
