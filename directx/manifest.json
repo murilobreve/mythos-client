@@ -1,7 +1,7 @@
 {
-    "versao":  53,
+    "versao":  54,
     "canal":  "directx",
-    "data":  "2026-10-19 17:37",
+    "data":  "2026-10-19 19:09",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6488,12 +6488,12 @@
                                                   "size":  2077
                                               },
                   "data/images/ui/item_rarity_frames.png":  {
-                                                                "sha256":  "ea281845e8b0386ccfc04fa2342c8b8c8a2c760577117d224f006261b99d7dce",
-                                                                "size":  2512
+                                                                "sha256":  "f3a237974f4afeae1003c1d3ba53fce051be1257f4b73bb2d6c66f80307db87e",
+                                                                "size":  1014
                                                             },
                   "data/images/ui/item_rarity_gem.png":  {
-                                                             "sha256":  "684e56ccb6e8ab107b45a7674912ed3619823a713c2f1abafdcf0f0be591a439",
-                                                             "size":  113
+                                                             "sha256":  "46a6302223b8e61502a345b118d0753ce3e3a4e16163c76c5cdeb593aaaca5f8",
+                                                             "size":  122
                                                          },
                   "data/images/ui/item66.png":  {
                                                     "sha256":  "d789dc0d7a2b788e09ba34cb9483b1ceb141b6c6bee27cf8cd8c163d00736e81",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "45f914339fa83d1d5471e7a616fd2980da58bfe83d6e048e8c970eb8f6693f21",
-                                              "size":  71761
+                                              "sha256":  "fc992c4a7e468b33b339fa478305518fa2d98005e8639dae803c585fa09854de",
+                                              "size":  72168
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -7792,8 +7792,8 @@
                                                                               "size":  826
                                                                           },
                   "modules/game_attachedeffects/effects.lua":  {
-                                                                   "sha256":  "cdf527739be4f5f62a898d72340611c7ff5679fdb4bb6e4a071d84822f72cdda",
-                                                                   "size":  7006
+                                                                   "sha256":  "2abcae0565c00c55270d9e57311fdc16706cf401940f5c2de2182b67cd8e32aa",
+                                                                   "size":  7039
                                                                },
                   "modules/game_attachedeffects/lib.lua":  {
                                                                "sha256":  "aac7ad182e0c0422d424118311485445e4a30f47abb5705cd0888f1a760e1592",
@@ -10276,8 +10276,8 @@
                                                               "size":  4161
                                                           },
                   "modules/game_raritybonus/game_raritybonus.otmod":  {
-                                                                          "sha256":  "7bd4ea04b89ba03b7baf8bd21ee55534e698a4814b4dc880fa4caa244a709f53",
-                                                                          "size":  256
+                                                                          "sha256":  "35cd9ddfaabda101167763087ae8d361ed4445ee349f25e022ee07e435dcca43",
+                                                                          "size":  266
                                                                       },
                   "modules/game_raritybonus/images/change.png":  {
                                                                      "sha256":  "7175284772abac74a860b4c9f9f13dec8a1e9df5484c64bece8cd91b0e6dadcb",
@@ -10295,6 +10295,110 @@
                                                                       "sha256":  "d3517a471cd7603b2a3a1cc82e03d7d40d8c6b6515613f8f4793d53300db3d54",
                                                                       "size":  141
                                                                   },
+                  "modules/game_raritybonus/images/loot/banner_star.png":  {
+                                                                               "sha256":  "b2edf456847d0030e37de02a019e2f33737a8903e05bba7ba1226066618251a9",
+                                                                               "size":  940
+                                                                           },
+                  "modules/game_raritybonus/images/loot/communis/loot_communis_chao.png":  {
+                                                                                               "sha256":  "1e88687482fecc85d0f5b1b4059dedcb25387b5d414ae8d45408a4ec27f61967",
+                                                                                               "size":  23183
+                                                                                           },
+                  "modules/game_raritybonus/images/loot/communis/loot_communis_coleta.png":  {
+                                                                                                 "sha256":  "7a3b95181c850e474c902a960d53bdcbac6f416c022690b431b6c1c68dd9f3fb",
+                                                                                                 "size":  28130
+                                                                                             },
+                  "modules/game_raritybonus/images/loot/communis/loot_communis_feixe.png":  {
+                                                                                                "sha256":  "792aa8ce67d99aa8bdb3d720057da4763ff82a70420f3ff6c2a8bb6ebea56d06",
+                                                                                                "size":  22620
+                                                                                            },
+                  "modules/game_raritybonus/images/loot/communis/loot_communis_gema.png":  {
+                                                                                               "sha256":  "a246e31caffe3a1e0750608d5bcdac48c97033ab5b2544a73876b70dea37a766",
+                                                                                               "size":  37019
+                                                                                           },
+                  "modules/game_raritybonus/images/loot/legendarius/loot_legendarius_chao.png":  {
+                                                                                                     "sha256":  "13829fe2de668a09744461433084c1452de5151773587736da14a21f79aa9b71",
+                                                                                                     "size":  54134
+                                                                                                 },
+                  "modules/game_raritybonus/images/loot/legendarius/loot_legendarius_coleta.png":  {
+                                                                                                       "sha256":  "5fa378d5c57e7000e9d565c10846066c46496a711ad5022579f11541be7ce977",
+                                                                                                       "size":  45669
+                                                                                                   },
+                  "modules/game_raritybonus/images/loot/legendarius/loot_legendarius_feixe.png":  {
+                                                                                                      "sha256":  "83ec041f49c09c08a9accf4cc84107857847605f5a0df7c25208322dcdf31eed",
+                                                                                                      "size":  41598
+                                                                                                  },
+                  "modules/game_raritybonus/images/loot/legendarius/loot_legendarius_gema.png":  {
+                                                                                                     "sha256":  "589efcb89238fc41406a5da3c8cd301d57b737e17860babc3f8769e9c254001b",
+                                                                                                     "size":  70643
+                                                                                                 },
+                  "modules/game_raritybonus/images/loot/mythicus/loot_mythicus_chao.png":  {
+                                                                                               "sha256":  "e09318594f1905b5e7abecadcfd58e0651d5922c0f669e175a0760c038838465",
+                                                                                               "size":  46353
+                                                                                           },
+                  "modules/game_raritybonus/images/loot/mythicus/loot_mythicus_coleta.png":  {
+                                                                                                 "sha256":  "a74141351328304cebd68964e8059c70f505940e1357bfe92dd4ce23e503baea",
+                                                                                                 "size":  50786
+                                                                                             },
+                  "modules/game_raritybonus/images/loot/mythicus/loot_mythicus_feixe.png":  {
+                                                                                                "sha256":  "4cbc8d1fe97d6ccc4884a339885f0377c64534b7eaae99cbf02c090e2f126e8a",
+                                                                                                "size":  45731
+                                                                                            },
+                  "modules/game_raritybonus/images/loot/mythicus/loot_mythicus_gema.png":  {
+                                                                                               "sha256":  "fb56d4d59b83ff4106d0d200c3f3b8b2c77a3ae790fa568c4d61cee9a17b8c3b",
+                                                                                               "size":  71621
+                                                                                           },
+                  "modules/game_raritybonus/images/loot/praeclarus/loot_praeclarus_chao.png":  {
+                                                                                                   "sha256":  "6e754eae6d504e854c63a77b5ceb75b80fb502e78d370ba4b9a8ab0ed18ddf11",
+                                                                                                   "size":  60122
+                                                                                               },
+                  "modules/game_raritybonus/images/loot/praeclarus/loot_praeclarus_coleta.png":  {
+                                                                                                     "sha256":  "990d01addb864dde678cb658c25434961c2a527002ba176fbfa6ab228cc15eca",
+                                                                                                     "size":  48199
+                                                                                                 },
+                  "modules/game_raritybonus/images/loot/praeclarus/loot_praeclarus_feixe.png":  {
+                                                                                                    "sha256":  "bac4c7ee07fa587425594df3a8b842649f22889a0ccd9ad76ec3ccce8196d2de",
+                                                                                                    "size":  51512
+                                                                                                },
+                  "modules/game_raritybonus/images/loot/praeclarus/loot_praeclarus_gema.png":  {
+                                                                                                   "sha256":  "08036ce9387a905c3053ae4b69b2e68e1e289b7b50bc46cc4045800d631d2c4d",
+                                                                                                   "size":  57884
+                                                                                               },
+                  "modules/game_raritybonus/images/loot/rarus/loot_rarus_chao.png":  {
+                                                                                         "sha256":  "4421d124bf55dcccd79ce9e55f6d762b8b5e3bf7f7a0a71b986840615d929e88",
+                                                                                         "size":  40197
+                                                                                     },
+                  "modules/game_raritybonus/images/loot/rarus/loot_rarus_coleta.png":  {
+                                                                                           "sha256":  "ffaab573ce284bfea0e346dce65a8e90d642f6d15f18921a24f10ae01a63a98e",
+                                                                                           "size":  33632
+                                                                                       },
+                  "modules/game_raritybonus/images/loot/rarus/loot_rarus_feixe.png":  {
+                                                                                          "sha256":  "7e26bd20f3d9822406a536e3223528b24e823e958821052b9b149425b3ea4434",
+                                                                                          "size":  26777
+                                                                                      },
+                  "modules/game_raritybonus/images/loot/rarus/loot_rarus_gema.png":  {
+                                                                                         "sha256":  "0f70c20a87cbc7dc5d7518d1b1e640ba433a35a2d48ba60d9d7eace68d62cf49",
+                                                                                         "size":  55718
+                                                                                     },
+                  "modules/game_raritybonus/images/loot/skin_communis.png":  {
+                                                                                 "sha256":  "733b1cb428bd0ee191a2b8bda461ad36a1ceca0dbe26f6a7410d1a836e55d725",
+                                                                                 "size":  519
+                                                                             },
+                  "modules/game_raritybonus/images/loot/skin_legendarius.png":  {
+                                                                                    "sha256":  "2d5571d1beb81f7628ae6d022eaece0c93f3bd99d0f53802f96de39c83373508",
+                                                                                    "size":  524
+                                                                                },
+                  "modules/game_raritybonus/images/loot/skin_mythicus.png":  {
+                                                                                 "sha256":  "e72659897900a30c097fcfd571f7afefc2606bdf6f74cfbea7fd1081218c2903",
+                                                                                 "size":  539
+                                                                             },
+                  "modules/game_raritybonus/images/loot/skin_praeclarus.png":  {
+                                                                                   "sha256":  "016cd92ad11afa07e1bfaae01028e8b15afde248be9069ba1ca0d5fbd1df5db3",
+                                                                                   "size":  535
+                                                                               },
+                  "modules/game_raritybonus/images/loot/skin_rarus.png":  {
+                                                                              "sha256":  "aae33f14f3bb016dd71f9fd0dbf9b22a65998b3de052cbfdba1bb46e5a0c6b97",
+                                                                              "size":  519
+                                                                          },
                   "modules/game_raritybonus/images/reroll.png":  {
                                                                      "sha256":  "fa2422fef3d65cec2449a215a75f80e758ff62e01c8c59e48a5643ecbf18c6b9",
                                                                      "size":  191
@@ -10363,9 +10467,17 @@
                                                                                               "sha256":  "c55561da495c67eb159b82a28bc9704d805a0a75da5637eda7f9676d788c9cf8",
                                                                                               "size":  62340
                                                                                           },
+                  "modules/game_raritybonus/lootfind.lua":  {
+                                                                "sha256":  "b89878bdaeda23a2c0ee04cfbc38604e10d6e8d48c377830f056164ab1959f14",
+                                                                "size":  19689
+                                                            },
+                  "modules/game_raritybonus/lootfind.otui":  {
+                                                                 "sha256":  "a2b9a4cf882f39958b9e297310b2643278959c20fe1ad2bfa272450ef1a2329d",
+                                                                 "size":  3192
+                                                             },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "0456fd7b8c5547005f9cb036654f4a77ceb387bc20b552d3846bc71d70608b50",
-                                                                   "size":  52830
+                                                                   "sha256":  "0f5fda146c0379f7d9f6fd2a027ca484ff9c7c7d1c5b5eb292ad2e0e0fd5db87",
+                                                                   "size":  52829
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "43cc36dce7ca154f4b990373ff1773c267622da559c641f287e521e216280728",
@@ -10408,8 +10520,8 @@
                                                                        "size":  7151
                                                                    },
                   "modules/game_rewardwall/game_rewardwall.lua":  {
-                                                                      "sha256":  "efa7225f27a7c4a64436d6498649c00e95e7c77f786e4909177ce669eb36c08e",
-                                                                      "size":  35950
+                                                                      "sha256":  "2663e05c48952d09b2dc09ab39a3ef29c3e3f04d3cc20273235f7ff762bcde6f",
+                                                                      "size":  36762
                                                                   },
                   "modules/game_rewardwall/game_rewardwall.otmod":  {
                                                                         "sha256":  "9fda17596e256bc59f868f8681bad27f744545a1159423ca15c4938d82e9affb",
@@ -10532,8 +10644,8 @@
                                                             "size":  666
                                                         },
                   "modules/game_shaders/shaders.lua":  {
-                                                           "sha256":  "0d9ff738d7d1fb6c67a833e8d58a26d5f210d32bd6c666d275ba67bcff6fe3fa",
-                                                           "size":  9380
+                                                           "sha256":  "34f9397cfc3002567aebf398498286b099d570049b476e323c97ae22b7a0cb2f",
+                                                           "size":  10636
                                                        },
                   "modules/game_shaders/shaders.otmod":  {
                                                              "sha256":  "542c82194d1fa74d39f0d3e29432e48f419b7f35efbc71ff1c624ea0e1d2eb8e",
@@ -10608,20 +10720,24 @@
                                                                                   "size":  1517
                                                                               },
                   "modules/game_shaders/shaders/fragment/rarity_epic.frag":  {
-                                                                                 "sha256":  "e2833d3592d449c0801604ea38427794aae72d733f33d2aaf35f8e3ae693e4ea",
-                                                                                 "size":  1701
+                                                                                 "sha256":  "b1ec5228cc3d1be72f0dc2ad75647e2964a987a69139f53c0e735441d7b225e2",
+                                                                                 "size":  2060
+                                                                             },
+                  "modules/game_shaders/shaders/fragment/rarity_item.frag":  {
+                                                                                 "sha256":  "cf75374c290c1e25c5d9a4733bf36382b0c86c821643c69c7781a03cfc80e6fc",
+                                                                                 "size":  7413
                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_legendary.frag":  {
-                                                                                      "sha256":  "7bb227220c81f7deaab77d45ed81c5076d7971db71a86c00fa837a84af04ed93",
-                                                                                      "size":  1941
+                                                                                      "sha256":  "85ce795943838f6e8cbbd1924055286087e2abbdd6e49ffbfae3065bda4f530f",
+                                                                                      "size":  2180
                                                                                   },
                   "modules/game_shaders/shaders/fragment/rarity_lord_of_death.frag":  {
                                                                                           "sha256":  "efe8fa3b08b695dbe3988bfcf0bf97403a4e2772becda54054a4b647607a4073",
                                                                                           "size":  1569
                                                                                       },
                   "modules/game_shaders/shaders/fragment/rarity_mythic.frag":  {
-                                                                                   "sha256":  "c721bd1a3705bdaa757796131336377855cfecaf09d5994e9b12b0e131afc8bb",
-                                                                                   "size":  4040
+                                                                                   "sha256":  "620b9a6c98ebee21d23747a6cdf487bccb613d61196f698c3f328a576837a8c8",
+                                                                                   "size":  2424
                                                                                },
                   "modules/game_shaders/shaders/fragment/rarity_obsidian.frag":  {
                                                                                      "sha256":  "56cdf4c502f293e184b5b2515629bcf474f3eb2a7cd1a5480f127a49cd915920",
@@ -10632,8 +10748,8 @@
                                                                                  "size":  1573
                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_rare.frag":  {
-                                                                                 "sha256":  "29545e18c54bbaf4d88413a5104849e0b81fe8a0fc78fbd42022518efecc9e4f",
-                                                                                 "size":  1539
+                                                                                 "sha256":  "ceb7d79c05e3f39dd56dce1cfabeeb07638acd9ace9b42071d90cf72fb079357",
+                                                                                 "size":  1938
                                                                              },
                   "modules/game_shaders/shaders/fragment/rarity_revive_ashen.frag":  {
                                                                                          "sha256":  "5d8b3b71c3a061a6f2dcfeface18e6a4ffe5b4863ce2ab1c377ec4000c5338d3",
@@ -10668,8 +10784,8 @@
                                                                                       "size":  1372
                                                                                   },
                   "modules/game_shaders/shaders/fragment/rarity_uncommon.frag":  {
-                                                                                     "sha256":  "60e9de6e1176a173476e089deee36f3deaf0e81cd6c7b049da37c6f18492cd83",
-                                                                                     "size":  1537
+                                                                                     "sha256":  "835e1c7fd02c8258df9646d1f51715219caaa21fee986c52b3a6498617c304d9",
+                                                                                     "size":  1909
                                                                                  },
                   "modules/game_shaders/shaders/fragment/sepia.frag":  {
                                                                            "sha256":  "26eff02f39c80f1a79ac600a0a64f270517de30766f0199f368404cea56b2b21",
@@ -11096,8 +11212,8 @@
                                                                        "size":  2446
                                                                    },
                   "modules/game_textmessage/textmessage.lua":  {
-                                                                   "sha256":  "d7b4858d03e3cab398e7780db58a1a88d23128182ee3624d73f505ab8e89b16a",
-                                                                   "size":  17788
+                                                                   "sha256":  "4abcc4fc627b3889b1eac2cbed50210062056026123541d1bc7b8ccbe1741bda",
+                                                                   "size":  18034
                                                                },
                   "modules/game_textmessage/textmessage.otmod":  {
                                                                      "sha256":  "8c5351f7c3d1d0919272bce537693c28d5d42251c8f7cd0996812ba185c15ed9",
@@ -11304,7 +11420,7 @@
                                                         "size":  487
                                                     },
                   "modules/gamelib/items.lua":  {
-                                                    "sha256":  "3b5b47b336f0ca6f1e65583840e70e429827737dc975444f810d9167b312a2f1",
+                                                    "sha256":  "6fcc6ef736f81179f3dc8314370667258fd0e77aee9f1c428cd88096ca44a592",
                                                     "size":  11570
                                                 },
                   "modules/gamelib/market.lua":  {
@@ -11392,7 +11508,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "2f5711c71d06149411819dc29c7994c79783fa7bf0cf61f6e45ebbad03ace72c",
+                                      "sha256":  "11c6636f903282628f600e39291f75f9c61b955e257787f0377cbefb1593fdf4",
                                       "size":  31
                                   }
               },
