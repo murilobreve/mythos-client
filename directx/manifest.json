@@ -1,7 +1,7 @@
 {
-    "versao":  48,
+    "versao":  49,
     "canal":  "directx",
-    "data":  "2026-10-18 23:23",
+    "data":  "2026-10-19 13:50",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "f89549c024d5af5d4d18e9744a40738a33d3ec437cf370318fff426b3c73f45d",
-                                              "size":  70011
+                                              "sha256":  "8830e4f3c5575a7f1e3c03b872662c96404ffbdbd47ba5752d78e28bbc199f93",
+                                              "size":  70341
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -7192,12 +7192,12 @@
                                                                           "size":  2140
                                                                       },
                   "modules/client_entergame/characterlist.lua":  {
-                                                                     "sha256":  "7c3ce682238c9535b23e9e1b350da5a8df9b3cf519b6da307bcef1403dfc37e8",
-                                                                     "size":  35060
+                                                                     "sha256":  "feacd9ee821b21a3ecbcee7f5295e3955b09bbfdb69da8e6f8272f4a4a738fc2",
+                                                                     "size":  35111
                                                                  },
                   "modules/client_entergame/characterlist.otui":  {
-                                                                      "sha256":  "074654c5fc22d2bea50e29deb72fd18fe392d85a27e7f3783fa23007275d7d31",
-                                                                      "size":  18489
+                                                                      "sha256":  "3d74c666bd31733e02d494ef0b2b9910193f9a452c6bc556cd452bfb2fe58b4e",
+                                                                      "size":  19247
                                                                   },
                   "modules/client_entergame/crashreport.lua":  {
                                                                    "sha256":  "4994ea4b045e8d344004095c5360b496d42956203ffb8badbad9325422306d1f",
@@ -7216,13 +7216,21 @@
                                                                  "size":  37334
                                                              },
                   "modules/client_entergame/entergame.otmod":  {
-                                                                   "sha256":  "b0bb3d4a55e9d58ad80d77e95be5d23af5ac39f0befeb0d68eaf72ea3ec9de73",
-                                                                   "size":  495
+                                                                   "sha256":  "9f6a4d750070b742c0dc7817e99e98cbbc28f17b2cc60a6ce646de4a5c8ad9d7",
+                                                                   "size":  568
                                                                },
                   "modules/client_entergame/entergame.otui":  {
                                                                   "sha256":  "6cb1600121ecadc50532fbfe616c41650bd1f8684a30de7ca514b4df9c4dde1b",
                                                                   "size":  9929
                                                               },
+                  "modules/client_entergame/patchnotes.lua":  {
+                                                                  "sha256":  "2b4be646cb7dfc44087fba29ea96f240566fef0856c75f793f1f3225b68ab45a",
+                                                                  "size":  4000
+                                                              },
+                  "modules/client_entergame/patchnotes.otui":  {
+                                                                   "sha256":  "5a7e437b2eef09c1f7b6a47a93acab96626069308212b8d7d4bc747b9641eb77",
+                                                                   "size":  1443
+                                                               },
                   "modules/client_entergame/waitinglist.otui":  {
                                                                     "sha256":  "3467ab88486e265d8c662425f9261c7ffbb06b0cd286900596b3166270049e59",
                                                                     "size":  982
@@ -11292,7 +11300,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "629259b587bdc2d008c0981867dad83ae21873c719daad5374af3ce1a46175fc",
+                                      "sha256":  "9cd63d9429d69d2de7e2571b42a72a2e590da4c68ce059c64866ee34f94b8da8",
                                       "size":  31
                                   }
               },
