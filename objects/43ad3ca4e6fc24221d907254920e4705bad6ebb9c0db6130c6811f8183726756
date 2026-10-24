@@ -1,0 +1,303 @@
+BonusFrame < UIWidget
+  size: 36 36
+  image-source: /game_raritymarket/images/frames
+  image-clip: 0 0 34 34
+  phantom: true
+
+  UIItem
+    id: item
+    size: 32 32
+    anchors.centerIn: parent
+    virtual: true
+    phantom: true
+
+// one rarity item: frame, name, grade and slot, then its bonuses
+BonusItemRow < BrevesRow
+  focusable: false
+  padding: 3
+
+  BonusFrame
+    id: frame
+    anchors.left: parent.left
+    anchors.top: parent.top
+
+  // rolls the whole item again: how many bonuses, which ones, their values
+  BonusActionButton
+    id: rerollItemButton
+    anchors.top: parent.top
+    anchors.right: parent.right
+    width: 136
+    icon: /game_raritybonus/images/reroll
+
+  // raises the item one grade: gold and Rarity XP, with a chance to fail
+  BonusActionButton
+    id: upgradeItemButton
+    anchors.top: rerollItemButton.bottom
+    anchors.right: parent.right
+    margin-top: 3
+    width: 136
+    icon: /game_raritybonus/images/improve
+
+  // the upgrade's price, under its button
+  Label
+    id: upgradeCost
+    anchors.top: upgradeItemButton.bottom
+    anchors.left: upgradeItemButton.left
+    anchors.right: upgradeItemButton.right
+    margin-top: 1
+    height: 12
+    text-align: center
+    font: verdana-11px-monochrome
+    color: #c9b88a
+    phantom: true
+    visible: false
+
+  Label
+    id: name
+    anchors.top: parent.top
+    anchors.left: frame.right
+    anchors.right: rerollItemButton.left
+    margin-left: 8
+    margin-right: 6
+    margin-top: 1
+    height: 14
+    phantom: true
+
+  Label
+    id: info
+    anchors.top: name.bottom
+    anchors.left: name.left
+    anchors.right: rerollItemButton.left
+    margin-top: 2
+    height: 14
+    font: verdana-11px-monochrome
+    color: #ab9fc6
+    phantom: true
+
+  Panel
+    id: bonuses
+    anchors.top: info.bottom
+    anchors.left: name.left
+    anchors.right: parent.right
+    margin-top: 3
+    layout:
+      type: verticalBox
+      spacing: 2
+
+// reroll / change button: Store look, an icon and the price
+BonusActionButton < MythosButton
+  size: 66 18
+  icon-align: left
+  icon-offset: 4 0
+  text-offset: 8 0
+  $pressed:
+    text-offset: 9 1
+  $disabled:
+    opacity: 0.7
+
+// one bonus of an item; the padlock keeps it on the next reroll (gold)
+BonusLine < Panel
+  height: 16
+
+  UIButton
+    id: lock
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 12 12
+    image-source: /game_raritybonus/images/lock_off
+    cursor: pointer
+    visible: false
+    $hover !on:
+      opacity: 0.8
+    $on:
+      image-source: /game_raritybonus/images/lock_on
+
+  Label
+    id: text
+    anchors.left: lock.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    text-auto-resize: true
+    font: verdana-11px-monochrome
+    color: #7fd35a
+
+  // shown on the locked bonus, next to it
+  Label
+    id: tag
+    anchors.left: text.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 8
+    text-auto-resize: true
+    font: verdana-11px-monochrome
+    color: #f0cf6a
+    visible: false
+
+BonusItemRowEven < BonusItemRow
+  background-color: #ffffff07
+
+// one bonus: its total (and cap) on the right, the items it comes from below
+BonusTotalRow < BrevesRow
+  focusable: false
+  padding: 3 6 3 6
+
+  Label
+    id: label
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: total.left
+    height: 14
+    color: #e6e0f2
+    phantom: true
+
+  Label
+    id: total
+    anchors.top: parent.top
+    anchors.right: parent.right
+    width: 140
+    height: 14
+    text-align: right
+    color: #7fd35a
+    phantom: true
+
+  Label
+    id: sources
+    anchors.top: label.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 2
+    font: verdana-11px-monochrome
+    color: #ab9fc6
+    phantom: true
+
+BonusTotalRowEven < BonusTotalRow
+  background-color: #ffffff07
+
+MythosWindow
+  id: rarityBonusWindow
+  !text: tr('Rarity Bonuses')
+  size: 900 560
+  @onEscape: modules.game_raritybonus.hide()
+
+  Label
+    id: xpLabel
+    anchors.top: parent.top
+    anchors.left: parent.left
+    height: 18
+    text-auto-resize: true
+    color: #e2a443
+
+  // shortcut to the Store's Rarity category (Rarity XP packs)
+  MythosButton
+    id: buyXpButton
+    anchors.verticalCenter: xpLabel.verticalCenter
+    anchors.left: xpLabel.right
+    margin-left: 10
+    size: 130 20
+    !text: tr('Buy Rarity XP')
+    !tooltip: tr('Opens the Store on the Rarity category, where Rarity XP is sold.')
+    @onClick: modules.game_raritybonus.buyRarityXp()
+
+  Label
+    id: status
+    anchors.verticalCenter: buyXpButton.verticalCenter
+    anchors.left: buyXpButton.right
+    anchors.right: parent.right
+    margin-left: 16
+    height: 26
+    text-align: right
+    text-wrap: true
+    font: verdana-11px-antialised
+    color: #7fd35a
+
+  BrevesSection
+    id: itemsSection
+    anchors.top: xpLabel.bottom
+    anchors.left: parent.left
+    anchors.bottom: bottomSep.top
+    margin-top: 6
+    margin-bottom: 8
+    width: 500
+    !text: tr('Rarity items you wear')
+
+    BrevesList
+      id: itemsList
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: itemsScroll.left
+      anchors.bottom: parent.bottom
+      vertical-scrollbar: itemsScroll
+
+    MythosScrollBar
+      id: itemsScroll
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      step: 30
+      pixel-scroll: true
+
+    BrevesNote
+      id: itemsEmpty
+      anchors.top: itemsList.top
+      anchors.left: itemsList.left
+      anchors.right: itemsList.right
+      margin: 10
+      text-align: center
+      !text: tr('You are not wearing any rarity item. Monsters drop them, and the task shop sells scrolls that give an item a rarity.')
+      visible: false
+
+  BrevesSection
+    id: totalsSection
+    anchors.top: itemsSection.top
+    anchors.left: itemsSection.right
+    anchors.right: parent.right
+    anchors.bottom: bottomSep.top
+    margin-left: 8
+    margin-bottom: 8
+    !text: tr('Total of each bonus')
+
+    BrevesList
+      id: totalsList
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: totalsScroll.left
+      anchors.bottom: parent.bottom
+      vertical-scrollbar: totalsScroll
+
+    MythosScrollBar
+      id: totalsScroll
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      step: 30
+      pixel-scroll: true
+
+  MythosSeparator
+    id: bottomSep
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: note.top
+    margin-bottom: 6
+
+  BrevesNote
+    id: note
+    anchors.left: parent.left
+    anchors.right: refreshButton.left
+    anchors.bottom: parent.bottom
+    margin-right: 10
+
+  MythosButton
+    id: refreshButton
+    anchors.right: closeButton.left
+    anchors.bottom: parent.bottom
+    margin-right: 6
+    size: 70 22
+    !text: tr('Refresh')
+    @onClick: modules.game_raritybonus.request()
+
+  MythosButton
+    id: closeButton
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    size: 60 22
+    !text: tr('Close')
+    @onClick: modules.game_raritybonus.hide()
