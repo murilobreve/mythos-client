@@ -1,7 +1,7 @@
 {
-    "versao":  57,
+    "versao":  58,
     "canal":  "directx",
-    "data":  "2026-10-25 10:47",
+    "data":  "2026-10-25 13:01",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7596,8 +7596,8 @@
                                                    "size":  11192
                                                },
                   "modules/game_actionbar/game_actionbar.lua":  {
-                                                                    "sha256":  "4bcbdc996e97fe11af55fc3e013cde61166f41a71b874c9ea664b5eea668b56a",
-                                                                    "size":  25835
+                                                                    "sha256":  "08fb223861b4ce0aacc5f65239e99c0b84627b68483ec6d4809d3d5e0da012c1",
+                                                                    "size":  25976
                                                                 },
                   "modules/game_actionbar/game_actionbar.otmod":  {
                                                                       "sha256":  "9987562fa60e6f1a67bf4d7618f18fd9f22c8a1b790360f31c657c49697d5884",
@@ -13460,8 +13460,8 @@
                                                             "size":  8432
                                                         },
                   "modules/gamelib/spells.lua":  {
-                                                     "sha256":  "41271ded64e34ad0fc0f961042abf6d8a9565323b1d5ac80d3d9b2f173ffef9a",
-                                                     "size":  82756
+                                                     "sha256":  "97c62cdfc13ffbf76c79413a00a298e2030a36629e17108c80776b2f409baf3a",
+                                                     "size":  83084
                                                  },
                   "modules/gamelib/textmessages.lua":  {
                                                            "sha256":  "748ca0766615d74c2466e4f9e836e5aae4327e715809cc113a485cfa326ef2c3",
@@ -13520,7 +13520,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "9be3139564ba239044341653633cac5d4e91c1c1eb5115c5051d996fffcd7acf",
+                                      "sha256":  "ca67a5aee7a82f8f3adb2e113a14c8b5dfc8b7fb3e8cd11e899d4e93190a40df",
                                       "size":  31
                                   }
               },
