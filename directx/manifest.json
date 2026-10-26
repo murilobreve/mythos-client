@@ -1,7 +1,7 @@
 {
-    "versao":  61,
+    "versao":  62,
     "canal":  "directx",
-    "data":  "2026-10-26 14:58",
+    "data":  "2026-10-26 18:02",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -8416,12 +8416,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_bosses/bosses.lua":  {
-                                                         "sha256":  "61e7eecfaf3684af8195c31dcaa08b0a399875cdbd61ae37090aa5d028fc4063",
-                                                         "size":  12025
+                                                         "sha256":  "7e3b2eced8e959e71915974522e6a6e6ac41f320e66db3fc1c3503f4fabc72e7",
+                                                         "size":  14876
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "11010b9a988b31d6511e34c7d28e627c73cdac19bbc4855f289663c068c384e7",
-                                                          "size":  5805
+                                                          "sha256":  "844e7e108ca44fd65cf1c4050a46d4a2dfb7d0d9e7282168cf7eb5e03229ce21",
+                                                          "size":  6046
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
@@ -13544,7 +13544,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "59692657c90f814260cab12553bb20b5670fb5f1fb03790b6630d25b2dad6641",
+                                      "sha256":  "87e60d0f9eef09e241783927a3aaf9ecae6cd6fdf1ab6d909ab5112297fd4b35",
                                       "size":  31
                                   }
               },
