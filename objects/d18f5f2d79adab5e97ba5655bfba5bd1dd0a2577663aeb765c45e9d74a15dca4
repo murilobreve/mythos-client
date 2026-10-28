@@ -1,0 +1,46 @@
+LocalesMainLabel < Label
+  ttf-font: cinzel-bold
+  ttf-font-size: 22
+  color: #f3ead9
+
+LocalesButton < UIWidget
+  size: 96 96
+  image-size: 96 96
+  image-smooth: true
+  text-offset: 0 96
+  font: verdana-11px-antialised
+
+// closes the picker opened later on, without choosing
+LocalesCloseButton < MythosButton
+  size: 90 24
+  anchors.top: parent.top
+  anchors.right: parent.right
+  margin-top: 16
+  margin-right: 16
+  !text: tr('Close')
+
+UIWindow
+  id: localesWindow
+  background-color: #000000
+  opacity: 0.90
+  clipping: true
+  anchors.fill: parent
+
+  LocalesMainLabel
+    !text: tr('Select your language')
+    text-auto-resize: true
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    margin-top: -100
+
+  Panel
+    id: localesPanel
+    margin-top: 50
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: prev.bottom
+    anchors.bottom: parent.bottom
+    layout:
+      type: grid
+      cell-size: 96 128
+      cell-spacing: 32
+      flow: true
