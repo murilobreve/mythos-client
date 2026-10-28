@@ -1,0 +1,103 @@
+// The tour (tutorial.lua): the screen goes dark around the real button of
+// each step, a gold ring breathes around it and a bubble with an arrow says
+// what it does. Clicking the button itself goes on to the next step.
+
+// one of the four dark pieces around the hole
+MythosTourShade < UIWidget
+  background-color: #000000a8
+  focusable: false
+
+// the gold ring around the hole
+MythosTourRing < UIWidget
+  border-width: 2
+  border-color: #e2a443
+  phantom: true
+  focusable: false
+
+// a dot of the progress: one per step
+MythosTourDot < UIWidget
+  size: 7 7
+  margin-left: 4
+  background-color: #4a3670
+  phantom: true
+  $on:
+    background-color: #e2a443
+
+MythosTourArrow < UIWidget
+  size: 20 11
+  phantom: true
+  focusable: false
+
+MythosTourBubble < UIWidget
+  id: mythosTourBubble
+  width: 280
+  height: 110
+  background-color: #150f22f5
+  border-width: 2
+  border-color: #e2a443
+  padding: 10
+  focusable: true
+  @onEscape: modules.game_tutorial.stop()
+
+  Label
+    id: counter
+    anchors.top: parent.top
+    anchors.right: parent.right
+    font: verdana-11px-rounded
+    color: #9789b3
+    text-auto-resize: true
+
+  Label
+    id: title
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: counter.left
+    margin-right: 6
+    ttf-font: cinzel-bold
+    ttf-font-size: 14
+    color: #ffd682
+    height: 18
+
+  Label
+    id: text
+    anchors.top: title.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 8
+    text-wrap: true
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #e6e0f2
+
+  UIWidget
+    id: dots
+    anchors.left: parent.left
+    anchors.verticalCenter: nextButton.verticalCenter
+    margin-left: -4
+    size: 60 7
+    phantom: true
+    layout:
+      type: horizontalBox
+
+  UIButton
+    id: skipButton
+    anchors.left: dots.right
+    anchors.verticalCenter: nextButton.verticalCenter
+    margin-left: 10
+    !text: tr('Skip the tour')
+    font: verdana-11px-rounded
+    color: #9789b3
+    text-auto-resize: true
+    change-cursor-image: true
+    cursor: pointer
+    @onClick: modules.game_tutorial.stop()
+    $hover:
+      color: #e6e0f2
+
+  MythosKitGoldButton28
+    id: nextButton
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    size: 100 28
+    !text: tr('Next')
+    @onClick: modules.game_tutorial.next()
