@@ -1,7 +1,7 @@
 {
-    "versao":  67,
+    "versao":  68,
     "canal":  "directx",
-    "data":  "2026-10-29 13:28",
+    "data":  "2026-10-29 13:46",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "6b8abf159959f07c4f52c3792d98e746ead5ba4aeaac021fd8ce55aa01b5b062",
-                                              "size":  90255
+                                              "sha256":  "fc4f8d1f14c4467f122d48c572ca4a331fa7d7b26b9b19f5320ca60f551e2053",
+                                              "size":  90342
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -11064,8 +11064,8 @@
                                                                  "size":  3192
                                                              },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "5bf1284b9585bcbe1a8db8c07a832a880a566cd5565424f7905b89e8b0eaa0db",
-                                                                   "size":  74760
+                                                                   "sha256":  "80ea8062da98bf9abe50b213f12ddbed5b2492bd16ebbf2bcdd9060a5bc7bd24",
+                                                                   "size":  74668
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "b883663a1e5411d7858d38b9e7018b2ed684eae1ffb5d55b44e4ceead997fff7",
@@ -13108,8 +13108,8 @@
                                                          "size":  24020
                                                      },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "e6bff9cb21d74cac04df45d7b881df04e32cd7808bcc41184516fe87b0df4b8e",
-                                                      "size":  45302
+                                                      "sha256":  "844dac069659dc5515bc7af76e63acaf96d3a68d9feb5ec235218d15c292e3b1",
+                                                      "size":  45756
                                                   },
                   "modules/game_wiki/teleports.lua":  {
                                                           "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
@@ -13232,7 +13232,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "625436f6cb35e94e39ae82faa2ec9799fc8f988344fb5f2b6cf532a6ec0f6cb3",
+                                      "sha256":  "9ec5ae758b921613f908aec970dbf01071faf85f7f2c728d8bc4cd0c28c1613c",
                                       "size":  31
                                   }
               },
