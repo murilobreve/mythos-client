@@ -1,7 +1,7 @@
 {
-    "versao":  68,
+    "versao":  69,
     "canal":  "directx",
-    "data":  "2026-10-29 13:46",
+    "data":  "2026-10-29 19:02",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "fc4f8d1f14c4467f122d48c572ca4a331fa7d7b26b9b19f5320ca60f551e2053",
-                                              "size":  90342
+                                              "sha256":  "21272ab5a73f165c6ec51e30807c968548ba56ddb33a7b72cf6581400512dac8",
+                                              "size":  91060
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -10436,16 +10436,16 @@
                                                                                "size":  6079
                                                                            },
                   "modules/game_outfit/outfit.lua":  {
-                                                         "sha256":  "57ab4c419cbdb2feca2e39351006f12a1224560e6698dc312e842a8b6a96f8dc",
-                                                         "size":  60748
+                                                         "sha256":  "8d4313e550d9e83d0cce46e7d3695edf9facb69d119bccf1253cccc3d9b9defe",
+                                                         "size":  67745
                                                      },
                   "modules/game_outfit/outfit.otmod":  {
                                                            "sha256":  "7bb76824cfd92b1193fb1d0f517192436e5e3f3e21b6159efc7c87106caf8b39",
                                                            "size":  208
                                                        },
                   "modules/game_outfit/outfitwindow.otui":  {
-                                                                "sha256":  "f90884dadba45923324654cbd5770cc1dabcf6c1132af15a11cb2a0d8f9cbcf4",
-                                                                "size":  107
+                                                                "sha256":  "8bde8b230547b3bde11e80f7a6e660accdc538ad772079afa014e342ddbca181",
+                                                                "size":  1982
                                                             },
                   "modules/game_paperdolls/configs/demon.lua":  {
                                                                     "sha256":  "18c1dd33724df599d1422a80d2bccc3b4d00b6a3e3d6bae91de54b3e9cb2e159",
@@ -13232,7 +13232,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "9ec5ae758b921613f908aec970dbf01071faf85f7f2c728d8bc4cd0c28c1613c",
+                                      "sha256":  "d158a65894f637412e42ccb40adc71b6cf79ccc4b70df6cc78eb41d2447c0f59",
                                       "size":  31
                                   }
               },
