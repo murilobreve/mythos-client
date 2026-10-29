@@ -1,7 +1,7 @@
 {
-    "versao":  65,
+    "versao":  66,
     "canal":  "directx",
-    "data":  "2026-10-28 15:23",
+    "data":  "2026-10-29 11:37",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "ca64e1670881891f3b38d1c5780253aade93af7404905db3464cfeb9b12c8930",
-                                              "size":  88021
+                                              "sha256":  "26f3fe1123a31dcf803bd73ae055248cc8467bdac615865ce597bbb6d60b5ed4",
+                                              "size":  88108
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -10124,12 +10124,12 @@
                                                                     "size":  743
                                                                 },
                   "modules/game_journey/journey.lua":  {
-                                                           "sha256":  "70b3b2ead4373d1ab896fda311974620ed6d9fc3b0076f6da32a1e8341a00cda",
-                                                           "size":  20763
+                                                           "sha256":  "0a35016ce540e37142402571d3287f1bb2db01940f788f947b0a15a38be49451",
+                                                           "size":  21336
                                                        },
                   "modules/game_journey/journey.otui":  {
-                                                            "sha256":  "564ad2f0936e39a03242877b9aa1050e7d52545e7bab82c35bffeac116795ecf",
-                                                            "size":  8138
+                                                            "sha256":  "3f0583bc522f220bfa99af517d2c5d6bbb68fa2d127e7fc4c21b720983647aa2",
+                                                            "size":  8499
                                                         },
                   "modules/game_joystick/joystick.lua":  {
                                                              "sha256":  "ffa01339688bc3a2cf1c4721bd82c96bc4b985a3fc5ebab53ea0843e0fcb97dc",
@@ -10863,6 +10863,10 @@
                                                                      "sha256":  "7175284772abac74a860b4c9f9f13dec8a1e9df5484c64bece8cd91b0e6dadcb",
                                                                      "size":  156
                                                                  },
+                  "modules/game_raritybonus/images/check.png":  {
+                                                                    "sha256":  "32eb507cb731c041b6e4198fc76fe17bb204fe78ee48aa7811a126784fbd8836",
+                                                                    "size":  172
+                                                                },
                   "modules/game_raritybonus/images/improve.png":  {
                                                                       "sha256":  "d2fa2f75a7c4de3eea7ee99a9c0863de193d05b9444f69d92cdc3cf8e6788003",
                                                                       "size":  184
@@ -11060,12 +11064,12 @@
                                                                  "size":  3192
                                                              },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "806af0e0748f072cd353cfa62d82ccc1dbfc0b145a47af588f2ca71fd1fdb655",
-                                                                   "size":  65444
+                                                                   "sha256":  "1cb048fba5d0f458b4ed05fd075832edfcc2de388a79452310ffcec1fc092371",
+                                                                   "size":  68242
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
-                                                                    "sha256":  "aaa645106f385890c32295ca67da9469ccf7803d6fb5c4cd746e1edf9e694eab",
-                                                                    "size":  8207
+                                                                    "sha256":  "4c0fb54c80faf7f2393bdd6fbf2ec7a291e7547c12c064904f9f98c5cd14582a",
+                                                                    "size":  10468
                                                                 },
                   "modules/game_raritybonus/roulette.otui":  {
                                                                  "sha256":  "382247d5748a974e3c5731edf0c9c0d517efd3ce10142cba809dcb96c22c3377",
@@ -12972,12 +12976,12 @@
                                                                     "size":  155
                                                                 },
                   "modules/game_tutorial/tutorial.lua":  {
-                                                             "sha256":  "b7bf9c8d6d87aff1fae4ff5fba6cf948d9bf62193fb88b3dd2394586b81a9058",
-                                                             "size":  12501
+                                                             "sha256":  "682eec9459456d3a25ee45808283dffb399fa9bde7647ea51571c8204fc3754e",
+                                                             "size":  12637
                                                          },
                   "modules/game_tutorial/tutorial.otui":  {
-                                                              "sha256":  "1f89e0cc9676a81ee7def1a978b526711a6e4a5ef34aed690f16a27a5c0009be",
-                                                              "size":  2326
+                                                              "sha256":  "f6c0f2d0cc7d1934e34ad19ae99aa0de1eda2731b7c1881f0bd995a8e2fd1ae6",
+                                                              "size":  2897
                                                           },
                   "modules/game_unjustifiedpoints/unjustifiedpoints.lua":  {
                                                                                "sha256":  "68e4a6f053183f25d13109ecc0ada599bd3905be8a8ee553e619da6fc29684d6",
@@ -13228,7 +13232,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "d96acb737767558431d5afd02aff8480921a2cfc53a2c9599cf814dc46550253",
+                                      "sha256":  "9d313bdd4f32510e2a4b08ca7ddc17da61dd164999c24a5feb39f39972af00ae",
                                       "size":  31
                                   }
               },
