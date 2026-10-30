@@ -1,7 +1,7 @@
 {
-    "versao":  71,
+    "versao":  72,
     "canal":  "directx",
-    "data":  "2026-10-30 15:31",
+    "data":  "2026-10-30 16:23",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7680,8 +7680,8 @@
                                                                  "size":  1575
                                                              },
                   "modules/game_analyser/analyser.lua":  {
-                                                             "sha256":  "ccf8731145fda854f1a0169eac61a9f79588b3f99530af230b2b6720b7fe91cc",
-                                                             "size":  20045
+                                                             "sha256":  "2718c10e3573fa5081905618a89088d002f544c5c51dc5104753330444e4fcde",
+                                                             "size":  20695
                                                          },
                   "modules/game_analyser/analyser.otmod":  {
                                                                "sha256":  "60cf3874b210a35d41e1af5d7b1696e1755ef589908c0630a59353f7b4053b41",
@@ -8532,8 +8532,8 @@
                                                                         "size":  4155
                                                                     },
                   "modules/game_console/console.lua":  {
-                                                           "sha256":  "fa53194f554de84ac9db14241c3fada6547a31be5934f6a4649d1cb06ed4e427",
-                                                           "size":  92142
+                                                           "sha256":  "e8863a72e6f1b6476b9eba5b1ea08efa070edd4ee05388ee0eefdb2ca382c4f2",
+                                                           "size":  92993
                                                        },
                   "modules/game_console/console.otmod":  {
                                                              "sha256":  "0928a9f5566722b68d99f8d168cad96d56a545f461ae25f92734cd5af7138134",
@@ -10760,8 +10760,8 @@
                                                                                "size":  2116
                                                                            },
                   "modules/game_proficiency/proficiency.lua":  {
-                                                                   "sha256":  "5e322c3fd6a1a82775171978071298ae6445e60e90608b6e3f7e56b82521d867",
-                                                                   "size":  86640
+                                                                   "sha256":  "3c3722156fac7a417912c90a0e625a3bf5678e80f34a7def504aa3ffff88caf9",
+                                                                   "size":  87275
                                                                },
                   "modules/game_proficiency/proficiency.otmod":  {
                                                                      "sha256":  "bb7e64afcbfe8ba954c1a0d2895798d309407f9bbca553b5d63a4b0c2a383b16",
@@ -13232,7 +13232,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "f76f90b59d859013101e256bd273e1ca713feb7f436fc9b4f27587e9c1469133",
+                                      "sha256":  "ad894d7b9ee10d30b613ab8b9295b958450ea50fa8397b574f7dd3b16ac9f0ae",
                                       "size":  31
                                   }
               },
