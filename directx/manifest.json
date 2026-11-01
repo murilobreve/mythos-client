@@ -1,7 +1,7 @@
 {
-    "versao":  80,
+    "versao":  81,
     "canal":  "directx",
-    "data":  "2026-10-31 21:19",
+    "data":  "2026-11-01 18:11",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7268,8 +7268,8 @@
                                                              "size":  24377
                                                          },
                   "modules/client_options/options.lua":  {
-                                                             "sha256":  "eb7e08153d5b1064808ac047b0d97e3c47739ff0cf05b93e5070ec302fb36a7f",
-                                                             "size":  31802
+                                                             "sha256":  "2c568c3688ee2b62086ab763695c00d7655ed4554ab2916baf387af68c1145c6",
+                                                             "size":  32068
                                                          },
                   "modules/client_options/options.otmod":  {
                                                                "sha256":  "73c67013c61eff2c354ba9b00d9712018066220f69a1faaa9395ef760ee63e37",
@@ -7604,8 +7604,8 @@
                                                    "size":  11192
                                                },
                   "modules/game_actionbar/game_actionbar.lua":  {
-                                                                    "sha256":  "0cf7cf8595b7356e6fa2f75e9efecca018335f94b2e69388eacbbc71a654edc9",
-                                                                    "size":  26459
+                                                                    "sha256":  "051d3b12eb515f330aa8e47c9b911a322783cc30d66a493054128af8e14b3f01",
+                                                                    "size":  27615
                                                                 },
                   "modules/game_actionbar/game_actionbar.otmod":  {
                                                                       "sha256":  "9c1905a9273129eac250e71f98534f0b0a49dbdf6061d308ae59020e2b5d965e",
@@ -7652,8 +7652,8 @@
                                                                           "size":  10347
                                                                       },
                   "modules/game_actionbar/logics/ApiJson.lua":  {
-                                                                    "sha256":  "a7c856f9445015afa207e97d86e8e34ff3a905901842e8fdfc628e0c04c7ed05",
-                                                                    "size":  38303
+                                                                    "sha256":  "4add266e338b5e13023590dc7447e62df03e3395f9ed5577e918bc96086b359f",
+                                                                    "size":  40477
                                                                 },
                   "modules/game_actionbar/logics/const.lua":  {
                                                                   "sha256":  "975f7ab158816e55ce24ef4654865ee96374330e3cd49e013cc8fbcee866abb8",
@@ -9908,8 +9908,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "d89a1b96ae48ac8a8f27dcc61013da001746817525609bb24b58f10c049edb38",
-                                                               "size":  38591
+                                                               "sha256":  "c69dd6186d8622a590907fbbf51acea50d201ca09ca48ec4361453eaf297a0fe",
+                                                               "size":  38948
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "c6b7c9a97740cbb6a089f7bc55cba963c7c0e156ad7049516acdd666e6719543",
@@ -10108,12 +10108,12 @@
                                                                    "size":  4329
                                                                },
                   "modules/game_itemcard/itemcard.lua":  {
-                                                             "sha256":  "f5c4daf5edb7e609d2623a8516cb69c715eaf9618eed84d63962800e11db38e5",
-                                                             "size":  21010
+                                                             "sha256":  "6287bdb3da32094c8a33e418430aecb84c626d75f17d1ccd0411bea6194af899",
+                                                             "size":  22520
                                                          },
                   "modules/game_itemcard/itemcard.otui":  {
-                                                              "sha256":  "f4ecc54fcd1737dab49f3b73033c414a3ab9c40fd48a7a03f9d2751f624bda41",
-                                                              "size":  5462
+                                                              "sha256":  "55dfe8fc2008f19755e32da78f6130220befc3d2c369169a94c368e550f5c84a",
+                                                              "size":  6772
                                                           },
                   "modules/game_journey/game_journey.otmod":  {
                                                                   "sha256":  "a8bb924dd49f255a583c754159813ddd0f3b5dd713c66cda23c70a06459e999c",
@@ -10136,8 +10136,8 @@
                                                                     "size":  743
                                                                 },
                   "modules/game_journey/journey.lua":  {
-                                                           "sha256":  "0a35016ce540e37142402571d3287f1bb2db01940f788f947b0a15a38be49451",
-                                                           "size":  21336
+                                                           "sha256":  "34915d7fd45f9dc68f4cd822893114f15e8dd4c8d0bf115e25af0238707a2056",
+                                                           "size":  21477
                                                        },
                   "modules/game_journey/journey.otui":  {
                                                             "sha256":  "3f0583bc522f220bfa99af517d2c5d6bbb68fa2d127e7fc4c21b720983647aa2",
@@ -11076,8 +11076,8 @@
                                                                  "size":  3192
                                                              },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "3141bd26cf203f982be82023d936795402cf7494278ca10f9e60fc314dababf4",
-                                                                   "size":  78461
+                                                                   "sha256":  "fb18d9e772796e60220ae9d6ce7ba4f7286654d053e48c0924accc15ceca568c",
+                                                                   "size":  78796
                                                                },
                   "modules/game_raritybonus/raritybonus.otui":  {
                                                                     "sha256":  "fde189c8f37b04a81a030b7dfc6a9a71138cf293ffc98ab3b6019f6e5c52e51b",
@@ -12560,8 +12560,8 @@
                                                            "size":  4772
                                                        },
                   "modules/game_skillshot/skillshot.lua":  {
-                                                               "sha256":  "34d51d139d9f1227fa9d60d76ed9bbf491c83ec327723b6e85ca225948cab00c",
-                                                               "size":  9033
+                                                               "sha256":  "13f6cbd76565acd84418dfa96d336b563faa6f43a3ae11ad00337d0eff190807",
+                                                               "size":  9457
                                                            },
                   "modules/game_skillshot/spear.lua":  {
                                                            "sha256":  "9295d3893fbc5f966a338a74a3cb4fc6b0601066daebdb4617f9333615dabed8",
@@ -13244,7 +13244,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "ffe978424de9ba813c5ddfe2438c9f99e31d2a7560c255a84586701c34fbb846",
+                                      "sha256":  "3e53f43d19278742e40f8b5d464858d410267b1a3bd014b4d8fada40ca4c8171",
                                       "size":  31
                                   }
               },
