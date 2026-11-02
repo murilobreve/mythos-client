@@ -1,7 +1,7 @@
 {
-    "versao":  81,
+    "versao":  82,
     "canal":  "directx",
-    "data":  "2026-11-01 18:11",
+    "data":  "2026-11-01 21:23",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "b7421f50917590ab5f1749ab44ff1a1d86f3166572138c60bdab22b414efd29c",
-                                              "size":  100568
+                                              "sha256":  "5192c41d08937f998a3822e0bb00cee58ca4d6b291318c88ea3f7e879497a74d",
+                                              "size":  104126
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -7132,8 +7132,8 @@
                                                                    "size":  159
                                                                },
                   "modules/client/client.lua":  {
-                                                    "sha256":  "e341a05a9bdb55162cbe5a21c9fbcf840272df9880aed1c40f0ffef01eb29ee0",
-                                                    "size":  2994
+                                                    "sha256":  "a6541d81fb97b282cb48bf10b06b9f492e215ebf8e17a05f903f9ded661e044e",
+                                                    "size":  3328
                                                 },
                   "modules/client/client.otmod":  {
                                                       "sha256":  "a7033b1d7c6f8c1c4f972aa530b3e5cc2a20b3aa6bb210603d47b8f7e4a3935b",
@@ -7364,8 +7364,8 @@
                                                               "size":  798
                                                           },
                   "modules/client_topmenu/topmenu.lua":  {
-                                                             "sha256":  "466e9c84d691a63f9acdd59942b8a9f0c4c483da41ac07d2e80a5f4ab6091c03",
-                                                             "size":  16041
+                                                             "sha256":  "de0f49f2a1430b9525253b02cbf04f991461d139a5c3e4fb0cd5ba955947bbab",
+                                                             "size":  16413
                                                          },
                   "modules/client_topmenu/topmenu.otmod":  {
                                                                "sha256":  "ccc91715e4185a201ef47a612264e750a41fa102e34360b5fa489730bedfca87",
@@ -7376,8 +7376,8 @@
                                                               "size":  4508
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "c8a7fdf4b3b74fcdf983e216417917bcba8ec9fac97bd6cdd10eabf37f394549",
-                                                                    "size":  21283
+                                                                    "sha256":  "bf4b8418ae3a72586536b7a34df071770f0323ebf0f91118219122c083bece55",
+                                                                    "size":  21432
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
@@ -8148,20 +8148,20 @@
                                                                              "size":  50943
                                                                          },
                   "modules/game_ascensao/images/previas/flecha.png":  {
-                                                                          "sha256":  "9d12bf931d841dbf078cc66d789c432c050ce4c77cfd1b1c27e31713deaaa1fc",
-                                                                          "size":  20732
+                                                                          "sha256":  "fe6b58ee2bab529ee9117efa8ce28990ff16994d032fcba548e5f2bf4059e8ca",
+                                                                          "size":  22059
                                                                       },
                   "modules/game_ascensao/images/previas/gancho.png":  {
                                                                           "sha256":  "4f299c0dcb2b67c0abe6a37e695ae0447b43a589835bd3fe9242f3310727b057",
                                                                           "size":  38176
                                                                       },
                   "modules/game_ascensao/images/previas/juizo.png":  {
-                                                                         "sha256":  "d04d9331b17c1ba5cee17a7d9c7e71e1a4e46923705b7183410b8029b79e51a4",
-                                                                         "size":  46294
+                                                                         "sha256":  "9160e00af2e80bd88851f8b34a9e603898acd160709fcef002757d58deb2897c",
+                                                                         "size":  49406
                                                                      },
                   "modules/game_ascensao/images/previas/lanca.png":  {
-                                                                         "sha256":  "4f731630fa12afa3710e7b28ac672b2ff4c1cf5d27bba841b0ca163de4f5e786",
-                                                                         "size":  43391
+                                                                         "sha256":  "b6dad0a426daf6c9e8b26b95801035e4b513c17db9874de81cc94d72e7ebdb53",
+                                                                         "size":  45916
                                                                      },
                   "modules/game_ascensao/images/previas/meteoro.png":  {
                                                                            "sha256":  "5336cd154bfea63bcce71fe83af223801fee70347775dbb179ed8f43144f9fa1",
@@ -9596,8 +9596,8 @@
                                                         "size":  10555
                                                     },
                   "modules/game_healbot/engine.lua":  {
-                                                          "sha256":  "a2774719f2bb0a3b8d8a2117f77765b6fcf0d455dd2e07f3732914b3ad1e5c25",
-                                                          "size":  13009
+                                                          "sha256":  "351793b6a59a7e34fbd7914902d51771415e2d6db70c39e4681f09f33470b8de",
+                                                          "size":  13104
                                                       },
                   "modules/game_healbot/game_healbot.otmod":  {
                                                                   "sha256":  "01ee6fab753ec5dd8d9d341cdeaf1c14cb8cb286c4fd1ebfc00ebd249a778b07",
@@ -9864,8 +9864,8 @@
                                                                   "size":  2515
                                                               },
                   "modules/game_highscore/game_highscore.lua":  {
-                                                                    "sha256":  "936d62ab636808de59182e3eddde19e1e510ffeadf9bcb45f749d511af69dfb9",
-                                                                    "size":  7858
+                                                                    "sha256":  "0ff1e1d91ab1c6f2a8a49142653dba13b52fb5c58ab1e6b834bd2981be25ce7c",
+                                                                    "size":  8063
                                                                 },
                   "modules/game_highscore/game_highscore.otmod":  {
                                                                       "sha256":  "8a4f3221854c82fdabaf6aebd68e772912cfe539aa00777f5e56d846f91b9dc8",
@@ -9892,12 +9892,12 @@
                                                                       "size":  254
                                                                   },
                   "modules/game_huntboard/huntboard.lua":  {
-                                                               "sha256":  "cc2bab228905100e6842c019e26ff8afa484b97bf9645de19bc11b94e46faa95",
-                                                               "size":  37209
+                                                               "sha256":  "2ae7a5333bdb0f37908efc8fec1b5b5231189c23fe5aaf2e49a06d59745347f0",
+                                                               "size":  48925
                                                            },
                   "modules/game_huntboard/huntboard.otui":  {
-                                                                "sha256":  "dbcf28ba093bf86c647df8d17a3061a23d2df58d80c699e8b8ff84061f31a87f",
-                                                                "size":  15238
+                                                                "sha256":  "44cd0e77fa278875ff55d09a1aaf01ded3095e1cf9cffe78a0aa41848405ccd8",
+                                                                "size":  18397
                                                             },
                   "modules/game_huntboard/images/button.png":  {
                                                                    "sha256":  "240afa39312b56a8ac6c6b0186f80b86ee653df75e3a3806241ddfd1aafb9d5b",
@@ -9908,8 +9908,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "c69dd6186d8622a590907fbbf51acea50d201ca09ca48ec4361453eaf297a0fe",
-                                                               "size":  38948
+                                                               "sha256":  "b7eec171c45d925d0c8577264c11bac928ca2b149e73bb418851eef3e2fa9712",
+                                                               "size":  38964
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "c6b7c9a97740cbb6a089f7bc55cba963c7c0e156ad7049516acdd666e6719543",
@@ -10088,8 +10088,8 @@
                                                                     "size":  7021
                                                                 },
                   "modules/game_inventory/inventory.lua":  {
-                                                               "sha256":  "a2a40b0be76b3ab1330033f8cb64d2b570b7dc700e2e8841a1072daabc27fc87",
-                                                               "size":  17503
+                                                               "sha256":  "4f09cfea760f92423f4204c30a4f0f1dc7dd73e6bd4fb08b5e2dc1856004c1b6",
+                                                               "size":  17466
                                                            },
                   "modules/game_inventory/inventory.otmod":  {
                                                                  "sha256":  "ea0c94d56f2a00ed1ca82af6c4834b5e86a6706d059f7549675fa884ab092e2f",
@@ -10556,8 +10556,8 @@
                                                                     "size":  2596
                                                                 },
                   "modules/game_prey/prey.lua":  {
-                                                     "sha256":  "54c100fe79598aa80fb551591b06a56af596e35015c4cf3ad4a13214f2a4f4ec",
-                                                     "size":  61195
+                                                     "sha256":  "c23239df0d18e14dae315a67889386d204a95fc62d29078dc42160f147a95476",
+                                                     "size":  61337
                                                  },
                   "modules/game_prey/prey.otmod":  {
                                                        "sha256":  "804621e3c62daa15933fb41cb5198cc7170c9f0ce0bf5467d03f9ca4f0d36584",
@@ -11068,8 +11068,8 @@
                                                                                               "size":  62340
                                                                                           },
                   "modules/game_raritybonus/lootfind.lua":  {
-                                                                "sha256":  "83b51559f681d12c8ed261f0ebeee5c30ec8b26848986bfa3219a126ba54da4f",
-                                                                "size":  21520
+                                                                "sha256":  "6a6f5972a8feca2125a26396a34f25376a9dd7e94a36ea9ff9ae68d759892835",
+                                                                "size":  21781
                                                             },
                   "modules/game_raritybonus/lootfind.otui":  {
                                                                  "sha256":  "a2b9a4cf882f39958b9e297310b2643278959c20fe1ad2bfa272450ef1a2329d",
@@ -11460,8 +11460,8 @@
                                                           "size":  15662
                                                       },
                   "modules/game_skillshot/arrow.lua":  {
-                                                           "sha256":  "fcfde4bf6a028716768befb45d3396f795673cdec80af22f1308c94571c2032d",
-                                                           "size":  6751
+                                                           "sha256":  "c43b26335c06d87a1cfccbb39548c0ff492b08ef42d0a4de4463bc38bb4b0d14",
+                                                           "size":  8303
                                                        },
                   "modules/game_skillshot/art.lua":  {
                                                          "sha256":  "328dc5242a784277590c1152bd01164c75d23f67a664929c8b9643318b23236b",
@@ -11712,76 +11712,76 @@
                                                                                  "size":  390
                                                                              },
                   "modules/game_skillshot/images/flecha/acerto_anel.png":  {
-                                                                               "sha256":  "57d18beee2c48e731ebc02086beb7bda9333aa9f9c5f96b3448c6dfd8f9fea4e",
-                                                                               "size":  27560
+                                                                               "sha256":  "06b3c3ec2f3f1153d379db090da12b47bde57830702748f70257f4140ae6c173",
+                                                                               "size":  27538
                                                                            },
                   "modules/game_skillshot/images/flecha/acerto_nucleo.png":  {
-                                                                                 "sha256":  "9dea269db59bcc2d0ca1ae2d849c8656a3f06024711098e18fa67b0e1f6060fe",
-                                                                                 "size":  24122
+                                                                                 "sha256":  "767e4b3c9169c22a8f5fe1e74e5c0d205d20ba4bae8bada1387a774641d8d8a1",
+                                                                                 "size":  24083
                                                                              },
                   "modules/game_skillshot/images/flecha/acerto_raio.png":  {
-                                                                               "sha256":  "3ebb8623baf3e6aef7bb545a9bdbafb73ce73f3cbd77d24f46ef2c471c5422e3",
-                                                                               "size":  4726
+                                                                               "sha256":  "503350622fe216a31ab6b93a750323b84c49a169f7b78de0013b2219b67e777c",
+                                                                               "size":  4755
                                                                            },
                   "modules/game_skillshot/images/flecha/arco_1.png":  {
-                                                                          "sha256":  "54b71420a6ec72ec45030581e0a87702bccd0598a7e03d127d4e215faca4e497",
-                                                                          "size":  13971
+                                                                          "sha256":  "5112eb0773dc1c63962bc509e62056e76e91d6c3f216f40652b636c70d4691f0",
+                                                                          "size":  13965
                                                                       },
                   "modules/game_skillshot/images/flecha/arco_2.png":  {
-                                                                          "sha256":  "c317aec3b42966f5436b9bb03a7ac1469dc2f6f6262675cf5611864d63810b8d",
-                                                                          "size":  15042
+                                                                          "sha256":  "073634dc570c80cf205b4cf0c27c623ad239dc8ddfd7884c3fcfc093972170a9",
+                                                                          "size":  15012
                                                                       },
                   "modules/game_skillshot/images/flecha/arco_3.png":  {
-                                                                          "sha256":  "f307e297020e35f08846b15a5f761e3c3539b43d85210b4b563f8cfc15644bc1",
-                                                                          "size":  16811
+                                                                          "sha256":  "1dc30caa2611f35d8cc454fabdabc48ec928fdc2e0756d6f5c4e645b31c9dd54",
+                                                                          "size":  16753
                                                                       },
                   "modules/game_skillshot/images/flecha/curvas.csv":  {
                                                                           "sha256":  "e6cb3e0f07ad7115704bf4041a32f8ded3a1f1b5c9e8bd785e9d3f9e5c7e2029",
                                                                           "size":  2105
                                                                       },
                   "modules/game_skillshot/images/flecha/erro_cravada.png":  {
-                                                                                "sha256":  "6bc24bc853cefcec53a5590d916f3ce135bed88d74983916856d784665fc2860",
-                                                                                "size":  3560
+                                                                                "sha256":  "53f6f94602bb3d1c0e3514dd62ef4650e357f399e0e34c0b5c8ac4d048c3a0eb",
+                                                                                "size":  3554
                                                                             },
                   "modules/game_skillshot/images/flecha/flecha.png":  {
-                                                                          "sha256":  "1800f9aa037ea301631d75eef6c5f27d657daca3aba670e4b25b958c335fb1bf",
-                                                                          "size":  2313
+                                                                          "sha256":  "dbee7eeab4512695ca3701d5eda7a9d6c85400bc72eaa304f82acba2ec1c5547",
+                                                                          "size":  2319
                                                                       },
                   "modules/game_skillshot/images/flecha/particulas.csv":  {
                                                                               "sha256":  "8d3a28685c7a2e2508368b7cc54034f922d1a422bbb7a666ea0c19c2a977ae1b",
                                                                               "size":  207
                                                                           },
                   "modules/game_skillshot/images/flecha/pena_1.png":  {
-                                                                          "sha256":  "7b3df9d6ac572e64828e262e10fc38d53316e9bbe6b6fef4e38e7330002ea86d",
-                                                                          "size":  1556
+                                                                          "sha256":  "b595b025658b4beeef96f3e2eef4d66b26dfcea4d7ee7587ad467d99946a86ed",
+                                                                          "size":  1544
                                                                       },
                   "modules/game_skillshot/images/flecha/pena_2.png":  {
-                                                                          "sha256":  "15fe08bd1f8ba7669c0853e9bea99b4420a1e61a0fa112801ed7e8287d500752",
+                                                                          "sha256":  "764fc37a61e9be2821fcb641f1fcb463bad5219ae9df500ec0e0363c0aafefcc",
                                                                           "size":  1821
                                                                       },
                   "modules/game_skillshot/images/flecha/pena_3.png":  {
-                                                                          "sha256":  "c94207a6aff4cb8257e97a1bb7e28d8495f174f7d5765984144540d7705390d0",
-                                                                          "size":  1622
+                                                                          "sha256":  "5c7d7550f8d71e04c9bba61336b687d7714c09fc0a899f66b36cb7ef0023c8f1",
+                                                                          "size":  1618
                                                                       },
                   "modules/game_skillshot/images/flecha/ponta_energia.png":  {
-                                                                                 "sha256":  "a5d5b8c0ce45881be9203ebd06905f1e869ab51fbe0012a3b41b64a06b325372",
-                                                                                 "size":  3683
+                                                                                 "sha256":  "51651e24ed87abfaa41937bc473faf4e76bddd5083806d7bee2d5f7168b9ea6a",
+                                                                                 "size":  3687
                                                                              },
                   "modules/game_skillshot/images/flecha/preso_halo.png":  {
-                                                                              "sha256":  "95abdaa2309cd41024a7d94044a2a9e0c36d67ce11f8063fd48562d92a5e88d3",
-                                                                              "size":  15663
+                                                                              "sha256":  "e9c414394cf1f58cdf5eb23a6fc58d6cefdf7627811c971bee349c6a0ab05340",
+                                                                              "size":  15591
                                                                           },
                   "modules/game_skillshot/images/flecha/rastro.png":  {
-                                                                          "sha256":  "990d255e777f0b8fe82d5dbc1345980ae3013d713d6371b6fd48f586f5f6144a",
-                                                                          "size":  9468
+                                                                          "sha256":  "8cd707746646e385b9c4544cc7fc78c710dc512fb99c015feca58aa27720667e",
+                                                                          "size":  9365
                                                                       },
                   "modules/game_skillshot/images/flecha/soltar_anel.png":  {
-                                                                               "sha256":  "5b76f7f66dc0e15319996f05d5fda5e2568e803f79ceb2cc497ac3c39dc3a825",
-                                                                               "size":  14590
+                                                                               "sha256":  "fd15d122bc71f83431782c5dd62627c0dd7679ba0fd6ce164a6f01642fa537bc",
+                                                                               "size":  14681
                                                                            },
                   "modules/game_skillshot/images/flecha/soltar_flash.png":  {
-                                                                                "sha256":  "c4740fb5225fb82c170df485d957e45bca4ca2cfc24987b8e00061f4d759da91",
-                                                                                "size":  34701
+                                                                                "sha256":  "12b054e613553028cc12997c36b32d1f10e0ec7eb154f7c427f8422c3f2aed92",
+                                                                                "size":  34857
                                                                             },
                   "modules/game_skillshot/images/gancho/corrente_elo.png":  {
                                                                                 "sha256":  "9c11a209e57098e1b4a2399ffa1677caaf3d8fc3d5624493f2f4753c7a378e8d",
@@ -11836,104 +11836,104 @@
                                                                           "size":  13267
                                                                       },
                   "modules/game_skillshot/images/juizo/brilho_chao.png":  {
-                                                                              "sha256":  "f1897b75cf6f1aa4213564e65e098512cf8415b04e8e2ea061def882241db0fa",
-                                                                              "size":  55311
+                                                                              "sha256":  "de9a344e3ab74947832ee2cbcaa34ad6a64888a5036f4b27c39468f1831c7491",
+                                                                              "size":  55385
                                                                           },
                   "modules/game_skillshot/images/juizo/centro.png":  {
-                                                                         "sha256":  "0be9c5cc8230b3e3b4e67e5e2047512f6fd49b84f9d013d1a7a9ae3de6d3ad25",
-                                                                         "size":  5981
+                                                                         "sha256":  "f239b5f3fc9474aa66a970af54a6ab75df73a37ed01e75010235c715ef849dfc",
+                                                                         "size":  5991
                                                                      },
                   "modules/game_skillshot/images/juizo/circulo.png":  {
-                                                                          "sha256":  "ca4d7a80446ee382dbbd0b73ef19bf51de6e0cf472669840d2093e78c1ab1974",
-                                                                          "size":  65516
+                                                                          "sha256":  "bf22297a9b58d64d49c1ca6677b651b9e9530b87d2978d01d8e82e60b41605b6",
+                                                                          "size":  65477
                                                                       },
                   "modules/game_skillshot/images/juizo/circulo_relogio.png":  {
-                                                                                  "sha256":  "2967c6a4812ba83f7a70fba1bbff18f98bb8111d3fed939381fe134be063dcb7",
-                                                                                  "size":  81033
+                                                                                  "sha256":  "33632eb204dc923556c378c1d1ed61f82ad1be6584d049edbd1114a2aa51a5d9",
+                                                                                  "size":  19464
                                                                               },
                   "modules/game_skillshot/images/juizo/curvas.csv":  {
                                                                          "sha256":  "5e51825e8cfba85a56aecbdff7a69116a2318556b65903389522c56aeb9ba4d0",
                                                                          "size":  2549
                                                                      },
                   "modules/game_skillshot/images/juizo/impacto_anel.png":  {
-                                                                               "sha256":  "eb10d40340b9bde4a521b6ca16a7aa55ecacccf325fc155d2fceab63b117af4e",
-                                                                               "size":  79754
+                                                                               "sha256":  "5616452a023b4f7674b690f194612d526e292e66606f7b0bcdfd5366ebe03318",
+                                                                               "size":  80218
                                                                            },
                   "modules/game_skillshot/images/juizo/impacto_nucleo.png":  {
-                                                                                 "sha256":  "f6789a601c9711cddc8e2c93bf962e5b7577378c78604a1331c70770fafda5ba",
-                                                                                 "size":  65371
+                                                                                 "sha256":  "b699f8347f350b37897a95c992d474489348e464365196b5977f98562f8e7b45",
+                                                                                 "size":  65815
                                                                              },
                   "modules/game_skillshot/images/juizo/impacto_raios.png":  {
-                                                                                "sha256":  "ef0b106597e60125879bf5bdb7b36c4284eabacacdc6c68ac04a01ef8a8586a7",
-                                                                                "size":  75295
+                                                                                "sha256":  "23b76bb46b1f94a84d7c3579e4af0feeb8ad5b32b68c94ed4918765deb7f928d",
+                                                                                "size":  75694
                                                                             },
                   "modules/game_skillshot/images/juizo/particulas.csv":  {
                                                                              "sha256":  "7f59969b1ce876112759babcadb9695f40fffb25188f96d491fa69bcf240ad94",
                                                                              "size":  290
                                                                          },
                   "modules/game_skillshot/images/juizo/pena_1.png":  {
-                                                                         "sha256":  "a7b25b67f61f7d05703c0603ad8476e6aa1c9421294cee18be34479e2648f8ce",
-                                                                         "size":  2266
+                                                                         "sha256":  "c67aef0420e5d79991cb1184124e53738298b0d9471e9b5c3a16188c72616eff",
+                                                                         "size":  2265
                                                                      },
                   "modules/game_skillshot/images/juizo/pena_2.png":  {
-                                                                         "sha256":  "661d3034931ec963f1316dfda94bee360ba0dfcb738299d4f8dac35c314524aa",
-                                                                         "size":  1964
+                                                                         "sha256":  "fcc77267719495057b0946e8f3535db22c56abf04d360701b00c4eb2a0ab6cc6",
+                                                                         "size":  1960
                                                                      },
                   "modules/game_skillshot/images/juizo/pena_3.png":  {
-                                                                         "sha256":  "3c91f913f7e22908a00e05813fad909b287581d4a302890b0a1051da61d3152b",
-                                                                         "size":  1936
+                                                                         "sha256":  "38820743558a37571e7fb060fa0f5a1b59dcd22d7dde3f1c70cdb5b364137157",
+                                                                         "size":  1918
                                                                      },
                   "modules/game_skillshot/images/juizo/raio.png":  {
-                                                                       "sha256":  "dc6534b3eee7f17a75ca66ca637f48d7a08db854c611918a183bc859c1e26925",
-                                                                       "size":  27260
+                                                                       "sha256":  "e8baca541db227094bf395c143747dcf9b206e59cd43e0d3ec95c7bea942b880",
+                                                                       "size":  27381
                                                                    },
                   "modules/game_skillshot/images/lanca/acerto_estrela.png":  {
-                                                                                 "sha256":  "cb4b693cf481a0680e30246515fe0b5116fc5948657eef94521bd124c34d8498",
-                                                                                 "size":  40127
+                                                                                 "sha256":  "ae0828cb0be367859dc529deb84fc631478a183c9a24a2f999e5ea4be1c711db",
+                                                                                 "size":  40102
                                                                              },
                   "modules/game_skillshot/images/lanca/acerto_nucleo.png":  {
-                                                                                "sha256":  "0a54625e19c9287907465d2b4eefdcb59061d0ece8ab0cd2f47eb9941fe0eabe",
-                                                                                "size":  17206
+                                                                                "sha256":  "3cbe937404dc0ab2ed941dd96be34ea5d5efb7da0a1e14f90bfe342a0492cd57",
+                                                                                "size":  17227
                                                                             },
                   "modules/game_skillshot/images/lanca/chao_brilho.png":  {
-                                                                              "sha256":  "20989da6f78ba21b1183487a6a8a91f9c99b570c2acc8f609c26a6ca88dcc101",
-                                                                              "size":  19692
+                                                                              "sha256":  "922ecdf47ae6781109c6bcf1fde9b1dae7485c1f6a9ae5e1f765e8c043df020d",
+                                                                              "size":  19681
                                                                           },
                   "modules/game_skillshot/images/lanca/chao_lanca.png":  {
-                                                                             "sha256":  "ecda5ee0bc5572b20db755b9f4117a6630ac5b5eddc08f4efa03cebc2705ea35",
-                                                                             "size":  3965
+                                                                             "sha256":  "50093f81a59c5ac711c2e668d17be636c02ac473c5fb4d8bb874ef8316225017",
+                                                                             "size":  3996
                                                                          },
                   "modules/game_skillshot/images/lanca/curvas.csv":  {
                                                                          "sha256":  "5727ccca5bf2e5a7ba018229490a137ff6297b6e41bc831450a614bc1823f222",
                                                                          "size":  2310
                                                                      },
                   "modules/game_skillshot/images/lanca/faisca_1.png":  {
-                                                                           "sha256":  "1e65e66bc7e75dc85cba931328393eae19cadc3b27aa0886f02b87a34fbab93f",
-                                                                           "size":  1090
+                                                                           "sha256":  "56f2d4ed39ee0f22475f650c6cc450c5005c26e5e34ac304f8aed2725a031fb1",
+                                                                           "size":  1089
                                                                        },
                   "modules/game_skillshot/images/lanca/faisca_2.png":  {
-                                                                           "sha256":  "11af9d509f2af2bd17d716e47a07fdd52514b30ad62dc92c6c191d04757e71f1",
-                                                                           "size":  1726
+                                                                           "sha256":  "99bbd2d2e40c5e797121413edff6b887e3e1f42df6d36dbe8fc4f3d9c0f8e532",
+                                                                           "size":  1727
                                                                        },
                   "modules/game_skillshot/images/lanca/faisca_3.png":  {
-                                                                           "sha256":  "658f80a7136d428531be0bfa02a8dc7d3cec52b9527ca17a792fbaa80bde84e9",
-                                                                           "size":  1705
+                                                                           "sha256":  "cf320fa20c49f1eefd2339386017b78dd1ca2b4eae9ac2b10600066aa3f3148e",
+                                                                           "size":  1690
                                                                        },
                   "modules/game_skillshot/images/lanca/lanca.png":  {
-                                                                        "sha256":  "e38c261fdd9852fd6be68257d2b7456f7f36996a4ee8cce60d483f8806a26fc7",
-                                                                        "size":  3776
+                                                                        "sha256":  "8ff262519707d8b201e845a98cbb2ef228da6187c94de9cce690b6399c44ab2b",
+                                                                        "size":  3774
                                                                     },
                   "modules/game_skillshot/images/lanca/particulas.csv":  {
                                                                              "sha256":  "c46fece3814f4a16e2a1dfdbd418f41d3b02903ddd1258263701ec6625ef8ed8",
                                                                              "size":  269
                                                                          },
                   "modules/game_skillshot/images/lanca/pegou_flash.png":  {
-                                                                              "sha256":  "37fb023370023f6b0dfb6f664ea2e475c28f1c92273d1dd641d3ebc7e6ee2e93",
-                                                                              "size":  23247
+                                                                              "sha256":  "d5059b897386a62923dbb366dee5c6ce266aa5aecbb522908edf55d86da9ce11",
+                                                                              "size":  23308
                                                                           },
                   "modules/game_skillshot/images/lanca/rastro.png":  {
-                                                                         "sha256":  "cde38cd647278b420084df003c22710d3f7decacc373f2b3ed88f73afe35d8a0",
-                                                                         "size":  13268
+                                                                         "sha256":  "b2c17914bf7995c71d7c8ed78db1212fef4825227d9b92a014182620f5e64d01",
+                                                                         "size":  13296
                                                                      },
                   "modules/game_skillshot/images/meteoro/cratera.png":  {
                                                                             "sha256":  "6146b91efd98238cf3d99e0482abff2a2ec3107043198eb4237ec21df2a6a364",
@@ -12604,8 +12604,8 @@
                                                              "size":  4581
                                                          },
                   "modules/game_store/game_store.lua":  {
-                                                            "sha256":  "cfdd3a94f9777fe9b3f3dd84f87b4e25f25fbb16757d79bd50c359b0edf4b4c6",
-                                                            "size":  51792
+                                                            "sha256":  "6916653d361849517ff467569328ddb83591d0de2238b6b00d850829891033d0",
+                                                            "size":  51981
                                                         },
                   "modules/game_store/game_store.otmod":  {
                                                               "sha256":  "03c82f2bfa383e581bb8ea3b6c5a18b519f5b85e15f62d6d80965f1a66ae0faa",
@@ -12988,8 +12988,8 @@
                                                                     "size":  155
                                                                 },
                   "modules/game_tutorial/tutorial.lua":  {
-                                                             "sha256":  "682eec9459456d3a25ee45808283dffb399fa9bde7647ea51571c8204fc3754e",
-                                                             "size":  12637
+                                                             "sha256":  "993e84d250825ad3f3d8b511f52fd836343eb8e9a314069c8700cb0cdeb59cb1",
+                                                             "size":  13291
                                                          },
                   "modules/game_tutorial/tutorial.otui":  {
                                                               "sha256":  "f6c0f2d0cc7d1934e34ad19ae99aa0de1eda2731b7c1881f0bd995a8e2fd1ae6",
@@ -13108,32 +13108,48 @@
                                                         "size":  5571
                                                     },
                   "modules/game_wiki/game_wiki.otmod":  {
-                                                            "sha256":  "e5b4d49b831ef8a751f203fc7b62dbffaa51e6860963db4a11fdfb4ff6dde52b",
-                                                            "size":  249
+                                                            "sha256":  "0a341144183f110891c3f8929bfcdea5c508df96674cc91c074a8cb90962397e",
+                                                            "size":  290
                                                         },
                   "modules/game_wiki/images/button.png":  {
                                                               "sha256":  "4cc2f233cd6c5c4fc6f6de387edbe8d22e950c1090d8f32c32b167ab1c888f28",
                                                               "size":  443
                                                           },
-                  "modules/game_wiki/monsters.lua":  {
-                                                         "sha256":  "d69be548b759c038df78e502a8b73e3c38cd3386ab13b7894b9a24d72e4046d4",
-                                                         "size":  24020
-                                                     },
-                  "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "6c7497ccfcdd0b03363b9df783c9902c5e781a958674a1010f45da50b5ad05b8",
-                                                      "size":  49884
+                  "modules/game_wiki/items.lua":  {
+                                                      "sha256":  "46f2c0fdab92cc8014d31f3d787203fe69a999859ae436b9bff521f5b88686b7",
+                                                      "size":  28344
                                                   },
-                  "modules/game_wiki/teleports.lua":  {
-                                                          "sha256":  "81675300331d88b0a885d492a5f69081e451bc08231389b099444c547de9ae20",
-                                                          "size":  37737
-                                                      },
+                  "modules/game_wiki/monsters.lua":  {
+                                                         "sha256":  "19c6054176f14fcb73d0ce929d22a48cb367c3f7c8021ec4c5d85fd44e521bf6",
+                                                         "size":  41662
+                                                     },
+                  "modules/game_wiki/npcinfo.lua":  {
+                                                        "sha256":  "413cce73af972e7d97b1993ef18b2daa6e05e08c3e65ff226f7c4c8c14e4aeb4",
+                                                        "size":  7326
+                                                    },
+                  "modules/game_wiki/npcs.lua":  {
+                                                     "sha256":  "6af58567296320172976765262163308204fb8a205aadf7da1074eec553bcca5",
+                                                     "size":  12433
+                                                 },
+                  "modules/game_wiki/pages.lua":  {
+                                                      "sha256":  "e01e7a123764188766be7ce8bad0352cb4e30290621d411b51e782ef596bda56",
+                                                      "size":  61002
+                                                  },
+                  "modules/game_wiki/spells.lua":  {
+                                                       "sha256":  "bda3d7bce6f012bdbcede58804b47bf65c35c6576e453ce4a47dedb2af513b85",
+                                                       "size":  11022
+                                                   },
+                  "modules/game_wiki/systems.lua":  {
+                                                        "sha256":  "51473b47aab53ec9e9ccfe98fc9d7ceac6a655d6385fde5d4d1e460331364e2c",
+                                                        "size":  12822
+                                                    },
                   "modules/game_wiki/wiki.lua":  {
-                                                     "sha256":  "21157ea6e19e6d76bf240f91b3daaff76342a999a6d03f24589b759b72df3a76",
-                                                     "size":  14988
+                                                     "sha256":  "90e6090dfde129fc682562bcbce5bc4ff5dcc4bca60dc0afde0486ac152252c7",
+                                                     "size":  20131
                                                  },
                   "modules/game_wiki/wiki.otui":  {
-                                                      "sha256":  "724e67ae8a46811e913f57b2316d404a07d2b34def1102b7899a8086663d6592",
-                                                      "size":  17602
+                                                      "sha256":  "bb31440a70b049a06b531eb5d3cc1de88522de74c87d05a3368bc875e462e537",
+                                                      "size":  33370
                                                   },
                   "modules/gamelib/const.lua":  {
                                                     "sha256":  "e17b314abc6db4292743a9b8b51ea9078cb766dea699c7e0009b86f76ac02764",
@@ -13236,15 +13252,15 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "ad646fb87b293c6afde383fd8777bbced6f368e9d317cccfc86034eee41282eb",
-                                             "size":  42901504
+                                             "sha256":  "801a50621ec9ccef4dfecdc2515317879787b566d91bbff841031b7b4f9c5659",
+                                             "size":  42902016
                                          },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "3e53f43d19278742e40f8b5d464858d410267b1a3bd014b4d8fada40ca4c8171",
+                                      "sha256":  "a6b46035f4060917693537a088aee2037bf27b1c9fe069dc2022f20d3a03bc22",
                                       "size":  31
                                   }
               },
@@ -13611,6 +13627,7 @@
                     "modules/game_skillshot/images/raizes/soltando.png",
                     "modules/game_skillshot/images/raizes/veneno.png",
                     "modules/game_skillshot/images/salto/queda.png",
-                    "modules/game_skillshot/images/salto/saida.png"
+                    "modules/game_skillshot/images/salto/saida.png",
+                    "modules/game_wiki/teleports.lua"
                 ]
 }
