@@ -1,7 +1,7 @@
 {
-    "versao":  88,
+    "versao":  89,
     "canal":  "directx",
-    "data":  "2026-11-02 12:15",
+    "data":  "2026-11-02 13:26",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -12355,6 +12355,42 @@
                                                                                              "sha256":  "aebef09979c417330d2a2f34b0fcc908bc35a4f2a8dae8bcb88f0b57866bf258",
                                                                                              "size":  3159
                                                                                          },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/area_aviso.png":  {
+                                                                                                "sha256":  "e97352be5e72a28931e3d210d4b4f7b91bfcbfeafeb1b4179c6d3c9e2ba9af1e",
+                                                                                                "size":  188369
+                                                                                            },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/carga_arremesso.png":  {
+                                                                                                     "sha256":  "89d5b0032ee977269dcd7aa92aba6bfc3499f3e555b8b9c0a416b7f4c53cb2f5",
+                                                                                                     "size":  34169
+                                                                                                 },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/carga_loop.png":  {
+                                                                                                "sha256":  "e062e893f31879db653f4564c8e8f4516aab233c009bc865bd1731c576c00142",
+                                                                                                "size":  8527
+                                                                                            },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/estouro.png":  {
+                                                                                             "sha256":  "6fbca29e8dd4d80e680d5c1516115ea39f32d374a7f888bc464ddb3886bd7919",
+                                                                                             "size":  266778
+                                                                                         },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/faisca_1.png":  {
+                                                                                              "sha256":  "5b1f3ccb84621fa8b19a28d848d0e1a4c1bc5cc7f6e2d2e892b49f841fbd6c09",
+                                                                                              "size":  751
+                                                                                          },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/faisca_2.png":  {
+                                                                                              "sha256":  "b1b7910ff2b2a4a46b03792f6aa74091b6683c7b4baadf1f5a60a27e6c7483ee",
+                                                                                              "size":  730
+                                                                                          },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/faisca_3.png":  {
+                                                                                              "sha256":  "4755ec8c23380a43defa1db198a92fdd1e12ed17eb6fe9bcaa2a8da3aa1c5049",
+                                                                                              "size":  794
+                                                                                          },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/faisca_4.png":  {
+                                                                                              "sha256":  "3e9b1b9165e3464228d073d95c810c8624b4b41c01fe2441c3d015699e823c3d",
+                                                                                              "size":  1429
+                                                                                          },
+                  "modules/game_skillshot/images/renascimento/ashen/pavio/pavio_h.png":  {
+                                                                                             "sha256":  "f22a23259b4292f822835e1ee7081a3866eff441bf595e83de7770f7f63cc58e",
+                                                                                             "size":  8520
+                                                                                         },
                   "modules/game_skillshot/images/renascimento/lord-of-death/comum/acerto.png":  {
                                                                                                     "sha256":  "db4005c4ea0ea4dcfea66409e106fdc3d12f4ce41cb634f63cb4652c0245e570",
                                                                                                     "size":  13081
@@ -12367,6 +12403,30 @@
                                                                                                           "sha256":  "1e0808eb35c6267471aba5becf4920ee3e4708765e4b5bc71a49482e89121df5",
                                                                                                           "size":  8763
                                                                                                       },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/anel_aviso.png":  {
+                                                                                                        "sha256":  "abc0515760f7c2dd6e37be5784aa8a19421ffb35b867ceb5c304ee1707d8a3f2",
+                                                                                                        "size":  75048
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/anel_golpe.png":  {
+                                                                                                        "sha256":  "37ce136056174b0c0787be566bc82d402f03fbf9cb12177e7a5740dc5af8ddc4",
+                                                                                                        "size":  61369
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/anel_resto.png":  {
+                                                                                                        "sha256":  "0e3ce17d7246750c5420c77bd97738dff4a171ce0164a15458b5624a6168d05a",
+                                                                                                        "size":  14455
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/sino_dobra.png":  {
+                                                                                                        "sha256":  "006b92f05a305138df3c02ec872054be4750ba973c99640932532e0a6280a28f",
+                                                                                                        "size":  82361
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/sino_some.png":  {
+                                                                                                       "sha256":  "186dbbe617bdc1287b2390431904857e9d667718de003202a3355658c60202a4",
+                                                                                                       "size":  66708
+                                                                                                   },
+                  "modules/game_skillshot/images/renascimento/lord-of-death/dobre/sino_surge.png":  {
+                                                                                                        "sha256":  "ad8ca104f8338ec2fbb3f677472639b37d04c057ebcf528e975000d008c83144",
+                                                                                                        "size":  117058
+                                                                                                    },
                   "modules/game_skillshot/images/renascimento/lord-of-death/eclipse/eclipse.png":  {
                                                                                                        "sha256":  "92b6460e576104644585e79b72a2d0329f9c51c7ded3a70e35b1bb8c383fa0f0",
                                                                                                        "size":  127085
@@ -12411,6 +12471,26 @@
                                                                                               "sha256":  "1478b98d7f6eaa6b6efa3af004185d2eb554dd107ecee58c6067447d1c0e69b1",
                                                                                               "size":  4415
                                                                                           },
+                  "modules/game_skillshot/images/renascimento/obsidian/redoma/cristal_cresce.png":  {
+                                                                                                        "sha256":  "c6324e25e8aaa59bebc6d36ce818206d3bc69deacfc1f64c362c8d3022af8f2c",
+                                                                                                        "size":  79975
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/obsidian/redoma/cristal_quebra.png":  {
+                                                                                                        "sha256":  "c3b738f45a84c65d169af1e2580450bbec34e5b24fb71a0823899d48230057fd",
+                                                                                                        "size":  48947
+                                                                                                    },
+                  "modules/game_skillshot/images/renascimento/obsidian/redoma/fecha.png":  {
+                                                                                               "sha256":  "db0888b9fc523e43835ab8367e48ed126130352f5b2d0ebc0a1c945c9e27ec17",
+                                                                                               "size":  165131
+                                                                                           },
+                  "modules/game_skillshot/images/renascimento/obsidian/redoma/miolo_aviso.png":  {
+                                                                                                     "sha256":  "9134e3cd2079a18c6b843eb9002efc6c5c214f4570237d736ecfc0072b881711",
+                                                                                                     "size":  280058
+                                                                                                 },
+                  "modules/game_skillshot/images/renascimento/obsidian/redoma/porta.png":  {
+                                                                                               "sha256":  "c8a0cfe6d8bf69e04608bfa0ac72e94049be5ccdb6745d6bf8c0157888924d9e",
+                                                                                               "size":  51046
+                                                                                           },
                   "modules/game_skillshot/images/renascimento/pale/comum/acerto.png":  {
                                                                                            "sha256":  "9da6693b485be9c91d7e5aac1ac77694daf17f055a5231a2ca67fa9ae0b5f733",
                                                                                            "size":  17996
@@ -12447,6 +12527,22 @@
                                                                                              "sha256":  "2a487a74d260f50e79e2d6cd757c03182887fec930f2e18053d21a1b96d6c77e",
                                                                                              "size":  3061
                                                                                          },
+                  "modules/game_skillshot/images/renascimento/pale/mare/aviso.png":  {
+                                                                                         "sha256":  "b1958f3efafaf6b6d95698e0e5a05a1d66da0606db84ed0298055eff67a70e74",
+                                                                                         "size":  83639
+                                                                                     },
+                  "modules/game_skillshot/images/renascimento/pale/mare/fresta.png":  {
+                                                                                          "sha256":  "6b8eb83681ab5517632072cdfc3536c3ea534568f74680e4f48206afaadf943c",
+                                                                                          "size":  6783
+                                                                                      },
+                  "modules/game_skillshot/images/renascimento/pale/mare/onda_h.png":  {
+                                                                                          "sha256":  "88f995171efae8117bfc5abeb3cb93a26aab0ff2e1e40a2046d2fd891e920572",
+                                                                                          "size":  50737
+                                                                                      },
+                  "modules/game_skillshot/images/renascimento/pale/mare/onda_v.png":  {
+                                                                                          "sha256":  "e2eaf7e97ea29ffb0d3dd6e72885e7b6dd5b4f4501a24e895e6665d278a43ad1",
+                                                                                          "size":  43276
+                                                                                      },
                   "modules/game_skillshot/images/salto/alvo_relogio.png":  {
                                                                                "sha256":  "f0f2145fc5155b8fadedc42a32853a0bfc8cc09e32304aa297dd24e890f939aa",
                                                                                "size":  26373
@@ -12564,8 +12660,8 @@
                                                           "size":  7038
                                                       },
                   "modules/game_skillshot/rare.lua":  {
-                                                          "sha256":  "f596f8882272f375643dc88413e1c71e540a73c5656ee6fc857695fa601d1b87",
-                                                          "size":  13756
+                                                          "sha256":  "c1a1ad2ae2b3e6cc728abfb77feff586fa9268c6cec80c0bdc2505260985bcd7",
+                                                          "size":  27420
                                                       },
                   "modules/game_skillshot/seed.lua":  {
                                                           "sha256":  "4e90a9791be19e40a4b7a9c2fcbcffa6ad624840efcc6626569ef7d3457671a2",
@@ -13276,7 +13372,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "9464dbe6661c4ff00183480f9a1353dadb7539f793fb7a69fdff46eda7835054",
+                                      "sha256":  "b04d7144e6a94a8bdb0e698f9643fedaefd6c3b311b7cb70802b814202e04721",
                                       "size":  31
                                   }
               },
