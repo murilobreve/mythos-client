@@ -1,7 +1,7 @@
 {
-    "versao":  83,
+    "versao":  84,
     "canal":  "directx",
-    "data":  "2026-11-01 21:46",
+    "data":  "2026-11-01 21:55",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "ef31229daf889d764082fbc41a5788cf377ba49b4ca37da7cfcccb4a8211729e",
-                                              "size":  104142
+                                              "sha256":  "264cd2c31dcc85c61f1a35b97fd54a1102385dbc0a7e4237afc37d6c3933cbe8",
+                                              "size":  105728
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -9892,12 +9892,12 @@
                                                                       "size":  254
                                                                   },
                   "modules/game_huntboard/huntboard.lua":  {
-                                                               "sha256":  "2ae7a5333bdb0f37908efc8fec1b5b5231189c23fe5aaf2e49a06d59745347f0",
-                                                               "size":  48925
+                                                               "sha256":  "251d2d15874c23865d9cc17c465d6015750d049253bf2f6c3bddfabee95f82c2",
+                                                               "size":  52312
                                                            },
                   "modules/game_huntboard/huntboard.otui":  {
-                                                                "sha256":  "44cd0e77fa278875ff55d09a1aaf01ded3095e1cf9cffe78a0aa41848405ccd8",
-                                                                "size":  18397
+                                                                "sha256":  "3ffb99c56fe30109effffa4d35cc42ce1d239b53d33efe60baf97ac2f15b1328",
+                                                                "size":  18929
                                                             },
                   "modules/game_huntboard/images/button.png":  {
                                                                    "sha256":  "240afa39312b56a8ac6c6b0186f80b86ee653df75e3a3806241ddfd1aafb9d5b",
@@ -13260,7 +13260,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "577a98c9d719ebe7123b2f0b61acbb0459818ad6783ac64ca58cb3d114eed07d",
+                                      "sha256":  "7646e3f87dd178377d02964834fe7c2f916a53fca1e2c913e498b5080ea3e2ad",
                                       "size":  31
                                   }
               },
