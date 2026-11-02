@@ -1,7 +1,7 @@
 {
-    "versao":  86,
+    "versao":  87,
     "canal":  "directx",
-    "data":  "2026-11-02 10:35",
+    "data":  "2026-11-02 10:57",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7604,8 +7604,8 @@
                                                    "size":  11192
                                                },
                   "modules/game_actionbar/game_actionbar.lua":  {
-                                                                    "sha256":  "051d3b12eb515f330aa8e47c9b911a322783cc30d66a493054128af8e14b3f01",
-                                                                    "size":  27615
+                                                                    "sha256":  "fab38c907ce5e5ecfad1a04a4e8431a816182231b026a94f31930ff8d2066bd8",
+                                                                    "size":  28076
                                                                 },
                   "modules/game_actionbar/game_actionbar.otmod":  {
                                                                       "sha256":  "9c1905a9273129eac250e71f98534f0b0a49dbdf6061d308ae59020e2b5d965e",
@@ -7796,8 +7796,8 @@
                                                                      "size":  1260
                                                                  },
                   "modules/game_ascensao/ascensao.lua":  {
-                                                             "sha256":  "efe89c8aa9b7100acdeeaa1c8024dce8641c7f077f2762119853ffe72a2e3901",
-                                                             "size":  12596
+                                                             "sha256":  "57bb7eba30532cd4f19e6f9785ef8274e56601fa77ae964b593bbc5eec648af9",
+                                                             "size":  12920
                                                          },
                   "modules/game_ascensao/ascensao.otui":  {
                                                               "sha256":  "da2aa0d115da9151d3436f2a12f862f2b3ceb8387825255662820dd540db6e5b",
@@ -10080,8 +10080,8 @@
                                                                          "size":  1097
                                                                      },
                   "modules/game_interface/widgets/statsbar.lua":  {
-                                                                      "sha256":  "68a18463685fefa9d7660a12777f622a81c89e664a0bbeb6e0418774b1fafff9",
-                                                                      "size":  30689
+                                                                      "sha256":  "351654c9a7ff647be0bb91bd9ca6fd6e92338adec4f682a96d2f7b69274a67c8",
+                                                                      "size":  31089
                                                                   },
                   "modules/game_interface/widgets/uigamemap.lua":  {
                                                                        "sha256":  "e18699626b719b2bb4eb63c49b4999dbc27cb008ba4b358192cfb3cbe8593683",
@@ -11464,8 +11464,8 @@
                                                                       "size":  6511
                                                                   },
                   "modules/game_skills/skills.lua":  {
-                                                         "sha256":  "97419e26e4cd50eb71720da4e4b48b1534e4189eca76d5f98d6ffe91179cb219",
-                                                         "size":  58299
+                                                         "sha256":  "55a240f1026003fbb15e540a2d2776ccc1728e583e243c16a6b8523b30587dc8",
+                                                         "size":  59374
                                                      },
                   "modules/game_skills/skills.otmod":  {
                                                            "sha256":  "76a7fcf664d48ce3fb5e5809ee38f8a6a18518d166119cc58be1b33766599c33",
@@ -13276,7 +13276,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "28fe28d4359cd6176c4e6800a483fc2af46cf5d6305d49a6f80e38857e71534d",
+                                      "sha256":  "a90bf6578a036f725cf8e20377f4858ab930c1e575ac93f393c69905786bf928",
                                       "size":  31
                                   }
               },
