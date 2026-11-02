@@ -1,7 +1,7 @@
 {
-    "versao":  85,
+    "versao":  86,
     "canal":  "directx",
-    "data":  "2026-11-02 09:48",
+    "data":  "2026-11-02 10:35",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "78def9c3ac6b850592a567018d54c979302fbceaaefc11c717c4fb6d084b8344",
-                                              "size":  108179
+                                              "sha256":  "aadf772dc69b01af4360f29bfae6864f90c9ce987e02d7eb847b8cacda65417b",
+                                              "size":  108228
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -8428,12 +8428,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_bosses/bosses.lua":  {
-                                                         "sha256":  "771e8741f3907821d39330573479cb87b4623bc47e95b2fd5b1d0f863b6e12a2",
-                                                         "size":  15173
+                                                         "sha256":  "f73b54b4dd467c9a4e4070cb716bc77e7c7af6beff72c225221edc9e6cb4d80b",
+                                                         "size":  15415
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "844e7e108ca44fd65cf1c4050a46d4a2dfb7d0d9e7282168cf7eb5e03229ce21",
-                                                          "size":  6046
+                                                          "sha256":  "3d0068a4dadda49a89ae710e4a2e24b87560cb6b4b16a68869fe82a6abff1976",
+                                                          "size":  6490
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
@@ -10432,8 +10432,8 @@
                                                                             "size":  1979
                                                                         },
                   "modules/game_npctrade/controllers/npc_trader.lua":  {
-                                                                           "sha256":  "0be6ee9bbda9afd939bdfd33f6b9eb1d02edf3f69c85b7a1755cdeaf20b86160",
-                                                                           "size":  26427
+                                                                           "sha256":  "8c46b313a762d8a1c8cbb2a23702076e5b89f2809f48e1985ec5a6e5ef0d6a3f",
+                                                                           "size":  27695
                                                                        },
                   "modules/game_npctrade/game_npctrader.lua":  {
                                                                    "sha256":  "151ec02540548226ea62b37970833ab2fc55f22d91670c7332b04c031ea6160c",
@@ -13276,7 +13276,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "1bf6a3e80d9edbd7cceaf5908f35765cfc3a589cc68fd23ac9f50be13dfd33b6",
+                                      "sha256":  "28fe28d4359cd6176c4e6800a483fc2af46cf5d6305d49a6f80e38857e71534d",
                                       "size":  31
                                   }
               },
