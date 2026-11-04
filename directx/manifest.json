@@ -1,7 +1,7 @@
 {
-    "versao":  91,
+    "versao":  92,
     "canal":  "directx",
-    "data":  "2026-11-03 18:26",
+    "data":  "2026-11-04 10:10",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7796,16 +7796,16 @@
                                                                      "size":  1260
                                                                  },
                   "modules/game_ascensao/ascensao.lua":  {
-                                                             "sha256":  "57bb7eba30532cd4f19e6f9785ef8274e56601fa77ae964b593bbc5eec648af9",
-                                                             "size":  12920
+                                                             "sha256":  "15a774607a9ff711cbcee97993059cff21e2f19b5587c489a14a209509330f72",
+                                                             "size":  13094
                                                          },
                   "modules/game_ascensao/ascensao.otui":  {
                                                               "sha256":  "da2aa0d115da9151d3436f2a12f862f2b3ceb8387825255662820dd540db6e5b",
                                                               "size":  6629
                                                           },
                   "modules/game_ascensao/game_ascensao.otmod":  {
-                                                                    "sha256":  "932c7d27d7c3d113696e88d22f047f12b50053a7e501c08a1240df005dd10756",
-                                                                    "size":  203
+                                                                    "sha256":  "b28a9771c267ec2dda3b8dc70d9592c4a7f583812267b1ce5e267d72282bf298",
+                                                                    "size":  211
                                                                 },
                   "modules/game_ascensao/images/druid/circulo_druid_frostfang_1.png":  {
                                                                                            "sha256":  "abd2724ee0f0f071e72db16fe4147d45883930a55b801c303d2889e257cf2f20",
@@ -7891,6 +7891,10 @@
                                                                                         "sha256":  "00a42dc9a48f2ad7da062270cf25b7b64c02cd61167995ff156641d00dc62f10",
                                                                                         "size":  8063
                                                                                     },
+                  "modules/game_ascensao/images/estados.png":  {
+                                                                   "sha256":  "a05ecec7e289060a7893a719938347178bb1b9d3eb93b1648841132b34d17fb6",
+                                                                   "size":  521
+                                                               },
                   "modules/game_ascensao/images/magias/chute.png":  {
                                                                         "sha256":  "cbc2f5346a9e93b37be54c7338ac04c575f4016555e5dbbaef10a80992fb9ec9",
                                                                         "size":  4199
@@ -8303,6 +8307,14 @@
                                                                                                "sha256":  "67cc603d4d0c5429410ae7267b9946af91f41924be6d84df66297b3d82ff956c",
                                                                                                "size":  8323
                                                                                            },
+                  "modules/game_ascensao/images/sorcerer/reliquia_sorcerer_supernova.png":  {
+                                                                                                "sha256":  "5e7dc7f471698fd641a88c083825735fd3be47013d2f42aabd873ae3adf5af62",
+                                                                                                "size":  5514
+                                                                                            },
+                  "modules/game_ascensao/status.lua":  {
+                                                           "sha256":  "abe53e5fc9a196d8d7a4b8b2c5fb3bae0d9b94caed0b103e3089bdabd9d9bb16",
+                                                           "size":  3913
+                                                       },
                   "modules/game_attachedeffects/attachedeffects.lua":  {
                                                                            "sha256":  "2b596c39f510280e1321b89e6e2542d81449d42ae95179db26ac107eb39f77bf",
                                                                            "size":  3575
@@ -9912,8 +9924,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "0c466ed8c93b8801918ba755ded3189dbd69c513998cad3d87aa478d09727b7f",
-                                                               "size":  38967
+                                                               "sha256":  "500a6dd900a994db6bd0fe235ed4ba75ca7601dd830a95ca3cc097c4b383d704",
+                                                               "size":  39772
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "c6b7c9a97740cbb6a089f7bc55cba963c7c0e156ad7049516acdd666e6719543",
@@ -11496,8 +11508,8 @@
                                                            "size":  4541
                                                        },
                   "modules/game_skillshot/game_skillshot.otmod":  {
-                                                                      "sha256":  "e0f480afab1fe6aadbbae04c71ebebf904e562941758b90d7f7b5bfc0bd198e6",
-                                                                      "size":  366
+                                                                      "sha256":  "1536820f1fce15889bf5106e4577fd561d59010412ca6332882462f6336cd2c1",
+                                                                      "size":  373
                                                                   },
                   "modules/game_skillshot/hook.lua":  {
                                                           "sha256":  "4ae377b23ec61da1e9550b23d822c4d84c725d73901b38b0dfbdc4ee3830d7a6",
@@ -12307,6 +12319,142 @@
                                                                            "sha256":  "be4fc01f2f727d79205926bfdaf201282dc8372614d226c7d01dee1ac3292e48",
                                                                            "size":  1338
                                                                        },
+                  "modules/game_skillshot/images/reliquia/acerto.png":  {
+                                                                            "sha256":  "ae0828cb0be367859dc529deb84fc631478a183c9a24a2f999e5ea4be1c711db",
+                                                                            "size":  40102
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/aura_abismo_anel.png":  {
+                                                                                      "sha256":  "f01e8d4579d325e5d5b3f89b455b5760753b2ef03a97613c1d8a4d09d855139c",
+                                                                                      "size":  2863
+                                                                                  },
+                  "modules/game_skillshot/images/reliquia/aura_abismo_brilho.png":  {
+                                                                                        "sha256":  "fd56b1be544d38c29b63a638491292f3cced35e49ec7f0f6e9f334a53dbfa99d",
+                                                                                        "size":  3398
+                                                                                    },
+                  "modules/game_skillshot/images/reliquia/aura_coroa_anel.png":  {
+                                                                                     "sha256":  "068ad71f91631501484692adbb17f11d9d7cc35454776ddb973059a8f93baa51",
+                                                                                     "size":  2865
+                                                                                 },
+                  "modules/game_skillshot/images/reliquia/aura_coroa_brilho.png":  {
+                                                                                       "sha256":  "4a584465f5c6a35c11fb8086fcdc5462a5a31004d523128d3259683f19289c4e",
+                                                                                       "size":  3369
+                                                                                   },
+                  "modules/game_skillshot/images/reliquia/aura_estandarte_anel.png":  {
+                                                                                          "sha256":  "0c91975826b9efa9380aea846f13acce87f00d981344f3e67d23ffcc0b61fc44",
+                                                                                          "size":  2865
+                                                                                      },
+                  "modules/game_skillshot/images/reliquia/aura_estandarte_brilho.png":  {
+                                                                                            "sha256":  "868d4135a991fd9d54acd1ac56bf9c532aec5aed531f90d4b38a4bf0a132f997",
+                                                                                            "size":  3430
+                                                                                        },
+                  "modules/game_skillshot/images/reliquia/aura_estrelas_anel.png":  {
+                                                                                        "sha256":  "f53d8d86f9fc88af0cf7e470724d1f7b34b21fcb6a11a827c5ffb5e956f68af0",
+                                                                                        "size":  2864
+                                                                                    },
+                  "modules/game_skillshot/images/reliquia/aura_estrelas_brilho.png":  {
+                                                                                          "sha256":  "5b0468a574200ea376bf66d54b1e37c91dea8c0b7a84f8e4d5d9428efbf43a14",
+                                                                                          "size":  3451
+                                                                                      },
+                  "modules/game_skillshot/images/reliquia/aura_lua_anel.png":  {
+                                                                                   "sha256":  "dc2ee3e7b54595357afff3763e8e7ff9ed12d6f28f2244fd5f8c3ba97bd667d4",
+                                                                                   "size":  2895
+                                                                               },
+                  "modules/game_skillshot/images/reliquia/aura_lua_brilho.png":  {
+                                                                                     "sha256":  "19e7a864fe0448a9b9b7de32fac504b12de2f25127f4d3d3d08a52ca330ad06f",
+                                                                                     "size":  3211
+                                                                                 },
+                  "modules/game_skillshot/images/reliquia/aura_semente_anel.png":  {
+                                                                                       "sha256":  "e028c87b2fb525ef3ec8f5ae0aab8288c81088471da09186dc01e7e629ff407b",
+                                                                                       "size":  2897
+                                                                                   },
+                  "modules/game_skillshot/images/reliquia/aura_semente_brilho.png":  {
+                                                                                         "sha256":  "515e65a28785e1865a25979ad2de71e0a9be822cf8878dacb9c2a94f24c9ca95",
+                                                                                         "size":  3394
+                                                                                     },
+                  "modules/game_skillshot/images/reliquia/aura_serafim_anel.png":  {
+                                                                                       "sha256":  "3851b0916946c0260727a4a3f58cef4de4f737241c9f5763385af635b0fb9861",
+                                                                                       "size":  2892
+                                                                                   },
+                  "modules/game_skillshot/images/reliquia/aura_serafim_brilho.png":  {
+                                                                                         "sha256":  "0219afe33190083e605232cba2634c6dd530b220bf558a5e5aef96128554abf9",
+                                                                                         "size":  2875
+                                                                                     },
+                  "modules/game_skillshot/images/reliquia/aura_sino_anel.png":  {
+                                                                                    "sha256":  "cf0090a0c4d0358b865831a95192b01ee0d79ef2c31086c3fb4224bb3a1c28bd",
+                                                                                    "size":  2864
+                                                                                },
+                  "modules/game_skillshot/images/reliquia/aura_sino_brilho.png":  {
+                                                                                      "sha256":  "fc79f604eea4efb3516334a98a2995f67965321952c2865c544ed6240bc9bf8e",
+                                                                                      "size":  3411
+                                                                                  },
+                  "modules/game_skillshot/images/reliquia/curvas.csv":  {
+                                                                            "sha256":  "2604f65cbb23a2bdff3d3f65834c107c108a1e7d7ddf86c0c917a55ffdb5f065",
+                                                                            "size":  2941
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/feixe.png":  {
+                                                                           "sha256":  "1270a866cdda96da4b7bb1a6262bd479d310ef3aec5467fa34d0bf054ca5a0c5",
+                                                                           "size":  26259
+                                                                       },
+                  "modules/game_skillshot/images/reliquia/impacto.png":  {
+                                                                             "sha256":  "b699f8347f350b37897a95c992d474489348e464365196b5977f98562f8e7b45",
+                                                                             "size":  65815
+                                                                         },
+                  "modules/game_skillshot/images/reliquia/impacto_anel.png":  {
+                                                                                  "sha256":  "5616452a023b4f7674b690f194612d526e292e66606f7b0bcdfd5366ebe03318",
+                                                                                  "size":  80218
+                                                                              },
+                  "modules/game_skillshot/images/reliquia/impacto_raios.png":  {
+                                                                                   "sha256":  "23b76bb46b1f94a84d7c3579e4af0feeb8ad5b32b68c94ed4918765deb7f928d",
+                                                                                   "size":  75694
+                                                                               },
+                  "modules/game_skillshot/images/reliquia/nova_implosao.png":  {
+                                                                                   "sha256":  "5ed486f4774c0d036f25c21be76de56a441eec8b6e15191c86e35efa399cd2af",
+                                                                                   "size":  131091
+                                                                               },
+                  "modules/game_skillshot/images/reliquia/nova_nucleo.png":  {
+                                                                                 "sha256":  "e1582f3bb2b6b2de4fd81a7cea2502ee17231055d39d3fd53dafaba213364b0b",
+                                                                                 "size":  71150
+                                                                             },
+                  "modules/game_skillshot/images/reliquia/nova_onda.png":  {
+                                                                               "sha256":  "90751f03e24aa33862b42fe8a258ab9d5e80db0bb0a6566cc6c9f54b7136ceae",
+                                                                               "size":  150661
+                                                                           },
+                  "modules/game_skillshot/images/reliquia/nucleo.png":  {
+                                                                            "sha256":  "8cd707746646e385b9c4544cc7fc78c710dc512fb99c015feca58aa27720667e",
+                                                                            "size":  9365
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/olho.png":  {
+                                                                          "sha256":  "d4e25ae48a1c3499023053451b99ed95d71f443347422694c904840a0343de46",
+                                                                          "size":  18891
+                                                                      },
+                  "modules/game_skillshot/images/reliquia/origem.png":  {
+                                                                            "sha256":  "12b054e613553028cc12997c36b32d1f10e0ec7eb154f7c427f8422c3f2aed92",
+                                                                            "size":  34857
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/origem_anel.png":  {
+                                                                                 "sha256":  "fd15d122bc71f83431782c5dd62627c0dd7679ba0fd6ce164a6f01642fa537bc",
+                                                                                 "size":  14681
+                                                                             },
+                  "modules/game_skillshot/images/reliquia/particulas.csv":  {
+                                                                                "sha256":  "07c4897443e692413f39d9e5ee3c04de5aba757c2736015d8666d05787b5f327",
+                                                                                "size":  431
+                                                                            },
+                  "modules/game_skillshot/images/reliquia/pena_1.png":  {
+                                                                            "sha256":  "c67aef0420e5d79991cb1184124e53738298b0d9471e9b5c3a16188c72616eff",
+                                                                            "size":  2265
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/pena_2.png":  {
+                                                                            "sha256":  "fcc77267719495057b0946e8f3535db22c56abf04d360701b00c4eb2a0ab6cc6",
+                                                                            "size":  1960
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/pena_3.png":  {
+                                                                            "sha256":  "38820743558a37571e7fb060fa0f5a1b59dcd22d7dde3f1c70cdb5b364137157",
+                                                                            "size":  1918
+                                                                        },
+                  "modules/game_skillshot/images/reliquia/pilar.png":  {
+                                                                           "sha256":  "e8baca541db227094bf395c143747dcf9b206e59cd43e0d3ec95c7bea942b880",
+                                                                           "size":  27381
+                                                                       },
                   "modules/game_skillshot/images/renascimento/ashen/comum/acerto.png":  {
                                                                                             "sha256":  "fa84188e16d3cca0802e397c81be95fbb979c3bc85f253dab002f4362b74bf68",
                                                                                             "size":  18694
@@ -12667,6 +12815,10 @@
                                                           "sha256":  "c1a1ad2ae2b3e6cc728abfb77feff586fa9268c6cec80c0bdc2505260985bcd7",
                                                           "size":  27420
                                                       },
+                  "modules/game_skillshot/relic.lua":  {
+                                                           "sha256":  "0755cbc4e8cb4ef8d3e0cef850559ef61a3459af3905573070f8ffc06ac1e462",
+                                                           "size":  8981
+                                                       },
                   "modules/game_skillshot/seed.lua":  {
                                                           "sha256":  "4e90a9791be19e40a4b7a9c2fcbcffa6ad624840efcc6626569ef7d3457671a2",
                                                           "size":  5481
@@ -12676,8 +12828,8 @@
                                                            "size":  4772
                                                        },
                   "modules/game_skillshot/skillshot.lua":  {
-                                                               "sha256":  "13f6cbd76565acd84418dfa96d336b563faa6f43a3ae11ad00337d0eff190807",
-                                                               "size":  9457
+                                                               "sha256":  "f6a723ec8bb7be299546a831d5053ec7e3dba34b7a365b5ecdce214c270df83c",
+                                                               "size":  9718
                                                            },
                   "modules/game_skillshot/spear.lua":  {
                                                            "sha256":  "9295d3893fbc5f966a338a74a3cb4fc6b0601066daebdb4617f9333615dabed8",
@@ -13372,15 +13524,15 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "801a50621ec9ccef4dfecdc2515317879787b566d91bbff841031b7b4f9c5659",
-                                             "size":  42902016
+                                             "sha256":  "a252d800209a6b53d589f668813ae936173f89553a7fcbc583a039837d2cf77c",
+                                             "size":  42926592
                                          },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "289db9b98c233352183b890fce33217a427690d8f0e0888afa60c5fc87ad1880",
+                                      "sha256":  "7d0ce326f72c46090402877029c52f9fef22bffc915054bdd45721134d332ba5",
                                       "size":  31
                                   }
               },
