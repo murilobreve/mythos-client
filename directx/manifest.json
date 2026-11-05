@@ -1,7 +1,7 @@
 {
-    "versao":  93,
+    "versao":  94,
     "canal":  "directx",
-    "data":  "2026-11-05 17:02",
+    "data":  "2026-11-05 20:19",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7652,8 +7652,8 @@
                                                                           "size":  10347
                                                                       },
                   "modules/game_actionbar/logics/ApiJson.lua":  {
-                                                                    "sha256":  "4add266e338b5e13023590dc7447e62df03e3395f9ed5577e918bc96086b359f",
-                                                                    "size":  40477
+                                                                    "sha256":  "2bef4cbf1881fa70d6bd72ce05e74d9df6c327b275e0752689d3454b04b5f8ad",
+                                                                    "size":  41551
                                                                 },
                   "modules/game_actionbar/logics/const.lua":  {
                                                                   "sha256":  "975f7ab158816e55ce24ef4654865ee96374330e3cd49e013cc8fbcee866abb8",
@@ -7892,8 +7892,8 @@
                                                                                         "size":  8063
                                                                                     },
                   "modules/game_ascensao/images/estados.png":  {
-                                                                   "sha256":  "a05ecec7e289060a7893a719938347178bb1b9d3eb93b1648841132b34d17fb6",
-                                                                   "size":  521
+                                                                   "sha256":  "b12faff27c1af8f8266cc057a9c21e8259893f43b347194f41e027f7b8535372",
+                                                                   "size":  1138
                                                                },
                   "modules/game_ascensao/images/magias/chute.png":  {
                                                                         "sha256":  "cbc2f5346a9e93b37be54c7338ac04c575f4016555e5dbbaef10a80992fb9ec9",
@@ -8312,8 +8312,8 @@
                                                                                                 "size":  5514
                                                                                             },
                   "modules/game_ascensao/status.lua":  {
-                                                           "sha256":  "abe53e5fc9a196d8d7a4b8b2c5fb3bae0d9b94caed0b103e3089bdabd9d9bb16",
-                                                           "size":  3913
+                                                           "sha256":  "eab4b45e2b081ab250b3ce3476dc5a393cba01ceddd7785dbc1fc95f034d233b",
+                                                           "size":  5005
                                                        },
                   "modules/game_attachedeffects/attachedeffects.lua":  {
                                                                            "sha256":  "2b596c39f510280e1321b89e6e2542d81449d42ae95179db26ac107eb39f77bf",
@@ -9620,8 +9620,8 @@
                                                                   "size":  257
                                                               },
                   "modules/game_healbot/healbot.lua":  {
-                                                           "sha256":  "99dbd604536709c69323338b4c4c34189c41f13983583bb1ecf6b64720695b2b",
-                                                           "size":  23930
+                                                           "sha256":  "4fd8b083ec6654e94caa533a238dec3771eb34a4c0c79295e9cf65a8ef40bc7d",
+                                                           "size":  24463
                                                        },
                   "modules/game_healbot/healbot.otui":  {
                                                             "sha256":  "281122b12fe94ff306ddc02d414771256afa7da3dda33012c1a3e5018a12c2cc",
@@ -9924,8 +9924,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "13a70b7bca8917fcb9a83ec671f71481835abb2211ece90c0fbcca86aa1efad3",
-                                                               "size":  40567
+                                                               "sha256":  "1406a3362ca89461939d2b43cdddbe5e015fe12e6951a187ad53de7e28c9f35d",
+                                                               "size":  41537
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "e69fbb3a5dc356fb38bb7ece1eac23f163abc9c6955f89d0f72aa560152523d0",
@@ -13524,15 +13524,15 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "a252d800209a6b53d589f668813ae936173f89553a7fcbc583a039837d2cf77c",
-                                             "size":  42926592
+                                             "sha256":  "1d5af8f1ed516b2ed0274ae22809e797e3f6c37c37e0f4f7ba529a94e629fc3a",
+                                             "size":  42930176
                                          },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "d236fe325e409d27428341b124b7905144e385dfb56d9c15c45d3210e048f57b",
+                                      "sha256":  "91afa82ba85b11cfcadd2bdc6694b682f48b9cd5d70b27cd0862195d1d3ffa19",
                                       "size":  31
                                   }
               },
