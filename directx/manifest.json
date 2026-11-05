@@ -1,7 +1,7 @@
 {
-    "versao":  92,
+    "versao":  93,
     "canal":  "directx",
-    "data":  "2026-11-04 10:10",
+    "data":  "2026-11-05 17:02",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -9924,12 +9924,12 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "500a6dd900a994db6bd0fe235ed4ba75ca7601dd830a95ca3cc097c4b383d704",
-                                                               "size":  39772
+                                                               "sha256":  "13a70b7bca8917fcb9a83ec671f71481835abb2211ece90c0fbcca86aa1efad3",
+                                                               "size":  40567
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
-                                                                "sha256":  "c6b7c9a97740cbb6a089f7bc55cba963c7c0e156ad7049516acdd666e6719543",
-                                                                "size":  13665
+                                                                "sha256":  "e69fbb3a5dc356fb38bb7ece1eac23f163abc9c6955f89d0f72aa560152523d0",
+                                                                "size":  14162
                                                             },
                   "modules/game_hunttasks/images/button.png":  {
                                                                    "sha256":  "994a94d24fc4386ec4eb2a1fcef833614e68c2a9f3e8817e840fa5d6ee8b4f88",
@@ -13532,7 +13532,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "7d0ce326f72c46090402877029c52f9fef22bffc915054bdd45721134d332ba5",
+                                      "sha256":  "d236fe325e409d27428341b124b7905144e385dfb56d9c15c45d3210e048f57b",
                                       "size":  31
                                   }
               },
