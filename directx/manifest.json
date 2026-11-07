@@ -1,7 +1,7 @@
 {
-    "versao":  95,
+    "versao":  96,
     "canal":  "directx",
-    "data":  "2026-11-06 08:57",
+    "data":  "2026-11-07 13:40",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -13400,8 +13400,8 @@
                                                      "size":  12433
                                                  },
                   "modules/game_wiki/pages.lua":  {
-                                                      "sha256":  "b265b69196af074d1057a1315102d273e6e58b85e9190fe968c4b3a53debdc08",
-                                                      "size":  64741
+                                                      "sha256":  "0b5956ca48dffbf7347b3cd7ac647c4fee5b8a1974440ad41e49db20d19345ff",
+                                                      "size":  63827
                                                   },
                   "modules/game_wiki/spells.lua":  {
                                                        "sha256":  "026d2758ce9b99825cfa87c772da7d85834deaed21a39caaa5717704ec610306",
@@ -13524,15 +13524,15 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "1d5af8f1ed516b2ed0274ae22809e797e3f6c37c37e0f4f7ba529a94e629fc3a",
-                                             "size":  42930176
+                                             "sha256":  "7af5fa3f24ad2c3bf6ef7b74eb50ad4888ef35194c065abea4f1a9d9cbd05011",
+                                             "size":  42905600
                                          },
                   "servidor.ini":  {
                                        "sha256":  "7cea7ec54afd1cb7bcda3df8c2fcb7e9c38353a8a320bd0aa3ab10b8ebb0c9f8",
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "7f216b4aac02055c89395d4926a397481659520e23eb3503316956c87bf728b6",
+                                      "sha256":  "474df0efb398a8dde8977ecc5b069fb22cab82007fe0af0a35b40ded90f8a2b4",
                                       "size":  31
                                   }
               },
