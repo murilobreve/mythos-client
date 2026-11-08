@@ -1,7 +1,7 @@
 {
-    "versao":  97,
+    "versao":  98,
     "canal":  "directx",
-    "data":  "2026-11-07 20:15",
+    "data":  "2026-11-08 08:27",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "b4571606f149b3d7f7425b53ca0b10252c900f31760b720a95a5a4837e6df6dc",
-                                              "size":  109222
+                                              "sha256":  "9042b19dc2fce37ae68e6fedb539e4dae693911bc81d55fb97ebebb048e325aa",
+                                              "size":  117508
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -7052,12 +7052,12 @@
                                                 "size":  3587
                                             },
                   "data/things/custom/appearances-custom.dat":  {
-                                                                    "sha256":  "13087c8c30fba44863fa8a4557ac1b1b0f048793d1e1f4fb6db30f1252bfa1d5",
-                                                                    "size":  5321
+                                                                    "sha256":  "7fed7bdee4b4cd122a374616e359b4930c78390f4af9eb4271573495259ee9c5",
+                                                                    "size":  3790
                                                                 },
                   "data/things/custom/catalog-content.json":  {
-                                                                  "sha256":  "7a0ab80f6103be639ef7d0eb1b0fb4b0d1241a4cfb763d0894660c5ed21be428",
-                                                                  "size":  3325
+                                                                  "sha256":  "1e36c5bb1405bcd5018f43140e46804cbb71c406aeea92d84a90ac15d86d83a8",
+                                                                  "size":  2549
                                                               },
                   "data/things/custom/sprites-effects-610b8632e11ff210.bmp.lzma":  {
                                                                                        "sha256":  "610b8632e11ff210a25cbbb57a9733ce709b14eb6579e9227396d4ce63a7cd33",
@@ -7099,22 +7099,6 @@
                                                                                       "sha256":  "a6211f3b052ecba415b8c2af18d022b4444cd7a6ccf679c66073a458358aa4d6",
                                                                                       "size":  5109
                                                                                   },
-                  "data/things/custom/sprites-paperdolls-16f7826732585048.bmp.lzma":  {
-                                                                                          "sha256":  "16f78267325850484d9db5dc6d9e58de480ff703b77b9e6eb5c5dfce6d9c594e",
-                                                                                          "size":  1526
-                                                                                      },
-                  "data/things/custom/sprites-paperdolls-43d77e31dff8e5a5.bmp.lzma":  {
-                                                                                          "sha256":  "43d77e31dff8e5a52baeb855d995140ce1629e7c4e254275b15819c23d760995",
-                                                                                          "size":  2268
-                                                                                      },
-                  "data/things/custom/sprites-paperdolls-8c8e4e1ed2fd2883.bmp.lzma":  {
-                                                                                          "sha256":  "8c8e4e1ed2fd2883f127b94fd9c51c3693e475f508619cf852c8f5c6c6b992f7",
-                                                                                          "size":  5157
-                                                                                      },
-                  "data/things/custom/sprites-paperdolls-d1ee985a9b3635de.bmp.lzma":  {
-                                                                                          "sha256":  "d1ee985a9b3635de8f9d788f481b871860f3c603d1b57d4f45c055cc68d292ac",
-                                                                                          "size":  3021
-                                                                                      },
                   "data/things/custom/sprites-walls-5eb445f138b21bc2.bmp.lzma":  {
                                                                                      "sha256":  "5eb445f138b21bc2cf03b7d205cebdf5e5badd432fe3a2234f45cc2d7f428d16",
                                                                                      "size":  4321
@@ -8456,17 +8440,61 @@
                                                            "size":  1162
                                                        },
                   "modules/game_bosses/bosses.lua":  {
-                                                         "sha256":  "e34b3baa5ce695f944c3c439260a163cf5f8d51cb83e6cca46f06b5f675a1611",
-                                                         "size":  18973
+                                                         "sha256":  "33cf06197683af50acd3e973ccb227754fc6e1eb2bedb77b37bf90d08539fd75",
+                                                         "size":  45076
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "ad6c5d667c4b7f2d5e45419432dbbd39d80d81afa29fe11151efd198e2a20026",
-                                                          "size":  8246
+                                                          "sha256":  "d4c092c0e309f4efb2533b145f0ab0c9df6db58699d2d35939268b400d3da07a",
+                                                          "size":  26641
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
                                                                 "size":  248
                                                             },
+                  "modules/game_bosses/images/aura.png":  {
+                                                              "sha256":  "3918a77a6e68c300331d160bfc24f31a621bbc0d38b4a2c305aefb0704016da8",
+                                                              "size":  2939
+                                                          },
+                  "modules/game_bosses/images/circle.png":  {
+                                                                "sha256":  "a9bccaad33c13c254143d9cb817aaf844ad05210a5821c518326c456623548da",
+                                                                "size":  613
+                                                            },
+                  "modules/game_bosses/images/circle_line.png":  {
+                                                                     "sha256":  "e8066bfff0a9609ca8925e075d4fd87a1c5258fce1693d8eb4bc2451c2c7e5de",
+                                                                     "size":  1166
+                                                                 },
+                  "modules/game_bosses/images/disc.png":  {
+                                                              "sha256":  "26a4de738cd27edb6ab72de3646e58b57ada21014985229e08f8db43d09d3d89",
+                                                              "size":  2297
+                                                          },
+                  "modules/game_bosses/images/needle.png":  {
+                                                                "sha256":  "536bdb89cf829e10813ba937e8068494f30c0b19a64f6d1cc69526a5d8184d1c",
+                                                                "size":  1914
+                                                            },
+                  "modules/game_bosses/images/pip.png":  {
+                                                             "sha256":  "832b02d5180ec507458379d59d859ae6e541a3614868e0f2240b82ef93c9e150",
+                                                             "size":  210
+                                                         },
+                  "modules/game_bosses/images/pip_empty.png":  {
+                                                                   "sha256":  "12bcf7b6ffb487ef58326e8a727519c02e68740282112ff4fe5fda4c194fe9d4",
+                                                                   "size":  266
+                                                               },
+                  "modules/game_bosses/images/ring.png":  {
+                                                              "sha256":  "299a0cbcc9557afe6e175784f35ccd0833ae0b8d44fcb229f6204fe2c306a14c",
+                                                              "size":  7957
+                                                          },
+                  "modules/game_bosses/images/star.png":  {
+                                                              "sha256":  "783e7a5b15dad6af9a3d973b01894b3d2926551941c2af8c9b8bbfd6a6faeab4",
+                                                              "size":  375
+                                                          },
+                  "modules/game_bosses/images/star_on.png":  {
+                                                                 "sha256":  "29e1f4937664342c602accc51e31f41bba5b32e8845dea983a7dc70af71a6fc6",
+                                                                 "size":  340
+                                                             },
+                  "modules/game_bosses/images/tick.png":  {
+                                                              "sha256":  "e9fd276eafa870809ceafbc0858dcad45f1656a52779a20b99e8f3f61ee6719d",
+                                                              "size":  160
+                                                          },
                   "modules/game_brevespanel/brevespanel.lua":  {
                                                                    "sha256":  "0624dfa7c8ec74a42955e139ce533215e88fd3dbd30b7e448d1ff35abafe6793",
                                                                    "size":  39798
@@ -10096,8 +10124,8 @@
                                                                     "size":  9605
                                                                 },
                   "modules/game_interface/interface.otmod":  {
-                                                                 "sha256":  "92a6c861cec51a724982f2e875347d7d2bdc3f0fb625c0c13ff1e9fa9d5dbf9a",
-                                                                 "size":  1801
+                                                                 "sha256":  "30508dd465780e728e8ada221c8dc48747f8664586ec596e253fd555977b3a3f",
+                                                                 "size":  1772
                                                              },
                   "modules/game_interface/styles/countStashWindow.otui":  {
                                                                               "sha256":  "b4a4304eb2c1eb10526e89ffbc632276cb78c3930d5333cb823f48411b69db28",
@@ -10271,14 +10299,6 @@
                                                                      "sha256":  "6aedc2f25675e84b1b473f9152bbba547b282db07d01a7ddd25bd2063c945f31",
                                                                      "size":  295
                                                                  },
-                  "modules/game_mythos_paperdolls/game_mythos_paperdolls.otmod":  {
-                                                                                      "sha256":  "24339cefd85d59f16d5dd8aed96dc15378d6d49bebf925976cd41fa4aed590ed",
-                                                                                      "size":  267
-                                                                                  },
-                  "modules/game_mythos_paperdolls/mythospaperdolls.lua":  {
-                                                                              "sha256":  "7acd0637563097d0fb9c7491db0620da91a9ba003868cf5244816d08bf6ca4a7",
-                                                                              "size":  4259
-                                                                          },
                   "modules/game_mythosvip/game_mythosvip.otmod":  {
                                                                       "sha256":  "c1ee6af1e686b87d9841212dea8b444c59c8e987a2d383251e5e64468f9ddc35",
                                                                       "size":  244
@@ -10923,9 +10943,17 @@
                                                               "sha256":  "3f4d8a0e02658732ba7528513b43691d9778585a1d54780ebb8efbafc65bb019",
                                                               "size":  4161
                                                           },
+                  "modules/game_raritybonus/forge.lua":  {
+                                                             "sha256":  "1916227d18e221d4a12bb13f83a0dacf4d20c77c964f9f35afa96fc515a55eb0",
+                                                             "size":  56979
+                                                         },
+                  "modules/game_raritybonus/forge.otui":  {
+                                                              "sha256":  "47fb5bc61e6475481b58630afc4df3b0068e33c20fe4951723323caee6eaaf82",
+                                                              "size":  35984
+                                                          },
                   "modules/game_raritybonus/game_raritybonus.otmod":  {
-                                                                          "sha256":  "35cd9ddfaabda101167763087ae8d361ed4445ee349f25e022ee07e435dcca43",
-                                                                          "size":  266
+                                                                          "sha256":  "1e0b472ba78dfc5b87a07a263b5f9ad583fd5877d0bf0b46aa1d2b5d4377c665",
+                                                                          "size":  273
                                                                       },
                   "modules/game_raritybonus/images/change.png":  {
                                                                      "sha256":  "7175284772abac74a860b4c9f9f13dec8a1e9df5484c64bece8cd91b0e6dadcb",
@@ -10935,6 +10963,46 @@
                                                                     "sha256":  "32eb507cb731c041b6e4198fc76fe17bb204fe78ee48aa7811a126784fbd8836",
                                                                     "size":  172
                                                                 },
+                  "modules/game_raritybonus/images/forge/arrow.png":  {
+                                                                          "sha256":  "34bbb1d43fb51b03ca06e4dfa5d2b2a0dd2554ea7a9fae10b5ae647438269c17",
+                                                                          "size":  261
+                                                                      },
+                  "modules/game_raritybonus/images/forge/crest.png":  {
+                                                                          "sha256":  "3248b68297e6bbeecde4bcabc96444a464dc55bb02806b5548889c1248b99a6b",
+                                                                          "size":  1134
+                                                                      },
+                  "modules/game_raritybonus/images/forge/crest_fill.png":  {
+                                                                               "sha256":  "71ac534664c16ebf7a51face84b262fa09ed952531574720164bdf07521cb92d",
+                                                                               "size":  1107
+                                                                           },
+                  "modules/game_raritybonus/images/forge/glow.png":  {
+                                                                         "sha256":  "46def5e4e955ca9d64b51c3a9d23f88bf64175b8eee81130d68e99ca5fee32f4",
+                                                                         "size":  5744
+                                                                     },
+                  "modules/game_raritybonus/images/forge/needle.png":  {
+                                                                           "sha256":  "536bdb89cf829e10813ba937e8068494f30c0b19a64f6d1cc69526a5d8184d1c",
+                                                                           "size":  1914
+                                                                       },
+                  "modules/game_raritybonus/images/forge/pip.png":  {
+                                                                        "sha256":  "832b02d5180ec507458379d59d859ae6e541a3614868e0f2240b82ef93c9e150",
+                                                                        "size":  210
+                                                                    },
+                  "modules/game_raritybonus/images/forge/pip_empty.png":  {
+                                                                              "sha256":  "12bcf7b6ffb487ef58326e8a727519c02e68740282112ff4fe5fda4c194fe9d4",
+                                                                              "size":  266
+                                                                          },
+                  "modules/game_raritybonus/images/forge/ring.png":  {
+                                                                         "sha256":  "299a0cbcc9557afe6e175784f35ccd0833ae0b8d44fcb229f6204fe2c306a14c",
+                                                                         "size":  7957
+                                                                     },
+                  "modules/game_raritybonus/images/forge/rune.png":  {
+                                                                         "sha256":  "8bf001f89d9c2ac970b32aa84f327ecb73c5ade016b2e2e8d76581634b33fe76",
+                                                                         "size":  870
+                                                                     },
+                  "modules/game_raritybonus/images/forge/tick.png":  {
+                                                                         "sha256":  "e9fd276eafa870809ceafbc0858dcad45f1656a52779a20b99e8f3f61ee6719d",
+                                                                         "size":  160
+                                                                     },
                   "modules/game_raritybonus/images/improve.png":  {
                                                                       "sha256":  "d2fa2f75a7c4de3eea7ee99a9c0863de193d05b9444f69d92cdc3cf8e6788003",
                                                                       "size":  184
@@ -11132,17 +11200,13 @@
                                                                  "size":  3192
                                                              },
                   "modules/game_raritybonus/raritybonus.lua":  {
-                                                                   "sha256":  "fb18d9e772796e60220ae9d6ce7ba4f7286654d053e48c0924accc15ceca568c",
-                                                                   "size":  78796
+                                                                   "sha256":  "989c789c8fca511ce5b66512292b46049c650e9559fabd9d673584a364b76391",
+                                                                   "size":  21275
                                                                },
-                  "modules/game_raritybonus/raritybonus.otui":  {
-                                                                    "sha256":  "fde189c8f37b04a81a030b7dfc6a9a71138cf293ffc98ab3b6019f6e5c52e51b",
-                                                                    "size":  14704
-                                                                },
-                  "modules/game_raritybonus/roulette.otui":  {
-                                                                 "sha256":  "5211a88136ecd363c5c0eab213c43a89cc584185e42dc1fc251957f220a2f4a5",
-                                                                 "size":  6249
-                                                             },
+                  "modules/game_raritybonus/shop.otui":  {
+                                                             "sha256":  "9a966e4c13757b90198e8a8808b84c236fb1a81f5450987c90d79279c77db0dd",
+                                                             "size":  3095
+                                                         },
                   "modules/game_raritymarket/game_raritymarket.otmod":  {
                                                                             "sha256":  "d337eb7a2579e861cb2f82fd17850f747f9a811dec81391a06bae42d0b8aa910",
                                                                             "size":  246
@@ -13556,7 +13620,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "b022d4c5340e7ccd05cfcb0a71a6ce9133b45a510d9edec4bf1823f1bf3ffae3",
+                                      "sha256":  "fe6f1a397a82fa9dbe0043f0ee1b90e6290a5396a86167875cce001edc337b8a",
                                       "size":  31
                                   }
               },
@@ -13579,14 +13643,22 @@
                     "data/things/custom/sprites-mounts-749856eca8feb076.bmp.lzma",
                     "data/things/custom/sprites-mounts-804045242e5415b3.bmp.lzma",
                     "data/things/custom/sprites-mounts-9038832c89232485.bmp.lzma",
+                    "data/things/custom/sprites-paperdolls-16f7826732585048.bmp.lzma",
+                    "data/things/custom/sprites-paperdolls-43d77e31dff8e5a5.bmp.lzma",
+                    "data/things/custom/sprites-paperdolls-8c8e4e1ed2fd2883.bmp.lzma",
+                    "data/things/custom/sprites-paperdolls-d1ee985a9b3635de.bmp.lzma",
                     "data/things/custom/sprites-walls-457a7d5e48466fa2.bmp.lzma",
                     "data/things/custom/sprites-walls-e789cf8eb9ec4f9e.bmp.lzma",
                     "data/things/custom/sprites-walls-f3708766ec24957e.bmp.lzma",
                     "modules/game_actionbar/html/spells.html",
                     "modules/game_brevespanel/images/incense.png",
+                    "modules/game_mythos_paperdolls/game_mythos_paperdolls.otmod",
+                    "modules/game_mythos_paperdolls/mythospaperdolls.lua",
                     "modules/game_raritybonus/images/revive_glow.png",
                     "modules/game_raritybonus/images/revive_ring.png",
+                    "modules/game_raritybonus/raritybonus.otui",
                     "modules/game_raritybonus/revive.otui",
+                    "modules/game_raritybonus/roulette.otui",
                     "modules/game_shaders/shaders/fragment/shaders.lua",
                     "modules/game_shaders/shaders2.lua",
                     "modules/game_shaders/shaders3.lua",
