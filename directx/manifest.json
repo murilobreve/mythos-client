@@ -1,7 +1,7 @@
 {
-    "versao":  98,
+    "versao":  99,
     "canal":  "directx",
-    "data":  "2026-11-08 08:27",
+    "data":  "2026-11-08 09:04",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -7116,8 +7116,8 @@
                                     "size":  127221
                                 },
                   "init.lua":  {
-                                   "sha256":  "c9a53d87d3b4950d6dc721adf88e85a4bcf4c4e1406b076318013e0ee9e8b998",
-                                   "size":  7714
+                                   "sha256":  "3014eca7120ebf388ac7d17293dec52c59d8b0e9f44883e98e1a6735c955af7b",
+                                   "size":  8779
                                },
                   "LEIA-ME.txt":  {
                                       "sha256":  "a386f4ebdb0f56914acb17069e3e008cb78aee7d1c229dc5e2b471ff912874c9",
@@ -7376,8 +7376,8 @@
                                                               "size":  4508
                                                           },
                   "modules/client_updater/client_updater.lua":  {
-                                                                    "sha256":  "bf4b8418ae3a72586536b7a34df071770f0323ebf0f91118219122c083bece55",
-                                                                    "size":  21432
+                                                                    "sha256":  "247ee11a20b11353f0274a4e9a4133d03815d31c898aa654751c5dd9d28036b5",
+                                                                    "size":  23398
                                                                 },
                   "modules/client_updater/client_updater.otmod":  {
                                                                       "sha256":  "abff5cfc4c7574e0312765a77df10ae5dbbb101f068f300a48c77a8939a4adf7",
@@ -8444,8 +8444,8 @@
                                                          "size":  45076
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "d4c092c0e309f4efb2533b145f0ab0c9df6db58699d2d35939268b400d3da07a",
-                                                          "size":  26641
+                                                          "sha256":  "88d95b43c515f62f54b6d24f45c25b28d8b13dd9711b4e7cb77e598d6e69c356",
+                                                          "size":  26656
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
@@ -9968,8 +9968,8 @@
                                                                       "size":  257
                                                                   },
                   "modules/game_hunttasks/hunttasks.lua":  {
-                                                               "sha256":  "1406a3362ca89461939d2b43cdddbe5e015fe12e6951a187ad53de7e28c9f35d",
-                                                               "size":  41537
+                                                               "sha256":  "95128d76a995cc9cbda0820b932cd80db984af469abfb7ad7907b4c1d6100db7",
+                                                               "size":  41529
                                                            },
                   "modules/game_hunttasks/hunttasks.otui":  {
                                                                 "sha256":  "e69fbb3a5dc356fb38bb7ece1eac23f163abc9c6955f89d0f72aa560152523d0",
@@ -11240,8 +11240,8 @@
                                                                        "size":  7151
                                                                    },
                   "modules/game_rewardwall/game_rewardwall.lua":  {
-                                                                      "sha256":  "4e621cf78e13c0eb9b4419afd17a06fb030b878df15975041edb0401e8ea2621",
-                                                                      "size":  36763
+                                                                      "sha256":  "395ad9a120b483c96b2166f5859bd7d8417e459c693ae632481d1c67d834240a",
+                                                                      "size":  37680
                                                                   },
                   "modules/game_rewardwall/game_rewardwall.otmod":  {
                                                                         "sha256":  "9fda17596e256bc59f868f8681bad27f744545a1159423ca15c4938d82e9affb",
@@ -13008,8 +13008,8 @@
                                                                             "size":  549
                                                                         },
                   "modules/game_store/images/home/banner_mythical.png":  {
-                                                                             "sha256":  "bd75d0b596edaf3861c5f08ceb30c08a2942d598ddc99156fd7b648498dcbc16",
-                                                                             "size":  28560
+                                                                             "sha256":  "877a310a18705fe68983f150fd1dd4bffc1bec447723cb77f3d161a6cbec96d8",
+                                                                             "size":  31785
                                                                          },
                   "modules/game_store/images/icon-star-gold.png":  {
                                                                        "sha256":  "df67b28835b25c7d092bc941f93b1459060e3bc9be6affc7808743dacd72294a",
@@ -13612,7 +13612,7 @@
                                                         "size":  200
                                                     },
                   "Mythos DirectX.exe":  {
-                                             "sha256":  "7af5fa3f24ad2c3bf6ef7b74eb50ad4888ef35194c065abea4f1a9d9cbd05011",
+                                             "sha256":  "3cfcb1d7bedb3294900babfcb195dbf14877cbb441866cfbde428ccc45937a24",
                                              "size":  42905600
                                          },
                   "servidor.ini":  {
@@ -13620,7 +13620,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "fe6f1a397a82fa9dbe0043f0ee1b90e6290a5396a86167875cce001edc337b8a",
+                                      "sha256":  "78c3c2d1349d282aab3cd561f9ad7687f681eda3af03e63fd6115fa9dcaf8860",
                                       "size":  31
                                   }
               },
