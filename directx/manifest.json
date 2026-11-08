@@ -1,7 +1,7 @@
 {
-    "versao":  99,
+    "versao":  100,
     "canal":  "directx",
-    "data":  "2026-11-08 09:04",
+    "data":  "2026-11-08 09:31",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -8440,12 +8440,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_bosses/bosses.lua":  {
-                                                         "sha256":  "33cf06197683af50acd3e973ccb227754fc6e1eb2bedb77b37bf90d08539fd75",
-                                                         "size":  45076
+                                                         "sha256":  "75fca7f2a51028246d3fe5836e34398e456c16e88eb2038762b38225f03a8dca",
+                                                         "size":  36873
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "88d95b43c515f62f54b6d24f45c25b28d8b13dd9711b4e7cb77e598d6e69c356",
-                                                          "size":  26656
+                                                          "sha256":  "d62f68134b12d6c09157656f8f78a63e8a3fa5289bfdc091ddf2785a149e5dcd",
+                                                          "size":  22303
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
@@ -13620,8 +13620,8 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "78c3c2d1349d282aab3cd561f9ad7687f681eda3af03e63fd6115fa9dcaf8860",
-                                      "size":  31
+                                      "sha256":  "b56e903f4581a229f9dc63d8f5cb6a1e0c71d18b0d95dcc7ca5277ed72af03bc",
+                                      "size":  32
                                   }
               },
     "removed":  [
