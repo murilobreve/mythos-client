@@ -1,7 +1,7 @@
 {
-    "versao":  100,
+    "versao":  101,
     "canal":  "directx",
-    "data":  "2026-11-08 09:31",
+    "data":  "2026-11-08 15:27",
     "files":  {
                   "cacert.pem":  {
                                      "sha256":  "592da8008fe748dd3ca58566c6846cb9340062bfb10bc4cd0846c8b191c948da",
@@ -6864,8 +6864,8 @@
                                               "size":  25865
                                           },
                   "data/locales/pt.lua":  {
-                                              "sha256":  "9042b19dc2fce37ae68e6fedb539e4dae693911bc81d55fb97ebebb048e325aa",
-                                              "size":  117508
+                                              "sha256":  "754514d6dd8b3734ce13fce4e853fd276080775c6fa9b0c905bc6555db95aef2",
+                                              "size":  120106
                                           },
                   "data/locales/sv.lua":  {
                                               "sha256":  "835512a615f901e3f48dd826fe6452d459bccc1bffd68366a58ef725318f6ee9",
@@ -8440,12 +8440,12 @@
                                                            "size":  1162
                                                        },
                   "modules/game_bosses/bosses.lua":  {
-                                                         "sha256":  "75fca7f2a51028246d3fe5836e34398e456c16e88eb2038762b38225f03a8dca",
-                                                         "size":  36873
+                                                         "sha256":  "9d6f5c89cc48625a9e342598e7f11f3e50042bbeb0fd1a092c07b7a4d7053e26",
+                                                         "size":  38393
                                                      },
                   "modules/game_bosses/bosses.otui":  {
-                                                          "sha256":  "d62f68134b12d6c09157656f8f78a63e8a3fa5289bfdc091ddf2785a149e5dcd",
-                                                          "size":  22303
+                                                          "sha256":  "4fe6433a831e1106477fc4842c961bc98da44409e9e8bf071ab665fd7c0cdb17",
+                                                          "size":  22511
                                                       },
                   "modules/game_bosses/game_bosses.otmod":  {
                                                                 "sha256":  "c4547fdad63202eee5278fd348a10e5578506a80bc60e2570caa1e8920979f01",
@@ -10944,12 +10944,12 @@
                                                               "size":  4161
                                                           },
                   "modules/game_raritybonus/forge.lua":  {
-                                                             "sha256":  "1916227d18e221d4a12bb13f83a0dacf4d20c77c964f9f35afa96fc515a55eb0",
-                                                             "size":  56979
+                                                             "sha256":  "616bd57a732ca89d4371edb4f00a1e27f4a58c31c6ea36fdeaa29e630c42b2f0",
+                                                             "size":  47724
                                                          },
                   "modules/game_raritybonus/forge.otui":  {
-                                                              "sha256":  "47fb5bc61e6475481b58630afc4df3b0068e33c20fe4951723323caee6eaaf82",
-                                                              "size":  35984
+                                                              "sha256":  "57dbe092f662dd5bb4d43ca39fc17a08dc7542594b74ed0950f69c492bd569e6",
+                                                              "size":  29833
                                                           },
                   "modules/game_raritybonus/game_raritybonus.otmod":  {
                                                                           "sha256":  "1e0b472ba78dfc5b87a07a263b5f9ad583fd5877d0bf0b46aa1d2b5d4377c665",
@@ -10967,6 +10967,114 @@
                                                                           "sha256":  "34bbb1d43fb51b03ca06e4dfa5d2b2a0dd2554ea7a9fae10b5ae647438269c17",
                                                                           "size":  261
                                                                       },
+                  "modules/game_raritybonus/images/forge/bonus/axe.png":  {
+                                                                              "sha256":  "7303c58bb198d07264303f37c374de9419c7961f0249966be704a692193ba2fc",
+                                                                              "size":  2038
+                                                                          },
+                  "modules/game_raritybonus/images/forge/bonus/backpack.png":  {
+                                                                                   "sha256":  "530023c0ccbae52f0feb995127b6be4e51c1ce6a8da0c384ab2931a36a6e8e2a",
+                                                                                   "size":  1974
+                                                                               },
+                  "modules/game_raritybonus/images/forge/bonus/boots.png":  {
+                                                                                "sha256":  "0240231e9fe976a3fc2bfcd0bd2f774d809833ed0bfed0743bd85625d3aa6c2b",
+                                                                                "size":  2194
+                                                                            },
+                  "modules/game_raritybonus/images/forge/bonus/bow.png":  {
+                                                                              "sha256":  "d06690666cf474f460485018cd67157c3043e61241515a34b098176ba0756589",
+                                                                              "size":  2214
+                                                                          },
+                  "modules/game_raritybonus/images/forge/bonus/club.png":  {
+                                                                               "sha256":  "d892dfc12f224020dd2ad17a55f59e02d755b28b36c51bc46fc1b704f4f578d7",
+                                                                               "size":  2049
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/crit.png":  {
+                                                                               "sha256":  "97c60244b73a7775982c1504f24106c2cb161f70e4b7fb2f0cc207bf28977061",
+                                                                               "size":  1894
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/fist.png":  {
+                                                                               "sha256":  "66224dc126f98d2f5917c7b6a49ff1d0357de9ee7be326d4a916f26150effa92",
+                                                                               "size":  2092
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/flame_death.png":  {
+                                                                                      "sha256":  "4f94740698268b7f25c36ebf764f20363f24e16f9b9a144ab5ccecde126c7118",
+                                                                                      "size":  1896
+                                                                                  },
+                  "modules/game_raritybonus/images/forge/bonus/flame_earth.png":  {
+                                                                                      "sha256":  "12a0334880a75ed466f69f139da5cef7a22af36e5b9da0280f2c6a38fb499953",
+                                                                                      "size":  1842
+                                                                                  },
+                  "modules/game_raritybonus/images/forge/bonus/flame_energy.png":  {
+                                                                                       "sha256":  "06a82f09b5b66800eed3b4e385e51f7df08f4c04683830d73cb0078269d56b33",
+                                                                                       "size":  1923
+                                                                                   },
+                  "modules/game_raritybonus/images/forge/bonus/flame_fire.png":  {
+                                                                                     "sha256":  "b857c9f4e8786466d2621002e658d50253e356b8387c6e5a6a4720304c9e3709",
+                                                                                     "size":  1846
+                                                                                 },
+                  "modules/game_raritybonus/images/forge/bonus/flame_holy.png":  {
+                                                                                     "sha256":  "fa39dac904fc82b8be654238f3eccb6c2d97397b3867b5bce087e31aa5f76c36",
+                                                                                     "size":  1921
+                                                                                 },
+                  "modules/game_raritybonus/images/forge/bonus/flame_ice.png":  {
+                                                                                    "sha256":  "c03227647b7dbebad582127924ebd810d639b5677d1639a4249dac4f7cae6562",
+                                                                                    "size":  1918
+                                                                                },
+                  "modules/game_raritybonus/images/forge/bonus/flame_phys.png":  {
+                                                                                     "sha256":  "92f2feabb8441b84d7f659847779358c5eeab68415353311aaa4bb2953686ff4",
+                                                                                     "size":  1744
+                                                                                 },
+                  "modules/game_raritybonus/images/forge/bonus/life.png":  {
+                                                                               "sha256":  "c234de85a4f8fb71d839b715a162334a15c2137ba4e9b3b12a4683772e33d8dc",
+                                                                               "size":  2141
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/mana.png":  {
+                                                                               "sha256":  "ee7c903b66e72414960d8d4d528c29c51f338d478e2f9d2628558ddce6bd399f",
+                                                                               "size":  2179
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/shield.png":  {
+                                                                                 "sha256":  "f738f7cbc1efa4d24ae74643de33970b263c88585977ee5257af57314ed0bfb3",
+                                                                                 "size":  2187
+                                                                             },
+                  "modules/game_raritybonus/images/forge/bonus/shield_death.png":  {
+                                                                                       "sha256":  "57e9ae83a442fa50c3250c905045353ab16f8612203d1352fe59b8fb1046d750",
+                                                                                       "size":  1791
+                                                                                   },
+                  "modules/game_raritybonus/images/forge/bonus/shield_earth.png":  {
+                                                                                       "sha256":  "83fb8382b51c9a3d8493b1d597740610238e45af6a081fab0cbc925ef283446c",
+                                                                                       "size":  1713
+                                                                                   },
+                  "modules/game_raritybonus/images/forge/bonus/shield_energy.png":  {
+                                                                                        "sha256":  "227ae51d1c901ed213746c7000054761fdf679a49c2dcfb28cc93301fa364836",
+                                                                                        "size":  1827
+                                                                                    },
+                  "modules/game_raritybonus/images/forge/bonus/shield_fire.png":  {
+                                                                                      "sha256":  "b205bd19e543451d36709a6dafe63e34805d4d87beaa9c0ea5d03424a424da8f",
+                                                                                      "size":  1776
+                                                                                  },
+                  "modules/game_raritybonus/images/forge/bonus/shield_holy.png":  {
+                                                                                      "sha256":  "694ac3e33aa50754d95b9449770c01c2ef44d84c74a23863e5f01ff909ade043",
+                                                                                      "size":  1728
+                                                                                  },
+                  "modules/game_raritybonus/images/forge/bonus/shield_ice.png":  {
+                                                                                     "sha256":  "fb0e7971faca62b2b52d77606d14656bd72918fc39f31dd4df2a00da5004fc91",
+                                                                                     "size":  1798
+                                                                                 },
+                  "modules/game_raritybonus/images/forge/bonus/shield_phys.png":  {
+                                                                                      "sha256":  "5a0a433be182c627c8f6706fcb2400ea01d607d761bf995bc701bb116f1665d1",
+                                                                                      "size":  1613
+                                                                                  },
+                  "modules/game_raritybonus/images/forge/bonus/sword.png":  {
+                                                                                "sha256":  "175e3f7fc6b4756a6f78bbd84fdd1f8359fa023763ef8673d6564f915c7f677c",
+                                                                                "size":  2066
+                                                                            },
+                  "modules/game_raritybonus/images/forge/bonus/wand.png":  {
+                                                                               "sha256":  "81cb589f305d19ef67c101a9b9a54c7d2aa06b70518d66309a05b34bea7abb58",
+                                                                               "size":  2063
+                                                                           },
+                  "modules/game_raritybonus/images/forge/bonus/wings.png":  {
+                                                                                "sha256":  "b9cf56f84990f35d8a2704b98adacae04b0793f55ea54391424f0b3c8a1d3c0f",
+                                                                                "size":  2082
+                                                                            },
                   "modules/game_raritybonus/images/forge/crest.png":  {
                                                                           "sha256":  "3248b68297e6bbeecde4bcabc96444a464dc55bb02806b5548889c1248b99a6b",
                                                                           "size":  1134
@@ -13620,7 +13728,7 @@
                                        "size":  959
                                    },
                   "versao.json":  {
-                                      "sha256":  "b56e903f4581a229f9dc63d8f5cb6a1e0c71d18b0d95dcc7ca5277ed72af03bc",
+                                      "sha256":  "a486adbed6c3babb1918e3443440f1bff8958cb1d5c5e8f2979702d443c3d464",
                                       "size":  32
                                   }
               },
