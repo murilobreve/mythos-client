@@ -1,0 +1,9 @@
+Module
+  name: game_hunttasks
+  description: Tasks - the Linked Tasks, the free task and the Hunt Points shop
+  author: Mythos
+  website: http://25.18.172.192
+  sandboxed: true
+  scripts: [ hunttasks ]
+  @onLoad: init()
+  @onUnload: terminate()

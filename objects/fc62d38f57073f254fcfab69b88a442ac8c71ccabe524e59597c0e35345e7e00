@@ -1,0 +1,374 @@
+// The Hunter's Journey (journey.lua): the three first steps of a new player
+// in a mini window on the left, the recommended hunt card over the map and
+// the celebration of the first rarity item.
+
+// the button of a step ("go hunt"): Tibia's button, its words in white
+JourneyGoldButton < Button
+  padding: 0
+  height: 22
+  font: Verdana Bold-11px
+  color: #ffffff
+  text-offset: 0 0
+  change-cursor-image: true
+  cursor: pointer
+  $disabled:
+    color: #909090
+
+// the close of a card or a window: a framed x, easy to find
+JourneyCloseButton < Button
+  padding: 0
+  size: 18 18
+  text: x
+  text-offset: 0 -1
+  font: Verdana Bold-11px
+  color: #dfdfdf
+  change-cursor-image: true
+  cursor: pointer
+  !tooltip: tr('Close')
+  $hover:
+    color: #ffffff
+
+// a quiet text button ("see all", "later")
+JourneyLinkButton < UIButton
+  height: 18
+  text-auto-resize: true
+  font: verdana-11px-rounded
+  color: #c0c0c0
+  change-cursor-image: true
+  cursor: pointer
+  $hover:
+    color: #dfdfdf
+
+// one step of the journey: icon, title and mark, a line of text, a progress
+// bar (the task) and the button that does it
+JourneyStep < UIWidget
+  background-color: #363636f2
+  border-width: 1
+  border-color: #272727
+  padding: 6
+  focusable: false
+  $on:
+    background-color: #484848f5
+    border-color: #c0c0c0
+
+  UIWidget
+    id: icon
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 18 18
+    image-smooth: false
+    phantom: true
+
+  UIWidget
+    id: mark
+    anchors.right: parent.right
+    anchors.verticalCenter: icon.verticalCenter
+    size: 16 16
+    phantom: true
+
+  Label
+    id: number
+    anchors.centerIn: mark
+    font: verdana-9px-bold
+    color: #dfdfdf
+    text-auto-resize: true
+    phantom: true
+
+  Label
+    id: title
+    anchors.left: icon.right
+    anchors.right: mark.left
+    anchors.verticalCenter: icon.verticalCenter
+    margin-left: 5
+    margin-right: 2
+    font: Verdana Bold-11px
+    color: #dfdfdf
+    phantom: true
+
+  Label
+    id: text
+    anchors.top: icon.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 4
+    text-wrap: true
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #dfdfdf
+    phantom: true
+
+  UIWidget
+    id: bar
+    anchors.top: text.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 4
+    height: 6
+    background-color: #585858
+    phantom: true
+    visible: false
+
+    UIWidget
+      id: fill
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      width: 0
+      background-color: #f7a55f
+      phantom: true
+
+  JourneyGoldButton
+    id: action
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+
+JourneyWindow < MiniWindow
+  id: journeyWindow
+  height: 420
+  &save: true
+
+  UIWidget
+    id: miniwindowIcon
+    anchors.top: miniwindowHeader.top
+    anchors.left: miniwindowHeader.left
+    margin-top: 2
+    margin-left: 4
+    size: 12 12
+    image-source: /game_brevespanel/images/trail
+    image-smooth: false
+
+  Label
+    id: miniwindowTitle
+    anchors.top: miniwindowHeader.top
+    anchors.left: miniwindowHeader.left
+    anchors.right: miniwindowHeader.right
+    margin-top: 2
+    margin-left: 20
+    margin-right: 34
+    font: verdana-11px-monochrome
+    height: 13
+    color: #9d9d9dff
+
+  MiniWindowContents
+    id: contentsPanel
+    anchors.top: miniwindowTopBar.bottom
+    anchors.left: parent.left
+    anchors.right: miniwindowScrollBar.left
+    anchors.bottom: parent.bottom
+    margin-left: 3
+    margin-bottom: 3
+    margin-top: -2
+    margin-right: 1
+    vertical-scrollbar: miniwindowScrollBar
+    padding: 5
+    background-color: #363636
+    layout:
+      type: verticalBox
+      spacing: 5
+
+    Label
+      id: subtitle
+      text-wrap: true
+      text-auto-resize: true
+      font: verdana-11px-rounded
+      color: #c0c0c0
+
+    JourneyStep
+      id: step1
+
+    JourneyStep
+      id: step2
+
+    JourneyStep
+      id: step3
+
+    Label
+      id: reward
+      margin-top: 2
+      text-wrap: true
+      text-auto-resize: true
+      font: verdana-11px-rounded
+      color: #f7a55f
+
+    JourneyGoldButton
+      id: doneButton
+      visible: false
+
+// the best hunt for the player's level now, over the bottom left of the map
+JourneyHuntCard < UIWidget
+  size: 350 130
+  background-color: #363636f2
+  border-width: 2
+  border-color: #f7a55f
+  padding: 8
+  focusable: false
+
+  Label
+    id: title
+    anchors.top: parent.top
+    anchors.left: parent.left
+    text-auto-resize: true
+    font: Verdana Bold-11px
+    color: #dfdfdf
+
+  JourneyCloseButton
+    id: closeButton
+    anchors.top: parent.top
+    anchors.right: parent.right
+
+  Label
+    id: level
+    anchors.right: closeButton.left
+    anchors.verticalCenter: title.verticalCenter
+    margin-right: 8
+    text-auto-resize: true
+    font: verdana-11px-rounded
+    color: #c0c0c0
+
+  UIWidget
+    id: frame
+    anchors.top: title.bottom
+    anchors.left: parent.left
+    margin-top: 7
+    size: 64 64
+    background-color: #363636
+    border-width: 2
+    border-color: #747474
+    phantom: true
+
+    UICreature
+      id: creature
+      anchors.centerIn: parent
+      size: 60 60
+      phantom: true
+
+  Label
+    id: name
+    anchors.top: frame.top
+    anchors.left: frame.right
+    anchors.right: parent.right
+    margin-left: 12
+    margin-top: 2
+    height: 17
+    font: Verdana Bold-13px
+    color: #dfdfdf
+
+  Label
+    id: rates
+    anchors.top: name.bottom
+    anchors.left: name.left
+    anchors.right: parent.right
+    margin-top: 5
+    font: Verdana Bold-11px
+    color: #c0c0c0
+
+  Label
+    id: task
+    anchors.top: rates.bottom
+    anchors.left: name.left
+    anchors.right: parent.right
+    margin-top: 5
+    font: verdana-11px-rounded
+    color: #60f860
+
+  JourneyGoldButton
+    id: goButton
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    width: 190
+
+  JourneyLinkButton
+    id: allButton
+    anchors.left: goButton.right
+    anchors.verticalCenter: goButton.verticalCenter
+    margin-left: 12
+
+// the first rarity item of the character: rays in the grade's colour behind
+// the item, and the way to the Roulette
+JourneyRareWindow < UIWidget
+  size: 460 360
+  focusable: true
+
+  UIWidget
+    id: rays
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    size: 300 300
+    image-source: /game_journey/images/rays
+    phantom: true
+
+  UIWidget
+    id: frame
+    anchors.centerIn: rays
+    margin-top: -40
+    size: 80 80
+    background-color: #363636
+    border-width: 3
+    phantom: true
+
+    UIItem
+      id: item
+      anchors.centerIn: parent
+      size: 64 64
+      virtual: true
+      phantom: true
+
+  UIWidget
+    id: box
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 170
+    background-color: #363636f5
+    border-width: 2
+    border-color: #f7a55f
+    padding: 12
+
+    JourneyCloseButton
+      id: closeButton
+      anchors.top: parent.top
+      anchors.right: parent.right
+      margin-top: -6
+      margin-right: -6
+
+    Label
+      id: title
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      text-auto-resize: true
+      font: Verdana Bold-11px
+      color: #dfdfdf
+
+    Label
+      id: name
+      anchors.top: title.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 6
+      text-auto-resize: true
+      font: Verdana Bold-13px
+
+    Label
+      id: text
+      anchors.top: name.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 8
+      text-wrap: true
+      text-auto-resize: true
+      text-align: center
+      font: verdana-11px-rounded
+      color: #dfdfdf
+
+    JourneyGoldButton
+      id: spinButton
+      anchors.bottom: parent.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-left: -50
+      width: 220
+
+    JourneyLinkButton
+      id: laterButton
+      anchors.left: spinButton.right
+      anchors.verticalCenter: spinButton.verticalCenter
+      margin-left: 14

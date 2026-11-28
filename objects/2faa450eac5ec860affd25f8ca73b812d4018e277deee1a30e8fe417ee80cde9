@@ -1,0 +1,371 @@
+// The window kit of our own windows (Hunts, Bosses, Quests, Tasks, Roleta,
+// Market, Wiki, Heal Bot...), in the look of Tibia's own windows. The owner,
+// 2026-11-27: "todas as paginas do nosso OT para ficar que nem do Tibia,
+// igualzinho, como se fosse do Tibia". The names stay (Mythos*, Breves*: they
+// say whose windows these are); what they draw is Tibia's:
+//   - the stone window with its title in the bar (MainWindow);
+//   - grey buttons with the small button font, pressed when chosen;
+//   - a panel with its caption in a strip on top (the Quest Log's panels);
+//   - dark sunken lists, rows a shade apart, the chosen row lighter;
+//   - light grey text (#c0c0c0), captions darker (#909090), white for the
+//     chosen thing, green and red only for what is good and what is not.
+// The references are the client's copies of Tibia's windows: Quest Log,
+// Highscores, Cyclopedia, Prey (modules game_questlog, game_highscore,
+// game_cyclopedia, game_prey). A new window uses these styles and those
+// colours; it brings no palette of its own.
+
+MythosWindow < MainWindow
+
+// (the window's own Verdana on every button of ours, in the middle of it:
+// the small button font of the base style reads too small on our taller
+// buttons and sits 2 px low in them)
+MythosButton < Button
+  size: 86 20
+  padding: 0
+  font: verdana-11px-antialised
+  text-offset: 0 0
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    color: #ffffff
+
+  $checked:
+    color: #ffffff
+
+  $on:
+    color: #ffffff
+
+// the one action a window is about: the same button, its words in white
+MythosPrimaryButton < MythosButton
+  color: #ffffff
+
+// the larger buttons of an action (go to the hunt, pull the lever): Tibia's
+// button at their size, with the window's letters
+MythosKitGoldButton < Button
+  padding: 0
+  font: verdana-11px-antialised
+  color: #ffffff
+  height: 40
+  text-offset: 0 0
+  change-cursor-image: true
+  cursor: pointer
+
+MythosKitButton < Button
+  padding: 0
+  font: verdana-11px-antialised
+  color: #dfdfdf
+  height: 30
+  text-offset: 0 0
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    color: #ffffff
+
+MythosKitGoldButton28 < MythosKitGoldButton
+  height: 28
+
+MythosKitButton28 < MythosKitButton
+  height: 28
+
+// a page of a window: a button that stays pressed while its page shows
+MythosTab < Button
+  size: 118 22
+  padding: 0
+  font: verdana-11px-antialised
+  color: #c0c0c0
+  text-offset: 0 0
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !checked:
+    color: #ffffff
+
+  $checked:
+    color: #ffffff
+
+MythosTextEdit < UITextEdit
+  font: verdana-11px-antialised
+  color: #c0c0c0
+  height: 20
+  text-offset: 0 1
+  padding: 3 4 2 4
+  image-source: /images/ui/textedit
+  image-border: 1
+  selection-color: #ffffff
+  selection-background-color: #808080
+  placeholder-color: #707070
+  cursor: text
+
+  $disabled:
+    color: #707070
+
+MythosComboBoxPopupMenuButton < UIButton
+  height: 17
+  font: verdana-11px-antialised
+  text-align: left
+  text-offset: 4 0
+  color: #c0c0c0
+  background-color: alpha
+  margin: 1
+
+  $hover !disabled:
+    color: #f4f4f4
+    background-color: #86868750
+
+  $disabled:
+    color: #dfdfdf88
+
+MythosComboBoxPopupMenuSeparator < UIWidget
+  image-source: /images/ui/menubox
+  image-border-left: 1
+  image-border-right: 1
+  image-clip: 0 0 32 2
+  height: 2
+  phantom: true
+  margin-top: 2
+  margin-bottom: 2
+
+MythosComboBoxPopupMenu < UIPopupMenu
+  image-source: /images/ui/combobox_square
+  image-clip: 0 60 98 20
+  image-border: 1
+
+MythosComboBoxPopupScrollMenuButton < MythosComboBoxPopupMenuButton
+
+MythosComboBoxPopupScrollMenu < UIPopupScrollMenu
+  image-source: /images/ui/combobox_square
+  image-clip: 0 60 98 20
+  image-border: 1
+
+MythosComboBox < UIComboBox
+  font: verdana-11px-antialised
+  color: #c0c0c0
+  size: 120 20
+  text-align: center
+  text-offset: -9 1
+  image-source: /images/ui/combobox_square
+  image-border: 3
+  image-border-right: 21
+  image-clip: 0 0 91 20
+  change-cursor-image: true
+  cursor: pointer
+
+  $hover !disabled:
+    color: #ffffff
+
+  $on:
+    image-clip: 0 40 91 20
+
+  $disabled:
+    color: #dfdfdf88
+    opacity: 0.8
+
+MythosScrollBarSlider < UIButton
+  id: sliderButton
+  anchors.centerIn: parent
+  size: 12 12
+  minimum: 12
+  image-source: /images/ui/scrollbar
+  image-clip: 0 24 12 14
+  image-border: 6
+
+  $disabled:
+    opacity: 0
+
+MythosScrollBar < UIScrollBar
+  orientation: vertical
+  width: 12
+  height: 39
+  image-source: /images/ui/scrollbar
+  image-clip: 24 0 12 74
+  image-border: 1
+  pixels-scroll: true
+
+  UIButton
+    id: decrementButton
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 12 12
+    image-source: /images/ui/scrollbar
+    image-clip: 0 0 12 12
+    $pressed:
+      image-clip: 12 0 12 12
+
+  UIButton
+    id: incrementButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    size: 12 12
+    image-source: /images/ui/scrollbar
+    image-clip: 0 12 12 12
+    $pressed:
+      image-clip: 12 12 12 12
+
+  MythosScrollBarSlider
+
+MythosHSliderThumb < UIButton
+  id: sliderButton
+  anchors.centerIn: parent
+  size: 12 12
+  minimum: 12
+  image-source: /images/ui/scrollbar
+  image-clip: 12 26 12 12
+  image-border: 6
+  image-border-top: 3
+  image-border-bottom: 3
+
+  $disabled:
+    opacity: 0
+
+MythosHSlider < UIScrollBar
+  orientation: horizontal
+  size: 78 12
+  image-source: /images/ui/scrollbar
+  image-clip: 0 38 24 12
+  image-border: 1
+  pixels-scroll: true
+  parent-scroll: true
+
+  UIButton
+    id: decrementButton
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    size: 12 12
+    image-source: /images/ui/scrollbar
+    image-clip: 0 50 12 12
+    $pressed:
+      image-clip: 0 62 12 12
+
+  UIButton
+    id: incrementButton
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    size: 12 12
+    image-source: /images/ui/scrollbar
+    image-clip: 12 50 12 12
+    $pressed:
+      image-clip: 12 62 12 12
+
+  MythosHSliderThumb
+
+// A small (i): what would be a paragraph of explanation on a window goes in
+// its tooltip (!tooltip: tr('...'), or setTooltip from Lua).
+MythosInfo < UIWidget
+  size: 14 14
+  text: i
+  text-align: center
+  font: Verdana Bold-11px
+  color: #c0c0c0
+  background-color: #363636
+  border-width: 1
+  border-color: #747474
+
+  $hover:
+    color: #ffffff
+    border-color: #c0c0c0
+
+// the line between the parts of a window (2 px: Tibia's separator)
+MythosSeparator < UIWidget
+  height: 2
+  image-source: /images/ui/separator_horizontal
+  image-border: 1
+  phantom: true
+
+// the corner toast and other small floating boxes
+MythosBox < UIWidget
+  image-source: /images/ui/window_headless
+  image-border: 5
+
+// a panel with its caption in the strip on top (the Quest Log's panels)
+BrevesSection < Panel
+  image-source: /images/ui/outfits/minipanel
+  image-border: 3
+  image-border-top: 22
+  padding: 26 8 8 8
+  text-align: top
+  text-offset: 0 3
+  color: #929292
+  font: verdana-11px-antialised
+
+// the same panel without the caption
+BrevesPanelBox < Panel
+  image-source: /images/ui/panel_flat
+  image-border: 1
+  padding: 8
+
+// tab or category button
+BrevesTab < MythosTab
+
+// table body: a dark sunken list, rows stack inside
+BrevesList < UIScrollArea
+  background-color: #404040
+  border-width: 1
+  border-color: #00000077
+  padding: 1
+  layout:
+    type: verticalBox
+
+// the column titles on top of a BrevesList (the Highscores' header)
+BrevesHeader < UIWidget
+  height: 20
+  image-source: /images/ui/button
+  image-clip: 0 0 22 23
+  image-border: 3
+  font: verdana-11px-antialised
+  color: #dfdfdf88
+  text-align: left
+  text-offset: 6 0
+
+// rows: a shade apart, lighter under the mouse, the chosen row the lightest
+BrevesRow < UIWidget
+  focusable: true
+  background-color: #00000000
+  $hover !focus:
+    background-color: #ffffff12
+  $focus:
+    background-color: #585858
+
+BrevesRowEven < BrevesRow
+  background-color: #ffffff0a
+
+// dark box with a value and an icon, like the gold box in Prey
+BrevesValueBox < UIWidget
+  height: 20
+  image-source: /images/ui/textedit
+  image-border: 1
+  font: verdana-11px-antialised
+  color: #c0c0c0
+  text-align: right
+  text-offset: -20 0
+
+  UIWidget
+    id: icon
+    size: 12 12
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 4
+    phantom: true
+
+// cell for a creature or item: a sunken dark box, as an item slot
+BrevesCell < UIWidget
+  background-color: #363636
+  border-width-top: 1
+  border-color-top: #000000
+  border-width-left: 1
+  border-color-left: #000000
+  border-width-bottom: 1
+  border-color-bottom: #747474
+  border-width-right: 1
+  border-color-right: #747474
+
+BrevesNote < Label
+  font: verdana-11px-antialised
+  color: #909090
+  text-wrap: true
+  text-auto-resize: true
+
+BrevesLabel < Label
+  font: verdana-11px-antialised
+  color: #c0c0c0
